@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2015, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-29 19:03+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../scatter_plot.rst:5
+# 78ae717910be48e98688f85ca3cc5d35
+msgid "Scatter Plot"
+msgstr ""
+
+#: ../../scatter_plot.rst:74
+# 2197cb6b8048444aa8e9f2e292ce19e6
+msgid "The window :guilabel:`Scatter plot` displays pixel values for two raster bands as points in the 2D space. Scatter plots are useful for assessing ROI separability between two bands."
+msgstr ""
+
+#: ../../scatter_plot.rst:81
+# 3ddb20212d8743a7995d4cdaf3c55fa0
+msgid ":guilabel:`Scatter Plot`"
+msgstr ""
+
+#: ../../scatter_plot.rst:83
+# 847b29305b5a43d59411c8db6e2f9418
+msgid "The functions are described in detail in the following paragraphs, using these conventions:"
+msgstr ""
+
+#: ../../scatter_plot.rst:85
+# 5ce62e487dda4a3baddbfbb1ea297dd8
+msgid "|input_date| = Input date"
+msgstr ""
+
+#: ../../scatter_plot.rst:87
+# eca4ce3607ad4a579f1f041e4f15b81c
+msgid "|input_text| = Input text"
+msgstr ""
+
+#: ../../scatter_plot.rst:89
+# 9961bf2aedb840679b9489ba47e83fbe
+msgid "|input_list| = List"
+msgstr ""
+
+#: ../../scatter_plot.rst:91
+# 1292221711e24977883cc2c9661abda8
+msgid "|input_number| = Input number"
+msgstr ""
+
+#: ../../scatter_plot.rst:93
+# a9c82bb3b4a342a296f974cb04dfc970
+msgid "|optional| = Optional"
+msgstr ""
+
+#: ../../scatter_plot.rst:95
+# 6dd8f5cd30af4824909209f3eb02e2cc
+msgid "|project_save| = Configuration stored in the active project of QGIS"
+msgstr ""
+
+#: ../../scatter_plot.rst:97
+# 946a9920be4a4b3db96bebc36a376c85
+msgid "|registry_save| = Configuration stored in QGIS registry"
+msgstr ""
+
+#: ../../scatter_plot.rst:99
+# 49456fa9519147208d8536b32234948c
+msgid "|input_slider| = Slider"
+msgstr ""
+
+#: ../../scatter_plot.rst:101
+# 4b1eb46274af40b7bcf8dcabf37594ac
+msgid "|input_table| = Table"
+msgstr ""
+
+#: ../../scatter_plot.rst:106
+# 538704a804ff459184efca747a25fef3
+msgid "Scatter list"
+msgstr ""
+
+#: ../../scatter_plot.rst:113
+# 9db14594e84c460894d40e5cb4c9f7be
+msgid "|input_table| :guilabel:`Scatter list`:"
+msgstr ""
+
+#: ../../scatter_plot.rst:109
+# 4cf6a511910340cdb8025419c0ec13a8
+msgid ":guilabel:`S`: checkbox field; if checked, the spectral signature is displayed in the plot;"
+msgstr ""
+
+#: ../../scatter_plot.rst:110
+# 75439778b6b04e1f91c11f21060ae5d2
+msgid ":guilabel:`MC ID`: signature Macroclass ID;"
+msgstr ""
+
+#: ../../scatter_plot.rst:111
+# 209320280aa64f74b70c9780d439d033
+msgid ":guilabel:`MC Info`: signature Macroclass Information;"
+msgstr ""
+
+#: ../../scatter_plot.rst:112
+# 651a598347aa4576ac27bc58d9b71b17
+msgid ":guilabel:`C ID`: signature Class ID;"
+msgstr ""
+
+#: ../../scatter_plot.rst:113
+# 54608c1a8c8a45e0b1325e2c432864d8
+msgid ":guilabel:`C Info`: signature Class Information;"
+msgstr ""
+
+#: ../../scatter_plot.rst:114
+# 6134fc5bd5564483bedebb88cc6ed7d3
+msgid ":guilabel:`Color`: color field; double click to select a color for the plot;"
+msgstr ""
+
+#: ../../scatter_plot.rst:115
+# c62dc40206f54d8cb66f80967f6619ae
+msgid ":guilabel:`Band X` |input_number|: X band of the plot;"
+msgstr ""
+
+#: ../../scatter_plot.rst:116
+# a1f297fb90ab48a191575b43cf01064a
+msgid ":guilabel:`Band Y` |input_number|: Y band of the plot;"
+msgstr ""
+
+#: ../../scatter_plot.rst:124
+# 6bfee7dffc684f18be0853faef43b062
+msgid "|checkbox| :guilabel:`Precision` |input_list|: use custom precision for calculation (precision should be selected according to pixel values):"
+msgstr ""
+
+#: ../../scatter_plot.rst:118
+# 37a5b2d4a6ab4f08a33be7fb2f1e7778
+msgid "4 = :math:`10^{-4}`"
+msgstr ""
+
+#: ../../scatter_plot.rst:119
+# dd4ce8ac5eb549e280a39a2ae6106ecf
+msgid "3 = :math:`10^{-3}`"
+msgstr ""
+
+#: ../../scatter_plot.rst:120
+# 4e33d99d46b84d33a324fd387c74ddb1
+msgid "2 = :math:`10^{-2}`"
+msgstr ""
+
+#: ../../scatter_plot.rst:121
+# 36ab0394702e44f9842002668c9d3576
+msgid "1 = :math:`10^{-1}`"
+msgstr ""
+
+#: ../../scatter_plot.rst:122
+# 331f73a383be4169a1efb8825c7922d2
+msgid "0 = 1"
+msgstr ""
+
+#: ../../scatter_plot.rst:123
+# 703b842ce24844a6b9f2c8fd96c2ca15
+msgid "-1 = 10"
+msgstr ""
+
+#: ../../scatter_plot.rst:124
+# 00e56b70019a4f22916a0d64d34ecfa3
+msgid "-2 = :math:`10^{2}`"
+msgstr ""
+
+#: ../../scatter_plot.rst:125
+# f514792c226e4ae29fa708bff4b5c25c
+msgid "-3 = :math:`10^{3}`"
+msgstr ""
+
+#: ../../scatter_plot.rst:126
+# 4d803e94214348be83cd3885b4f2152e
+msgid ":guilabel:`Calculate` |enter|: calculate the scatter plot for the ROIs checked in the list;"
+msgstr ""
+
+#: ../../scatter_plot.rst:127
+# 6d4d0da81f08461eb3b42e54b631605f
+msgid "|remove|: remove highlighted signatures from this list;"
+msgstr ""
+
+#: ../../scatter_plot.rst:128
+# 041eb25500804dbc8be2ae767847707f
+msgid "|scatter_raster_temp_ROI|: add a temporary scatter plot to the list (as ``MC Info = tempScatter``) and start the plot calculation of the last temporary ROI (see :ref:`working_toolbar`);"
+msgstr ""
+
+#: ../../scatter_plot.rst:129
+# 056f798b7e6341c78832a3ef72724f1a
+msgid "|scatter_raster_display|: add a temporary scatter plot to the list (as ``MC Info = tempScatter``) and start the plot calculation of pixels in current display extent;"
+msgstr ""
+
+#: ../../scatter_plot.rst:130
+# b731faf98abd4e7db9355b96c7b1bc2a
+msgid "|scatter_raster_image|: add a temporary scatter plot to the list (as ``MC Info = tempScatter``) and start the plot calculation of the entire image;"
+msgstr ""
+
+#: ../../scatter_plot.rst:132
+# 7e448d3cb1c94e7a9abd24a476f372e5
+msgid "**WARNING**: Using a precision value that is too high can result in slow calculation or failure."
+msgstr ""
+
+#: ../../scatter_plot.rst:137
+# 9402913894dc40cebd18813273afe2fc
+msgid "Scatter raster"
+msgstr ""
+
+#: ../../scatter_plot.rst:139
+# 7b6f620c9fe24b9d83a363313815e999
+msgid "This tool allows for the drawing of selection polygons inside the scatter plot; these selection polygons are used for creating a :guilabel:`Scatter raster` that is a temporary raster classified according to the intersection of scatter plots and drawn polygons."
+msgstr ""
+
+#: ../../scatter_plot.rst:141
+# 64b895777e2149749fd434e1647f1b3b
+msgid "Pixels of the :ref:`input_image` are classified, according to scatter plot bands, if pixel values are in the range of intersection between scatter plots and selection polygons (polygons should not overlap). The value assigned to the :guilabel:`Scatter raster` pixels is the sequential number of selection polygon; also the raster color is derived from the selection polygon."
+msgstr ""
+
+#: ../../scatter_plot.rst:144
+# d06d3e334b5443f6908e53329fb8783c
+msgid "After the creation of a new :guilabel:`Scatter raster`, old rasters are placed in QGIS Layers inside a layer group named ``Class_temp_group`` (custom name can be defined in  :ref:`group_name`) and are deleted when the QGIS session is closed."
+msgstr ""
+
+#: ../../scatter_plot.rst:146
+# c5f391856b75412c9994211a4eb853f4
+msgid "|scatter_edit_polygon|: activate the cursor for interactively drawing a polygon in the plot; left click on the plot to define the vertices and right click to define the last vertex closing the polygon;"
+msgstr ""
+
+#: ../../scatter_plot.rst:147
+# 23e59b11098a41cabdb2c8b33bb55c9a
+msgid ":guilabel:`color`: select the color of polygon (which is used also in the :guilabel:`Scatter raster`);"
+msgstr ""
+
+#: ../../scatter_plot.rst:148
+# 298d89344b3b4727b32b20d3efe81438
+msgid "|scatter_reset_polygon|: remove all the selection polygons from the plot;"
+msgstr ""
+
+#: ../../scatter_plot.rst:149
+# 3152f6082b67471d97722ef5ed32446d
+msgid "|scatter_show_raster|: calculate the :guilabel:`Scatter raster` and display it in the map;"
+msgstr ""
+
+#: ../../scatter_plot.rst:150
+# 5441edf0c8bf4871901114b57e882795
+msgid "|save_plot|: calculate the spectral signature of the :guilabel:`Scatter raster` (considering all the classified pixels) using the :ref:`input_image`, and save the signature to the :ref:`ROI_list`;"
+msgstr ""
+
+#: ../../scatter_plot.rst:153
+# 4814d3f6be1d4f338f7bfa4cda6b32c6
+msgid ":guilabel:`Extent` |input_list|: extent of the :guilabel:`Scatter raster`; available options are:"
+msgstr ""
+
+#: ../../scatter_plot.rst:152
+# 2c43bbc28e9f4a73a12c3bc753eb50e1
+msgid ":guilabel:`Same as display`: extent is the same as map display;"
+msgstr ""
+
+#: ../../scatter_plot.rst:153
+# f98a876feef7432d965c9e3a426cbd15
+msgid ":guilabel:`Same as image`: extent is the same as the whole image;"
+msgstr ""
+
+#: ../../scatter_plot.rst:158
+# 0e782cb4531b4a17902e1503c7390faf
+msgid "Plot"
+msgstr ""
+
+#: ../../scatter_plot.rst:160
+# aad876c1c2ae4f7b9c0c4b4d63af5fa3
+msgid "**Left click** and hold inside the plot to **move** the view of the plot. Use the **mouse wheel** to **zoom in and out** the view of the plot. **Right click** and hold inside the plot to **zoom in a specific area** of the plot."
+msgstr ""
+
+#: ../../scatter_plot.rst:164
+# daa297dc72cd47888594efe14e549781
+msgid ":guilabel:`Colormap` |input_list| |enter|: select a colormap that is applied to highlighted scatter plots in the list when |enter| is clicked; if no scatter plot is highlighted then the colormap is applied to all the scatter plots;"
+msgstr ""
+
+#: ../../scatter_plot.rst:165
+# cf8d816078a54d42a146b62ad734f92b
+msgid "|fit_plot|: automatically fit the plot to data;"
+msgstr ""
+
+#: ../../scatter_plot.rst:166
+# f485d2bee8304a8ea3d180b15176227a
+msgid "|save_plot_image|: save the plot image to file (available formats are ``.jpg``, ``.png``, and ``.pdf``);"
+msgstr ""
+
+#: ../../scatter_plot.rst:167
+# 1fae2a02b8584d23aeb886ca460e47f3
+msgid ":guilabel:`x y`: display x y coordinates of mouse cursor inside the plot;"
+msgstr ""
+
+#: ../../scatter_plot.rst:170
+# 4504c7d93d094f2b8dffbba30decee8a
+msgid "|br|"
+msgstr ""
+
+#: ../../scatter_plot.rst:176
+# 0fe39575117c43ddb44d5caf9306ae46
+msgid ":guilabel:`Example Scatter Plot`"
+msgstr ""
+

@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2015, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-29 19:03+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../installation_debian.rst:5
+# 513da416a2bf41189fff76207ae290c5
+msgid "Installation in Debian Linux"
+msgstr ""
+
+#: ../../installation_debian.rst:14
+# 3e85e3431f504422b5af3de1ce8b33b1
+msgid "QGIS download and installation"
+msgstr ""
+
+#: ../../installation_debian.rst:16
+# 7c10de9fb4d5470b94cb3d55d7fb74e5
+msgid "Open a terminal and type::"
+msgstr ""
+
+#: ../../installation_debian.rst:20
+# aded0b52885d47488afa0d1e37053d57
+msgid "Press Enter and type the user password;"
+msgstr ""
+
+#: ../../installation_debian.rst:22
+# 1080674479934a92aa715cb6f2420fdd
+msgid "Type in a terminal::"
+msgstr ""
+
+#: ../../installation_debian.rst:26
+# 2eb5887d834e4b539ad4fe93c5769cc4
+msgid "Press Enter and wait until the software is downloaded and installed."
+msgstr ""
+
+#: ../../installation_debian.rst:28
+# 40d054cb5635466b9f59fb56dd30d0c6
+msgid "Now, QGIS 2 is installed."
+msgstr ""
+
+#: ../../installation_debian.rst:35
+# f6aee75da57e4471b7f566cdaff2591d
+msgid "Semi-Automatic Classification Plugin installation"
+msgstr ""
+
+#: ../../installation_debian.rst:37
+# 73ed1565e44748d1af316931d667eaab
+msgid "Run QGIS 2;"
+msgstr ""
+
+#: ../../installation_debian.rst:39
+# 8a50ee3798694147aeb61a7766a70e5a
+msgid "From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
+msgstr ""
+
+#: ../../installation_debian.rst:43
+# c011964aa0154a2082b4613dbfafe11c
+msgid "From the menu ``All``, select the Semi-Automatic Classification Plugin and click the button ``Install plugin``;"
+msgstr ""
+
+#: ../../installation_debian.rst:45
+# 9dc2afb7342046cb9704eef4b00b6ec4
+msgid "**TIP**: in case of issues or an offline installation is required see :ref:`plugin_installation_1`."
+msgstr ""
+
+#: ../../installation_debian.rst:49
+# efb25a0fafac43d2bb29eeebca226923
+msgid "The SCP should be automatically activated; however, be sure that the Semi-Automatic Classification Plugin is checked in the menu ``Installed`` (the restart of QGIS could be necessary to complete the SCP installation);"
+msgstr ""
+
+#: ../../installation_debian.rst:56
+# 77dc29dbd477499db68b471a8d8e0d09
+msgid "Configuration of the plugin"
+msgstr ""
+
+#: ../../installation_debian.rst:58
+# 75b9be57a7884600850096d8abfe5259
+msgid "Now, the Semi-Automatic Classification Plugin is installed and a dock and a toolbar should be added to QGIS. Also, a SCP menu is available in the Menu Bar of QGIS. It is possible to move the :ref:`toolbar_tools` and the dock according to your needs, as in the following image."
+msgstr ""
+
+#: ../../installation_debian.rst:64
+# e34e291eb80c4da79cf1c9d2683cfdb7
+msgid "The configuration of available RAM is recommended in order to reduce the processing time. From the :ref:`SCP_menu` select |settings_tool| ``Settings > Processing`` ."
+msgstr ""
+
+#: ../../installation_debian.rst:69
+# 85577eecda9e42a3b28b052261c0c1cd
+msgid "In the :ref:`settings_tab`, set the ``Available RAM (MB)`` to a value that should be half of the system RAM. For instance, if your system has 2GB of RAM, set the value to 1024MB."
+msgstr ""
+

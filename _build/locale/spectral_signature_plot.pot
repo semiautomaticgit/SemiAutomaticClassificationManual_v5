@@ -1,0 +1,342 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2015, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-29 19:03+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../spectral_signature_plot.rst:5
+# 712b07eb16b04257a49a3ba061ce9f84
+msgid "Spectral Signature Plot"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:71
+# 627571b524134abaa8b9c09132080010
+msgid "The window :guilabel:`Spectral Signature Plot` includes several functions for displaying spectral signature values as a function of wavelength (defined in the :ref:`band_set_tab`). Signatures can be added to the ``Spectral Signature Plot`` through the :ref:`SCP_dock`."
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:74
+# a1c678d193bc40f28caab49b2a208563
+msgid "The window :guilabel:`Spectral Signature Plot` includes also some functions useful for the definition of value ranges used by the :ref:`LCS_algorithm` (see :ref:`LCS_threshold`)."
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:76
+# dcb5c78b7b374744aaf9382d60f9567a
+msgid "Overlapping signatures (belonging to different classes or macroclasses) are highlighted in orange in the table :ref:`signature_list_plot`; the overlapping check is performed considering :guilabel:`MC ID` or :guilabel:`C ID` according to the setting :guilabel:`Use` |checkbox| :guilabel:`MC ID` |checkbox| :guilabel:`C ID` in :ref:`classification_alg`. Overlapping signatures sharing the same :guilabel:`ID` are not highlighted."
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:83
+# 5e63aa1b43264a739d305c316ba06e48
+msgid ":guilabel:`Spectral Signature Plot`"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:85
+# a96d8b9fbc9a47cead93ade3edf7ec80
+msgid "The functions are described in detail in the following paragraphs, using these conventions:"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:87
+# e1f6782146234998b24501b919285625
+msgid "|input_date| = Input date"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:89
+# 3c72970dc32540e9b11f48a91dd9eed2
+msgid "|input_text| = Input text"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:91
+# 136349bbf93e4dffa878927b62b2878e
+msgid "|input_list| = List"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:93
+# 27e2b7ef328e4043996917ac8f21542c
+msgid "|input_number| = Input number"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:95
+# 7b411276b12f4a8c81fc039a0923efed
+msgid "|optional| = Optional"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:97
+# a951aa23c9904f639256261976a53c56
+msgid "|project_save| = Configuration stored in the active project of QGIS"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:99
+# 467e757411ec47e1808b8bd3d4417dce
+msgid "|registry_save| = Configuration stored in QGIS registry"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:101
+# 6a96d0b0895a4ebe8d850e1dbba073de
+msgid "|input_slider| = Slider"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:103
+# 90f28adce71a4b28a3df66620e75d986
+msgid "|input_table| = Table"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:108
+# 0ec9a0f0e66143858493fd4853f65bf6
+msgid "Plot Signature list"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:117
+# b95721cb933f4e188ee3e840bc736d88
+msgid "|input_table| :guilabel:`Signature list`:"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:111
+# 15f06a73c2a04e4fa9f492490f394629
+msgid ":guilabel:`S`: checkbox field; if checked, the spectral signature is displayed in the plot;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:112
+# 4c15a7ff4d00411086dd9154d9aa7fa0
+msgid ":guilabel:`MC ID`: signature Macroclass ID;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:113
+# 97a5367ed5774ea99b2156038a5ea530
+msgid ":guilabel:`MC Info`: signature Macroclass Information;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:114
+# e411750468a64e2b8e4d1fab79705f9d
+msgid ":guilabel:`C ID`: signature Class ID;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:115
+# 243bbd5ea3e944558e6f456b01cd4a0c
+msgid ":guilabel:`C Info`: signature Class Information;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:116
+# dbad0a41c4f54dd5aad083d220d11a56
+msgid ":guilabel:`Color [overlap MC_ID-C_ID]`: signature color; also, the combination :guilabel:`MC ID`-:guilabel:`C ID` is displayed in case of overlap with other signatures (see :ref:`LCS_algorithm`);"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:117
+# 15e7c17d3be34b29b37570dd884d07fd
+msgid ":guilabel:`Min B` ``X``: minimum value of band ``X``; this value can be edited;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:118
+# 06ffef1d75ea4f5fbc843ca4df7db2a3
+msgid ":guilabel:`Max B` ``X``: maximum value of band ``X``; this value can be edited;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:119
+# cf35bfea769d4f239316186b6e2b577f
+msgid "|remove|: remove highlighted signatures from this list;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:120
+# ae0026b4efc44bdb9241770f837dce2b
+msgid "|save_plot|: add highlighted spectral signatures to :ref:`ROI_list`;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:121
+# 9e0ef7b592bf4c1f9a8ff8cd76db591b
+msgid "|calculate_spectral_distances|: calculate the spectral distances of spectral signatures displayed in the plot; distances are reported in the tab :ref:`spectral_distances`;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:126
+# 4dbad9b454664e8eaa1efa041786d3e9
+msgid "Automatic thresholds"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:128
+# 8da020888eb94e73b983bbc6fe0a7481
+msgid "Set thresholds automatically for highlighted signatures in the table :ref:`signature_list_plot`; if no signature is highlighted, then the threshold is applied to all the signatures."
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:130
+# 8012e580569c4c2f90af35ee615b574c
+msgid ":guilabel:`Min Max` |enter|: set the threshold based on the minimum and maximum of each band;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:131
+# 1bc2315fcfa0445aac0bea8ee5659cb2
+msgid ":guilabel:`σ *` |input_number| |enter|: set an automatic threshold calculated as (band value + (σ * v)), where σ is the standard deviation of each band and v is the defined value;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:132
+# ca6fcd7ea05040cf833057314b2ad63f
+msgid "|undo_lcs_threshold|: undo the last automatic thresholds;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:134
+# 49409d9a045f4193936ce44b38271d39
+msgid ":guilabel:`From ROI` |LCS_threshold_ROI_tool|: set the threshold using the temporary ROI pixel values, according to the following checkboxes:"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:134
+#: ../../spectral_signature_plot.rst:137
+# 4346cc916ff5431bbe4958861245aab4
+# ee3b5619268b43af8d624409dd5079a2
+msgid "|checkbox| **+**: if checked, signature threshold is extended to include pixel signature;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:135
+#: ../../spectral_signature_plot.rst:138
+# eaddf226eb8648bd917a2414137376f1
+# ed4f0c857b6948e99bf6267da541f264
+msgid "|checkbox| **–**: if checked, signature threshold is reduced to exclude pixel signature;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:138
+# 0e134a3dc7eb477db46676c5a22015e0
+msgid ":guilabel:`From pixel` |LCS_threshold_set_tool|: set the threshold by clicking on a pixel, according to the following checkboxes:"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:143
+# 10136660a458406ea3aa6dce333ebbcd
+msgid "Plot"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:145
+# 77425d6972bb453bb66cdb6c22291c51
+msgid "**Left click** and hold inside the plot to **move** the view of the plot. Use the **mouse wheel** to **zoom in and out** the view of the plot. **Right click** and hold inside the plot to **zoom in a specific area** of the plot. Legend inside the plot can be moved using the mouse."
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:150
+# be3c4f4353b94ddc9236b9a966f4b9ac
+msgid "Plot commands:"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:152
+# c7ab985f40784b0ba46cb276fa8a6434
+msgid "|fit_plot|: automatically fit the plot to data;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:153
+# 8702b20c0d644a92b14f47fbc4492188
+msgid "|save_plot_image|: save the plot image to file (available formats are ``.jpg``, ``.png``, and ``.pdf``);"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:154
+# 4cdc93762fd24be3bba2d4916f7e2a8f
+msgid "|sign_edit_range|: activate the cursor for interactively changing the value range of highlighted signatures in the plot; click the plot to set the minimum or maximum value of a band (also for several signatures simultaneously); cursor is deactivated when moving outside the plot area;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:155
+# acdf6c36a50f412d98d7d424291f5c3e
+msgid "|checkbox| :guilabel:`Plot value range`: if checked, plot the value range for each signature (semi-transparent area);"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:156
+# 394eec64b4d4499a8c997606f89ff6f2
+msgid "|checkbox| :guilabel:`Band lines`: if checked, display a vertical line for each band (center wavelength);"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:157
+# 8164ffca3c374af6914cb69cacb94574
+msgid "|checkbox| :guilabel:`Grid`: if checked, display a grid;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:158
+# 0d272d455a92427cae34c31ab8e7492f
+msgid ":guilabel:`Max characters` |input_number|: set the maximum length of text in the legend;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:159
+# 569c857851f54692825a0958568744a9
+msgid ":guilabel:`x y`: display x y coordinates of mouse cursor inside the plot;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:161
+# eac91029f65e4920805f781ad399bd49
+msgid "|br|"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:167
+# 018e4a5d280342358ff3cbd0a7bff693
+msgid ":guilabel:`Spectral Signature: Example of spectral signature plot`"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:172
+# 869d1bc482154e3685c840423cc0e148
+msgid "Signature details"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:178
+# cf422259ce944a4599a09ac91bd1afc9
+msgid ":guilabel:`Spectral Signature: Signature details`"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:180
+# e79fd2d7ac904844acb19da62c25a2bd
+msgid "Display the details about spectral signatures (i.e. Wavelength, Values, and Standard deviation). In case of signatures calculated from ROIs, the ROI size (number of pixels) is also displayed."
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:187
+# 45614d32f2334748ae4fb5ac2930a6a5
+msgid ":guilabel:`Spectral Signature: Example of signature details`"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:192
+# ad26d63d878a440c99a76affa95313ad
+msgid "Spectral distances"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:198
+# 7d2f80e8e17d495aa082ff87f6a72272
+msgid ":guilabel:`Spectral Signature: Spectral distances`"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:200
+# 9b1b878b60a3459cb999c859ee686e1d
+msgid "Display spectral distances of signatures (see :ref:`signature_list_plot`), which are useful for assessing ROI separability (see :ref:`spectral_distance_definition`)."
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:206
+# ccec8cc051ef465baef584d412a487db
+msgid "The following spectral distances are calculated :"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:203
+# df6f952627a840bab0db043fbd18511a
+msgid ":ref:`Jeffries_Matusita_distance`: range [0 = identical, 2 = different]; useful in particular for :ref:`max_likelihood_algorithm` classifications;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:204
+# 59411e87a91d47df94eb3e15af9df575
+msgid ":ref:`spectral_angle`: range [0 = identical, 90 = different]; useful in particular for :ref:`spectra_angle_mapping_algorithm` classifications;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:205
+# 430763b7643c4681b95d579537e3fd8b
+msgid ":ref:`euclidean_distance`: useful in particular for :ref:`minimum_distance_algorithm` classifications;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:206
+# 789c6dc9ee4f485cab71648517e37f68
+msgid ":ref:`Bray_Curtis_similarity`: range [0 = different, 100 = identical]; useful in general;"
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:208
+# fddde83c1f0f4453979f734a2903c36d
+msgid "Values are displayed in red if signatures are particularly similar."
+msgstr ""
+
+#: ../../spectral_signature_plot.rst:214
+# f66aac3a93ca49bebc016fcfb3c92499
+msgid ":guilabel:`Spectral Signature: Example of spectral distances`"
+msgstr ""
+

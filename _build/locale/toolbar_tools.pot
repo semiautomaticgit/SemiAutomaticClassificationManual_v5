@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2015, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-29 19:03+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../toolbar_tools.rst:5
+# 666866712de047b492a3a5134ac2a9c1
+msgid "SCP Tools"
+msgstr ""
+
+#: ../../toolbar_tools.rst:50
+# 96bcaa0cb8a84b0aa5054b0ed9576603
+msgid ":guilabel:`SCP Tools`"
+msgstr ""
+
+#: ../../toolbar_tools.rst:52
+# 23b990e8f2754a4e866019a49cd14c20
+msgid "The toolbar :guilabel:`SCP Tools` allows for the selection of the main functions of the :ref:`main_interface_window`, the :ref:`spectral_signature_plot`, and the :ref:`scatter_plot`."
+msgstr ""
+
+#: ../../toolbar_tools.rst:54
+# 75e3afc550ad4ccba77ab8a66ca9f453
+msgid "|band_set| :ref:`band_set_tab`;"
+msgstr ""
+
+#: ../../toolbar_tools.rst:55
+# 422a0da306104a128d5fea8d008bc790
+msgid "|download| :ref:`download_tab`;"
+msgstr ""
+
+#: ../../toolbar_tools.rst:56
+# 7c85bd3df5b549cab3fc67d886c0231d
+msgid "|tools| :ref:`tools_tab`;"
+msgstr ""
+
+#: ../../toolbar_tools.rst:57
+# 3685c3fb4b574184ae2693666ab63926
+msgid "|preprocessing| :ref:`pre_processing_tab`;"
+msgstr ""
+
+#: ../../toolbar_tools.rst:58
+# 2f9d0b2f5fda41108eb721ec8c10118f
+msgid "|postprocessing| :ref:`post_processing_tab`;"
+msgstr ""
+
+#: ../../toolbar_tools.rst:59
+# c11a7b1563cb44bb84fb518a0cfa1d6d
+msgid "|bandcalc| :ref:`band_calc_tab`;"
+msgstr ""
+
+#: ../../toolbar_tools.rst:60
+# 0408553f6189472fb2e38ee810f73500
+msgid "|sign_plot| :ref:`spectral_signature_plot`;"
+msgstr ""
+
+#: ../../toolbar_tools.rst:61
+# e7454698baff4560809f9fb5c01877aa
+msgid "|scatter_plot| :ref:`scatter_plot`;"
+msgstr ""
+
+#: ../../toolbar_tools.rst:62
+# dc58062e0d854fd8a8bdadb85edd3bc0
+msgid "|batch_tool| :ref:`batch_tab`;"
+msgstr ""
+
+#: ../../toolbar_tools.rst:63
+# 7dcc863710924d0aacc0f8e62a805465
+msgid "|settings| :ref:`settings_tab`;"
+msgstr ""
+
+#: ../../toolbar_tools.rst:64
+# d2543edab4d6418fa0ff3f73a6feb836
+msgid "|guide| :guilabel:`User manual`: open the online user manual in a web browser;"
+msgstr ""
+
+#: ../../toolbar_tools.rst:65
+# a6d67fe9ebff4f818213f415b03ae890
+msgid "|help| :guilabel:`Online help`: open the `Online help <http://fromgistors.blogspot.com/p/online-help.html>`_ in a web browser; also, a `Facebook group <https://www.facebook.com/groups/SemiAutomaticClassificationPlugin/>`_ and a `Google+ Community <https://plus.google.com/communities/107833394986612468374>`_ are available for sharing information and asking for help about SCP;"
+msgstr ""
+

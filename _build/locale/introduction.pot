@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2015, Luca Congedo
+# This file is distributed under the same license as the Semi-Automatic Classification Plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-29 19:03+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../introduction.rst:5
+# 290c177b06a247e2a0fc8e42f6f63e28
+msgid "Introduction"
+msgstr ""
+
+#: ../../introduction.rst:14
+# 9a041b01feda4498884b82150ac1a071
+msgid "Developed by `Luca Congedo <http://www.researchgate.net/profile/Luca_Congedo>`_, the **Semi-Automatic Classification Plugin** (:guilabel:`SCP`) is a free open source plugin for `QGIS <http://www.qgis.org>`_ that allows for the semi-automatic classification (also known as supervised classification) of remote sensing images. It provides several tools for the download of free images, the preprocessing, the postprocessing, and the raster calculation (please see :ref:`other_0`)."
+msgstr ""
+
+#: ../../introduction.rst:17
+# 5dffc6ae8dbd4a9694dab9ad86852b9b
+msgid "The **overall objective** of :guilabel:`SCP` is to provide a set of intertwined tools for raster processing in order to make an automatic workflow and ease the land cover classification, which could be performed also by people whose main field is not remote sensing. The first version of the :guilabel:`SCP` was written by Luca Congedo in 2012 for the `ACC Dar Project <http://www.planning4adaptation.eu>`_ in order to create a tool for the classification of land cover in an affordable and automatic fashion (read this `working paper <http://www.planning4adaptation.eu/Docs/events/WorkShopII/WorkingPaper_Activity2_1_complete.pdf>`_). Following versions of :guilabel:`SCP` were developed as personal commitment to the remote sensing field and open source software. :guilabel:`SCP` version 5 (codename: Kourou) is developed in the frame of Luca Congedo's PhD in Landscape and Environment at Sapienza University of Rome."
+msgstr ""
+
+#: ../../introduction.rst:27
+# 28891265c34a40809ab91f415a882d14
+msgid "http://www.youtube.com/watch?v=K2mIa66e6h0"
+msgstr ""
+
+#: ../../introduction.rst:30
+# e6d90cd5b0d74b1db71c130033c9e090
+msgid "This **user manual** provides information about the :ref:`installation` of SPC and the :ref:`interface`, with detailed information about all the functions. In addition, the :ref:`remote_sensing` illustrates the basic concepts and definitions which are required for using the :guilabel:`SCP`."
+msgstr ""
+
+#: ../../introduction.rst:33
+# 1face419504046b9bc29a74f82705157
+msgid ":ref:`tutorials` are available for learning the main functions of :guilabel:`SCP` and :ref:`thematic_tutorials` illustrate specific tools."
+msgstr ""
+
+#: ../../introduction.rst:35
+# 91daef7e984242fb93b41adba0404449
+msgid "You are kindly invited to **contribute to SCP** (see :ref:`other_1`) and join the `Facebook group <https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>`_ or the `Google+ Community <https://plus.google.com/communities/107833394986612468374>`_. Several thousand people have already joined and posted hundreds of questions and comments. Also, please read the :ref:`FAQ`."
+msgstr ""
+
+#: ../../introduction.rst:39
+# a3e99892bd6740b691d92aee9c7d0250
+msgid "For more information and tutorials visit the official site"
+msgstr ""
+
+#: ../../introduction.rst:41
+# 4a9d05c061b74a1aabb0bee7e28a441b
+msgid "|fromGIStoRS| `From GIS to Remote Sensing <http://fromgistors.blogspot.com>`_"
+msgstr ""
+
+#: ../../introduction.rst:43
+#: ../../introduction.rst:49
+#: ../../introduction.rst:60
+# fa553335fc434dd7b6fa6df58f42ae76
+# e50df1015686491fad1af8ef1207fd95
+# dbb445ed43ca440594e1fd04e00a0b31
+msgid "|br|"
+msgstr ""
+
+#: ../../introduction.rst:45
+# 30e6393ebacf419db99b1246b374fcec
+msgid "**How to cite:**"
+msgstr ""
+
+#: ../../introduction.rst:47
+# 8fddbbcc4d7149b1aee0a13f25de79e3
+msgid "*Congedo Luca (2016). Semi-Automatic Classification Plugin User Manual.* DOI: http://dx.doi.org/10.13140/RG.2.1.1219.3524"
+msgstr ""
+
+#: ../../introduction.rst:51
+# a861cfa3f4fd41108984cacbe21b569e
+msgid "**License:**"
+msgstr ""
+
+#: ../../introduction.rst:53
+# 20e5802b00a542b38dbf4105efb7a010
+msgid "Except where otherwise noted, content of this work is licensed under a `Creative Commons Attribution-ShareAlike 4.0 International License <http://creativecommons.org/licenses/by-sa/4.0/>`_."
+msgstr ""
+
+#: ../../introduction.rst:56
+# 1f414df60364474fa0c9ff2196cb8e7b
+msgid "``Semi-Automatic Classification Plugin is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 3 of the License. Semi-Automatic Classification Plugin is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with Semi-Automatic Classification Plugin. If not, see http://www.gnu.org/licenses/.``"
+msgstr ""
+
