@@ -1,62 +1,69 @@
-# 
+# Translators:
+# Pedro Venâncio <pedrongvenancio@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-30 08:47+0200\n"
+"POT-Creation-Date: 2016-08-29 15:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Pedro Venâncio <pedrongvenancio@gmail.com>, 2016\n"
+"Language-Team: Portuguese (https://www.transifex.com/semi-automatic-classification/teams/53374/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../installation_ubuntu.rst:5
 msgid "Installation in Ubuntu Linux"
-msgstr ""
+msgstr "Instalação em Ubuntu Linux"
 
 #: ../../installation_ubuntu.rst:14
 msgid "QGIS download and installation"
-msgstr ""
+msgstr "Download e instalação do QGIS"
 
 #: ../../installation_ubuntu.rst:16
 msgid "Open a terminal and type::"
-msgstr ""
+msgstr "Abra o terminal e escreva::"
 
 #: ../../installation_ubuntu.rst:20
 msgid "Press Enter and type the user password;"
-msgstr ""
+msgstr "Prima Enter e escreva a password do utilizador;"
 
 #: ../../installation_ubuntu.rst:22
 msgid "Type in a terminal::"
-msgstr ""
+msgstr "Escreva no terminal::"
 
 #: ../../installation_ubuntu.rst:26
 msgid "Press Enter and wait until the software is downloaded and installed."
-msgstr ""
+msgstr "Prima Enter e aguarde enquanto o software é descarregado e instalado."
 
 #: ../../installation_ubuntu.rst:28
 msgid "Now, QGIS 2 is installed."
-msgstr ""
+msgstr "A partir daqui, o QGIS 2.8 está instalado."
 
 #: ../../installation_ubuntu.rst:35
 msgid "Semi-Automatic Classification Plugin installation"
-msgstr ""
+msgstr "Instalação do Semi-Automatic Classification Plugin"
 
 #: ../../installation_ubuntu.rst:37
 msgid "Run QGIS 2;"
-msgstr ""
+msgstr "Execute o QGIS 2.8;"
 
 #: ../../installation_ubuntu.rst:39
 msgid ""
 "From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;"
 msgstr ""
+"A partir do menu principal, seleccione ``Plugins`` > ``Manage and Install "
+"Plugins``;"
 
 #: ../../installation_ubuntu.rst:43
 msgid ""
 "From the menu ``All``, select the Semi-Automatic Classification Plugin and "
 "click the button ``Install plugin``;"
 msgstr ""
+"No separador ``All``, seleccione o Semi-Automatic Classification Plugin e "
+"clique no botão ``Install plugin``;"
 
 #: ../../installation_ubuntu.rst:45
 msgid ""
@@ -70,10 +77,14 @@ msgid ""
 "Automatic Classification Plugin is checked in the menu ``Installed`` (the "
 "restart of QGIS could be necessary to complete the SCP installation);"
 msgstr ""
+"O SCP deverá ficar activado automaticamente; contudo, certifique-se de que o"
+" Semi-Automatic Classification Plugin está marcado com um visto no separador"
+" ``Installed`` (é provável que seja necessário reiniciar o QGIS para "
+"completar a instalação do SCP);"
 
 #: ../../installation_ubuntu.rst:56
 msgid "Configuration of the plugin"
-msgstr ""
+msgstr "Configuração do plugin"
 
 #: ../../installation_ubuntu.rst:58
 msgid ""
@@ -96,3 +107,7 @@ msgid ""
 "should be half of the system RAM. For instance, if your system has 2GB of "
 "RAM, set the value to 1024MB."
 msgstr ""
+"No separador :ref:`settings_tab`, defina a ``Available RAM (MB)`` para um "
+"valor que corresponda a metade da memória RAM total instalada no computador."
+" Por exemplo, se o seu computador tiver 2GB de RAM, coloque no campo "
+"``Available RAM (MB)`` 1024."

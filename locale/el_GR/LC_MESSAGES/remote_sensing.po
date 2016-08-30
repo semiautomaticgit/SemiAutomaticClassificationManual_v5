@@ -1,23 +1,27 @@
-# 
+# Translators:
+# Alexandros Malounis <malounis@gmail.com>, 2016
+# Luca Congedo <semiautomatic.blogger@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-30 08:47+0200\n"
+"POT-Creation-Date: 2016-08-29 15:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Luca Congedo <semiautomatic.blogger@gmail.com>, 2016\n"
+"Language-Team: Greek (Greece) (https://www.transifex.com/semi-automatic-classification/teams/53374/el_GR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../remote_sensing.rst:5
 msgid "Brief Introduction to Remote Sensing"
-msgstr ""
+msgstr "Σύντομη Εισαγωγή στην Τηλεπισκόπηση"
 
 #: ../../remote_sensing.rst:19
 msgid "Basic Definitions"
-msgstr ""
+msgstr "Βασικοί Ορισμοί"
 
 #: ../../remote_sensing.rst:21
 msgid ""
@@ -27,7 +31,7 @@ msgstr ""
 
 #: ../../remote_sensing.rst:27
 msgid "GIS definition"
-msgstr ""
+msgstr "Συστήματα Γεωγραφικών Πληροφοριών  - Ορισμός"
 
 #: ../../remote_sensing.rst:29
 msgid ""
@@ -45,7 +49,7 @@ msgstr ""
 
 #: ../../remote_sensing.rst:35
 msgid "Remote Sensing definition"
-msgstr ""
+msgstr "Τηλεπισκόπηση - Ορισμός"
 
 #: ../../remote_sensing.rst:37
 msgid ""
@@ -54,6 +58,10 @@ msgid ""
 "measured or analyzed the characteristics without direct contact\" (JARS, "
 "1993)."
 msgstr ""
+"Ένας γενικός ορισμός της **Τηλεπισκόπησης** είναι \"η επιστήμη και η "
+"τεχνολογία βάση των οποίων τα χαρακτηριστικά ενός αντικειμένου ενδιαφέροντος"
+" μπορούν να αναγνωριστούν, μετρηθούν ή αναλυθούν χωρίς άμεση επαφή με αυτό\""
+" (JARS, 1993)."
 
 #: ../../remote_sensing.rst:39
 msgid ""
@@ -65,6 +73,14 @@ msgid ""
 "defined as **active remote sensing**, such as radar sensors which work in "
 "the microwave range (Richards and Jia, 2006)."
 msgstr ""
+"Κατά κύριο λόγο η τηλεπισκόπηση είναι η μέτρηση της ενέργειας που προέρχεται"
+" από την επιφάνεια της Γης. Αν η πηγή της μετρούμενης ενέργειας είναι ο "
+"ήλιος, τότε καλείται **παθητική τηλεπισκόπηση** και το αποτέλεσμα αυτής της "
+"μέτρησης μπορεί να είναι μία ψηφιακή εικόνα (Richards and Jia, 2006). Εαν η "
+"μετρούμενη ενέργεια δεν εκπέμεπαι από τον ήλιο αλλά από μία πηγή από την "
+"πλατφόρμα του αισθητήρα τότε καλείται **ενεργητική τηλεπισκόπηση**, έτσι "
+"χαρακτηρίζεται π.χ. η λειτουργία των εικονοληπτικών ραντάρ στη περιοχή των "
+"μικροκυμάτων (Richards and Jia, 2006)."
 
 #: ../../remote_sensing.rst:41
 msgid ""
@@ -75,35 +91,45 @@ msgid ""
 "spectrum: visible, near infrared (i.e. IR), short-wave IR, and thermal IR "
 "(see Figure :ref:`figEM`)."
 msgstr ""
+"Το **ηλεκτρομαγνητικό φάσμα* είναι ένα τεχνητό σύστημα κατηγοριοποίησης της "
+"ηλεκτρομαγνητικής ενέργειας (από τις κοσμικές ακτίνες ώς τα ραδιοκύματα) η "
+"οποία μεταδίδεται αρμονικά με την ταχύτητα του φωτός, ανάλογα με το μήκος "
+"κύματος (NASA, 2013). Οι παθητικοί ασθητήρες καταγράφουν την ενέργεια από "
+"τις οπτικές περιοχές του ηλεκτρουμαγνητικού φάσματος: το οπτικό, το εγγύς "
+"υπέρυθρο (i.e. IR), το μικροκυματικό υπέρυθρο και το θερμικό υπέρυθρο (δείτε"
+" το σχήμα :ref:`figEM`)"
 
 #: ../../remote_sensing.rst:48
 msgid ":guilabel:`Electromagnetic-Spectrum`"
-msgstr ""
+msgstr ":guilabel:`Ηλεκτρομαγνητικό Φάσμα`"
 
 #: ../../remote_sensing.rst:50
 msgid ""
 "``by Victor Blacus (SVG version of File:Electromagnetic-Spectrum.png)``"
 msgstr ""
+"``από τον Victor Blacus (SVG εκδοχή του αρχείου:Electromagnetic-"
+"Spectrum.png)``"
 
 #: ../../remote_sensing.rst:52
 msgid "``[CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0)]``"
-msgstr ""
+msgstr "``[CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0)]``"
 
 #: ../../remote_sensing.rst:54
 msgid "``via Wikimedia Commons``"
-msgstr ""
+msgstr "``μέσω Wikimedia Commons``"
 
 #: ../../remote_sensing.rst:56
 msgid ""
 "``http://commons.wikimedia.org/wiki/File%3AElectromagnetic-Spectrum.svg``"
 msgstr ""
+"``http://commons.wikimedia.org/wiki/File%3AElectromagnetic-Spectrum.svg``"
 
 #: ../../remote_sensing.rst:58 ../../remote_sensing.rst:830
 #: ../../remote_sensing.rst:993 ../../remote_sensing.rst:1065
 #: ../../remote_sensing.rst:1079 ../../remote_sensing.rst:1122
 #: ../../remote_sensing.rst:1126 ../../remote_sensing.rst:1193
 msgid "|br|"
-msgstr ""
+msgstr "|br|"
 
 #: ../../remote_sensing.rst:60
 msgid ""
@@ -147,7 +173,7 @@ msgstr ""
 
 #: ../../remote_sensing.rst:76
 msgid "Sensors"
-msgstr ""
+msgstr "Αισθητήρες - Καταγραφείς"
 
 #: ../../remote_sensing.rst:78
 msgid ""
@@ -202,7 +228,7 @@ msgstr ""
 
 #: ../../remote_sensing.rst:100
 msgid "Spectral Signature"
-msgstr ""
+msgstr "Φασματική Υπογραφή"
 
 #: ../../remote_sensing.rst:102
 msgid ""
@@ -217,11 +243,11 @@ msgstr ""
 
 #: ../../remote_sensing.rst:111
 msgid "``(from NASA, 2013)``"
-msgstr ""
+msgstr "``(από NASA, 2013)``"
 
 #: ../../remote_sensing.rst:117
 msgid "Landsat Satellite"
-msgstr ""
+msgstr "Δορυφόροι Landsat"
 
 #: ../../remote_sensing.rst:119
 msgid ""
@@ -244,26 +270,26 @@ msgstr ""
 
 #: ../../remote_sensing.rst:126
 msgid "Landsat 4, Landsat 5 Bands"
-msgstr ""
+msgstr "Μπάντες / Φασματικοί δίαυλοι Landsat 4, Landsat 5"
 
 #: ../../remote_sensing.rst:126 ../../remote_sensing.rst:148
 #: ../../remote_sensing.rst:172 ../../remote_sensing.rst:256
 msgid "Wavelength [micrometers]"
-msgstr ""
+msgstr "Μήκος κύματος  [micrometers]"
 
 #: ../../remote_sensing.rst:126 ../../remote_sensing.rst:148
 #: ../../remote_sensing.rst:172 ../../remote_sensing.rst:212
 #: ../../remote_sensing.rst:256
 msgid "Resolution [meters]"
-msgstr ""
+msgstr "Χωρική Ανάλυση [meters]"
 
 #: ../../remote_sensing.rst:128 ../../remote_sensing.rst:150
 msgid "Band 1 - Blue"
-msgstr ""
+msgstr "Μπάντα 1 - Μπλέ"
 
 #: ../../remote_sensing.rst:128 ../../remote_sensing.rst:150
 msgid "0.45 - 0.52"
-msgstr ""
+msgstr "0.45 - 0.52"
 
 #: ../../remote_sensing.rst:128 ../../remote_sensing.rst:130
 #: ../../remote_sensing.rst:132 ../../remote_sensing.rst:134
@@ -279,61 +305,61 @@ msgstr ""
 #: ../../remote_sensing.rst:268 ../../remote_sensing.rst:270
 #: ../../remote_sensing.rst:272 ../../remote_sensing.rst:274
 msgid "30"
-msgstr ""
+msgstr "30"
 
 #: ../../remote_sensing.rst:130 ../../remote_sensing.rst:152
 msgid "Band 2 - Green"
-msgstr ""
+msgstr "Μπάντα 2  - Πράσινο"
 
 #: ../../remote_sensing.rst:130 ../../remote_sensing.rst:152
 #: ../../remote_sensing.rst:258
 msgid "0.52 - 0.60"
-msgstr ""
+msgstr "0.52 - 0.60"
 
 #: ../../remote_sensing.rst:132 ../../remote_sensing.rst:154
 msgid "Band 3 - Red"
-msgstr ""
+msgstr "Μπάντα 3 - Κόκκινο"
 
 #: ../../remote_sensing.rst:132 ../../remote_sensing.rst:154
 #: ../../remote_sensing.rst:260
 msgid "0.63 - 0.69"
-msgstr ""
+msgstr "0.63 - 0.69"
 
 #: ../../remote_sensing.rst:134 ../../remote_sensing.rst:156
 msgid "Band 4 - Near Infrared (NIR)"
-msgstr ""
+msgstr "Μπάντα 4 - Εγγύς Υπέρυθρο (NIR)"
 
 #: ../../remote_sensing.rst:134
 msgid "0.76 - 0.90"
-msgstr ""
+msgstr "0.76 - 0.90"
 
 #: ../../remote_sensing.rst:136 ../../remote_sensing.rst:158
 msgid "Band 5 - SWIR"
-msgstr ""
+msgstr "Μπάντα 5 - Μικροκυματικό υπέρυθρο SWIR"
 
 #: ../../remote_sensing.rst:136
 msgid "1.55 - 1.75"
-msgstr ""
+msgstr "1.55 - 1.75"
 
 #: ../../remote_sensing.rst:138 ../../remote_sensing.rst:160
 msgid "Band 6 - Thermal Infrared"
-msgstr ""
+msgstr "Μπάντα 6 - Θερμικό υπέρυθρο"
 
 #: ../../remote_sensing.rst:138 ../../remote_sensing.rst:160
 msgid "10.40 - 12.50"
-msgstr ""
+msgstr "10.40 - 12.50"
 
 #: ../../remote_sensing.rst:138
 msgid "120 (resampled to 30)"
-msgstr ""
+msgstr "120 (επαναδειγματοληψία στα 30)"
 
 #: ../../remote_sensing.rst:140 ../../remote_sensing.rst:162
 msgid "Band 7 - SWIR"
-msgstr ""
+msgstr "Μπάντα 7 - Μικροκυματικό υπέρυθρο SWIR"
 
 #: ../../remote_sensing.rst:140
 msgid "2.08 - 2.35"
-msgstr ""
+msgstr "2.08 - 2.35"
 
 #: ../../remote_sensing.rst:143
 msgid ""
@@ -341,6 +367,9 @@ msgid ""
 "(from http://landsat.usgs.gov/band_designations_landsat_satellites.php); "
 "also, Landsat temporal resolution is 16 days (NASA, 2013)."
 msgstr ""
+"Οι αναλύσεις του Landsat 7 φαίνονται στον παρακάτω πίνακα (από "
+"http://landsat.usgs.gov/band_designations_landsat_satellites.php); επίσης η "
+"χρονική ανάλυση είναι 16 ημέρες (NASA, 2013)."
 
 #: ../../remote_sensing.rst:145
 msgid ":guilabel:`Landsat 7 Bands`"
@@ -348,7 +377,7 @@ msgstr ""
 
 #: ../../remote_sensing.rst:148
 msgid "Landsat 7 Bands"
-msgstr ""
+msgstr "Μπάντες του Landsat 7"
 
 #: ../../remote_sensing.rst:156
 msgid "0.77 - 0.90"

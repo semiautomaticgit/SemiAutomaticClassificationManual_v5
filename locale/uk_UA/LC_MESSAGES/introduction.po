@@ -1,15 +1,19 @@
-# 
+# Translators:
+# Daria Svidzinska <d.svidzinska@gmail.com>, 2016
+# Luca Congedo <semiautomatic.blogger@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-30 08:47+0200\n"
+"POT-Creation-Date: 2016-08-29 15:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Luca Congedo <semiautomatic.blogger@gmail.com>, 2016\n"
+"Language-Team: Ukrainian (Ukraine) (https://www.transifex.com/semi-automatic-classification/teams/53374/uk_UA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../../introduction.rst:5
 msgid "Introduction"
@@ -86,11 +90,11 @@ msgstr ""
 #: ../../introduction.rst:43 ../../introduction.rst:49
 #: ../../introduction.rst:60
 msgid "|br|"
-msgstr ""
+msgstr "|br|"
 
 #: ../../introduction.rst:45
 msgid "**How to cite:**"
-msgstr ""
+msgstr "**Посилання:**"
 
 #: ../../introduction.rst:47
 msgid ""
@@ -100,7 +104,7 @@ msgstr ""
 
 #: ../../introduction.rst:51
 msgid "**License:**"
-msgstr ""
+msgstr "**Ліцензія:**"
 
 #: ../../introduction.rst:53
 msgid ""
@@ -108,6 +112,9 @@ msgid ""
 "`Creative Commons Attribution-ShareAlike 4.0 International License "
 "<http://creativecommons.org/licenses/by-sa/4.0/>`_."
 msgstr ""
+"Якщо інше не зазначено, зміст цієї роботи поширюється на умовах ліцензії "
+"`Creative Commons Із зазначенням авторства - Поширення на тих самих умовах "
+"4.0 Міжнародна <http://creativecommons.org/licenses/by-sa/4.0/>`_. "
 
 #: ../../introduction.rst:56
 msgid ""
@@ -121,3 +128,12 @@ msgid ""
 " the GNU General Public License along with Semi-Automatic Classification "
 "Plugin. If not, see http://www.gnu.org/licenses/.``"
 msgstr ""
+"``Модуль напівавтоматичної класифікації - вільне програмне забезпечення: ви "
+"можете поширювати та/або змінювати його на умовах версії 3 Стандартної "
+"громадської ліцензії GNU, опублікованої Фондом вільного програмного "
+"забезпечення. Модуль напівавтоматичної класифікації поширюється з надією, що"
+" він буде корисним, але БЕЗ ЖОДНИХ ГАРАНТІЙ; навіть без обв'язкової гарантії"
+" ПРИДАТНОСТІ ДЛЯ ПРОДАЖУ або ВІДПОВІДНОСТІ ПЕВНІЙ ВИЗНАЧЕНІЙ МЕТІ. Для більш"
+" докладної  інформації дивіться Стандартну громадську ліцензію GNU, копію "
+"якої ви повинні були отримати разом з Модулем напівавтоматичної "
+"класифікації. В іншому випадку дивіться http://www.gnu.org/licenses/.``"

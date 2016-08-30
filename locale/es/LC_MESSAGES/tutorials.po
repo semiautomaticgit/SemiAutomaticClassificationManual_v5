@@ -1,19 +1,22 @@
-# 
+# Translators:
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-30 08:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Igor F. Davalos Rojas <idavalosr@gmail.com>, 2016\n"
+"Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../tutorials.rst:5
 msgid "Basic Tutorials"
-msgstr ""
+msgstr "Tutoriales Básicos"
 
 #: ../../tutorials.rst:11
 msgid ""
@@ -30,6 +33,9 @@ msgid ""
 "<http://fromgistors.blogspot.com/search/label/Tutorial>`_ for other "
 "tutorials such as:"
 msgstr ""
+"También, visita el blog `From GIS to Remote Sensing "
+"<http://fromgistors.blogspot.com/search/label/Tutorial>`_ para otros "
+"tutoriales como:"
 
 #: ../../tutorials.rst:17
 msgid ""
@@ -69,3 +75,5 @@ msgid ""
 "For other unofficial tutorials, also in languages other than English, see "
 ":ref:`other_3`."
 msgstr ""
+"Para otros tutoriales no oficiales, incluyendo lenguajes diferentes al "
+"Inglés, vea :ref:`other_3`."

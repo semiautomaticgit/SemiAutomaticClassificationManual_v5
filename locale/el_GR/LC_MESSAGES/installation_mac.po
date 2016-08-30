@@ -1,15 +1,18 @@
-# 
+# Translators:
+# Ves Nikolaos <vesnikos@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-30 08:47+0200\n"
+"POT-Creation-Date: 2016-08-29 15:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Ves Nikolaos <vesnikos@gmail.com>, 2016\n"
+"Language-Team: Greek (Greece) (https://www.transifex.com/semi-automatic-classification/teams/53374/el_GR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../installation_mac.rst:5
 msgid "Installation in Mac OS"
@@ -17,7 +20,7 @@ msgstr ""
 
 #: ../../installation_mac.rst:14
 msgid "QGIS download and installation"
-msgstr ""
+msgstr "Μεταφόρτωση και εγκατάσταση QGIS"
 
 #: ../../installation_mac.rst:16
 msgid ""
@@ -33,7 +36,7 @@ msgstr ""
 
 #: ../../installation_mac.rst:20
 msgid "Now, QGIS 2 is installed."
-msgstr ""
+msgstr "Τώρα, το QGIS 2 έχει εγκατασταθεί."
 
 #: ../../installation_mac.rst:27
 msgid "Semi-Automatic Classification Plugin installation"

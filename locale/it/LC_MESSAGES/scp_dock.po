@@ -1,15 +1,19 @@
-# 
+# Translators:
+# emiliano stefanini <e.stefanini@live.it>, 2016
+# Roberto Angeletti <robertoangeletti@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-30 08:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Roberto Angeletti <robertoangeletti@gmail.com>, 2016\n"
+"Language-Team: Italian (https://www.transifex.com/semi-automatic-classification/teams/53374/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../scp_dock.rst:5
 msgid "SCP dock"
@@ -84,7 +88,7 @@ msgstr ""
 
 #: ../../scp_dock.rst:169
 msgid "Macroclass ID"
-msgstr ""
+msgstr "Macroclass ID"
 
 #: ../../scp_dock.rst:169
 msgid "MC_ID"
@@ -108,7 +112,7 @@ msgstr ""
 
 #: ../../scp_dock.rst:173
 msgid "Class ID"
-msgstr ""
+msgstr "Class ID"
 
 #: ../../scp_dock.rst:173
 msgid "C_ID"
@@ -145,6 +149,9 @@ msgid ""
 ":ref:`classification_output` ) or a part of it, creating a "
 ":ref:`classification_preview`."
 msgstr ""
+"La **classification** può essere eseguita per l'intera immagine ( "
+":ref:`classification_output` ) o per una parte di essa, creando una "
+":ref:`classification_preview`."
 
 #: ../../scp_dock.rst:186
 msgid ""

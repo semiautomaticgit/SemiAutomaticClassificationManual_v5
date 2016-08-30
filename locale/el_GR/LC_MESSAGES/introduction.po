@@ -1,15 +1,19 @@
-# 
+# Translators:
+# Ves Nikolaos <vesnikos@gmail.com>, 2016
+# Luca Congedo <semiautomatic.blogger@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-30 08:47+0200\n"
+"POT-Creation-Date: 2016-08-29 15:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Luca Congedo <semiautomatic.blogger@gmail.com>, 2016\n"
+"Language-Team: Greek (Greece) (https://www.transifex.com/semi-automatic-classification/teams/53374/el_GR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../introduction.rst:5
 msgid "Introduction"
@@ -86,11 +90,11 @@ msgstr ""
 #: ../../introduction.rst:43 ../../introduction.rst:49
 #: ../../introduction.rst:60
 msgid "|br|"
-msgstr ""
+msgstr "|br|"
 
 #: ../../introduction.rst:45
 msgid "**How to cite:**"
-msgstr ""
+msgstr "** Για την Παραπομπή:  **"
 
 #: ../../introduction.rst:47
 msgid ""
@@ -100,7 +104,7 @@ msgstr ""
 
 #: ../../introduction.rst:51
 msgid "**License:**"
-msgstr ""
+msgstr "** Άδεια Χρήσης: **"
 
 #: ../../introduction.rst:53
 msgid ""
@@ -108,6 +112,9 @@ msgid ""
 "`Creative Commons Attribution-ShareAlike 4.0 International License "
 "<http://creativecommons.org/licenses/by-sa/4.0/>`_."
 msgstr ""
+"Με εξαιρέσεις όπου αναφέρονται, τα περί αυτού του έργου υπόκεινται σε άδεια "
+"χρήσης `Creative Commons Attribution-ShareAlike 4.0 International License "
+"<http://creativecommons.org/licenses/by-sa/4.0/>`_."
 
 #: ../../introduction.rst:56
 msgid ""
@@ -121,3 +128,14 @@ msgid ""
 " the GNU General Public License along with Semi-Automatic Classification "
 "Plugin. If not, see http://www.gnu.org/licenses/.``"
 msgstr ""
+"`` To Προσθέτο \"Ημί-Αυτόματος Ταξινομητής\"  είναι ελεύθερο λογισμικό : "
+"Επιτρέπεται η επαναδιανομή του και/ή μετατροπή του ύπο τους Όρους που "
+"αναφέρονται στην άδεια χρήσης GNU General Public License όπως διανέμονται "
+"απο το Free Software Foundation, 3ή έκδοση της Άδειας. To Προσθέτο \"Ημί-"
+"Αυτόματος Ταξινομητής\" διατίθεται με την ελπίδα χρησιμότητας, αλλά ΧΩΡΙΣ "
+"ΚΑΜΙΑ ΕΓΓΥΗΣΗ, αλλά ούτε με  υπαινισσόμενη εγγύηση ΕΜΠΟΡΙΚΟΤΗΤΑΣ ή "
+"ΚΑΤΑΛΛΗΛΟΤΗΤΑΣ ΧΡΗΣΗΣ ΓΙΑ ΣΥΓΚΕΚΡΙΜEΝΟ ΣΚΟΠΟ. Για περισσότερες πληροφορίες "
+"δείτε την GNU General Public License. Θα πρέπει να έχετε λάβει ένα αντίγραφο"
+" της άδειας GNU General Public License μαζί με το πρόσθετο \"Ημί-Αυτόματος "
+"Ταξινομητής\". Αν όχι, επισκεφθείτε τη σελίδα  "
+"http://www.gnu.org/licenses/.`` "

@@ -1,19 +1,22 @@
-# 
+# Translators:
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-30 08:47+0200\n"
+"POT-Creation-Date: 2016-08-29 15:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Igor F. Davalos Rojas <idavalosr@gmail.com>, 2016\n"
+"Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../main_interface_window.rst:5
 msgid "Main Interface Window"
-msgstr ""
+msgstr "Ventana Principal"
 
 #: ../../main_interface_window.rst:220
 msgid ""
@@ -188,7 +191,7 @@ msgstr ""
 #: ../../main_interface_window.rst:300 ../../main_interface_window.rst:423
 #: ../../main_interface_window.rst:541
 msgid "Search"
-msgstr ""
+msgstr "Buscar"
 
 #: ../../main_interface_window.rst:302
 msgid ""
@@ -245,7 +248,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:316
 msgid "Landsat images"
-msgstr ""
+msgstr "Imágenes Landsat"
 
 #: ../../main_interface_window.rst:330 ../../main_interface_window.rst:453
 #: ../../main_interface_window.rst:571
@@ -333,7 +336,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:347
 msgid "**Landsat 8 bands**"
-msgstr ""
+msgstr "**Bandas Landsat 8**"
 
 #: ../../main_interface_window.rst:349
 msgid ""
@@ -352,7 +355,7 @@ msgstr ""
 #: ../../main_interface_window.rst:357 ../../main_interface_window.rst:479
 #: ../../main_interface_window.rst:580
 msgid "Download"
-msgstr ""
+msgstr "Descargar"
 
 #: ../../main_interface_window.rst:359
 msgid ""
@@ -460,7 +463,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:408
 msgid "Area coordinates"
-msgstr ""
+msgstr "Coordenadas del área"
 
 #: ../../main_interface_window.rst:410
 msgid ""
@@ -692,7 +695,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:595
 msgid "Tools"
-msgstr ""
+msgstr "Herramientas"
 
 #: ../../main_interface_window.rst:597
 msgid ""
@@ -702,7 +705,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:602
 msgid "Multiple ROI Creation"
-msgstr ""
+msgstr "Creación de Múltiples ROI"
 
 #: ../../main_interface_window.rst:608
 msgid "|roi_multiple| :guilabel:`Multiple ROI Creation`"
@@ -751,7 +754,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:627
 msgid "Point coordinates and ROI definition"
-msgstr ""
+msgstr "Coordenadas de punto y definición de ROI"
 
 #: ../../main_interface_window.rst:639
 msgid ""
@@ -1033,7 +1036,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:753
 msgid "Band weight"
-msgstr ""
+msgstr "Ancho de banda"
 
 #: ../../main_interface_window.rst:758
 msgid ""
@@ -1070,7 +1073,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:771 ../../main_interface_window.rst:794
 msgid "Signature threshold"
-msgstr ""
+msgstr "Umbral de firma"
 
 #: ../../main_interface_window.rst:777
 msgid "|threshold_tool| :guilabel:`Signature threshold`"
@@ -1360,7 +1363,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:911
 msgid "Landsat"
-msgstr ""
+msgstr "Landsat"
 
 #: ../../main_interface_window.rst:917
 msgid "|landsat_tool| :guilabel:`Landsat`"
@@ -1446,7 +1449,7 @@ msgstr ""
 #: ../../main_interface_window.rst:940 ../../main_interface_window.rst:1003
 #: ../../main_interface_window.rst:1052
 msgid "Metadata"
-msgstr ""
+msgstr "Metadatos"
 
 #: ../../main_interface_window.rst:942
 msgid ""
@@ -1671,7 +1674,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:1079
 msgid "Clip multiple rasters"
-msgstr ""
+msgstr "Recortar múltiples rásters"
 
 #: ../../main_interface_window.rst:1085
 msgid "|clip_tool| :guilabel:`Clip multiple rasters`"
@@ -1685,7 +1688,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:1092
 msgid "Raster list"
-msgstr ""
+msgstr "Lista de Rásters"
 
 #: ../../main_interface_window.rst:1094 ../../main_interface_window.rst:1113
 #: ../../main_interface_window.rst:1143 ../../main_interface_window.rst:1195
@@ -1705,7 +1708,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:1100
 msgid "Clip coordinates"
-msgstr ""
+msgstr "Coordenadas de corte"
 
 #: ../../main_interface_window.rst:1102
 msgid ""
@@ -1924,7 +1927,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:1221
 msgid "Accuracy"
-msgstr ""
+msgstr "Precisión"
 
 #: ../../main_interface_window.rst:1227
 msgid "|accuracy_tool| :guilabel:`Accuracy`"
@@ -1984,7 +1987,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:1258
 msgid "Land cover change"
-msgstr ""
+msgstr "Cambio de cobertura del suelo"
 
 #: ../../main_interface_window.rst:1264
 msgid "|land_cover_change| :guilabel:`Land cover change`"
@@ -3420,7 +3423,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:1953
 msgid ":guilabel:`Debug`"
-msgstr ""
+msgstr ":guilabel:`Debug`"
 
 #: ../../main_interface_window.rst:1955
 msgid ""

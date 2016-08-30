@@ -1,19 +1,23 @@
-# 
+# Translators:
+# Geovano Pedro Hoffmann <hoffmange@hotmail.com>, 2016
+# Luca Congedo <semiautomatic.blogger@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-30 08:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Luca Congedo <semiautomatic.blogger@gmail.com>, 2016\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/semi-automatic-classification/teams/53374/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../semi-automatic_os.rst:5
 msgid "Semi-Automatic OS"
-msgstr ""
+msgstr "Semi-Automatic OS"
 
 #: ../../semi-automatic_os.rst:11
 msgid ""
@@ -25,7 +29,7 @@ msgstr ""
 
 #: ../../semi-automatic_os.rst:16
 msgid ":guilabel:`Semi-Automatic OS desktop`"
-msgstr ""
+msgstr ":guilabel:`Área de trabalho do Semi-Automatic OS`"
 
 #: ../../semi-automatic_os.rst:18
 msgid ""
@@ -43,7 +47,7 @@ msgstr ""
 
 #: ../../semi-automatic_os.rst:26
 msgid "Installation in VirtualBox"
-msgstr ""
+msgstr "Instalação no VirtualBox"
 
 #: ../../semi-automatic_os.rst:28
 msgid ""
@@ -115,7 +119,7 @@ msgstr ""
 
 #: ../../semi-automatic_os.rst:59
 msgid "|br|"
-msgstr ""
+msgstr "|br|"
 
 #: ../../semi-automatic_os.rst:61
 msgid ""

@@ -1,15 +1,20 @@
-# 
+# Translators:
+# Geovano Pedro Hoffmann <hoffmange@hotmail.com>, 2016
+# Luca Congedo <semiautomatic.blogger@gmail.com>, 2016
+# Kuriakin Humberto Toscan <kuriakin.toscan@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-30 08:47+0200\n"
+"POT-Creation-Date: 2016-08-29 15:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Kuriakin Humberto Toscan <kuriakin.toscan@gmail.com>, 2016\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/semi-automatic-classification/teams/53374/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../introduction.rst:5
 msgid "Introduction"
@@ -86,11 +91,11 @@ msgstr ""
 #: ../../introduction.rst:43 ../../introduction.rst:49
 #: ../../introduction.rst:60
 msgid "|br|"
-msgstr ""
+msgstr "|br|"
 
 #: ../../introduction.rst:45
 msgid "**How to cite:**"
-msgstr ""
+msgstr "**Como citar:**"
 
 #: ../../introduction.rst:47
 msgid ""
@@ -100,7 +105,7 @@ msgstr ""
 
 #: ../../introduction.rst:51
 msgid "**License:**"
-msgstr ""
+msgstr "**Licença:**"
 
 #: ../../introduction.rst:53
 msgid ""
@@ -108,6 +113,9 @@ msgid ""
 "`Creative Commons Attribution-ShareAlike 4.0 International License "
 "<http://creativecommons.org/licenses/by-sa/4.0/>`_."
 msgstr ""
+"Exceto quando indicado em caso contrário, o conteúdo deste trabalho é "
+"disponibilizado sob a licença `Creative Commons Attribution-ShareAlike 4.0 "
+"International License <http://creativecommons.org/licenses/by-sa/4.0/>`_."
 
 #: ../../introduction.rst:56
 msgid ""
@@ -121,3 +129,12 @@ msgid ""
 " the GNU General Public License along with Semi-Automatic Classification "
 "Plugin. If not, see http://www.gnu.org/licenses/.``"
 msgstr ""
+"\"O plugin de Classificação Semi-Automática  é um software livre: você pode "
+"redistribuí-lo e / ou modificá-lo sob os termos da GNU General Public "
+"License  publicada pela Free Software Foundation, 3ª versão  da licença. O "
+"plugin de Classificação Semi-automática é distribuído na esperança que possa"
+" ser útil, mas SEM NENHUMA GARANTIA; mesmo sem a garantia implícita de "
+"COMERCIALIZAÇÃO ou ADEQUAÇÃO A UM DETERMINADO FIM. Veja a Licença Pública "
+"Geral GNU para obter mais detalhes. Você deve ter recebido uma cópia da "
+"Licença Pública Geral GNU junto com semi-automático de classificação Plugin."
+" Se não, veja em http://www.gnu.org/licenses\""

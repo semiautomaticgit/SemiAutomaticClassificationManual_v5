@@ -1,19 +1,22 @@
-# 
+# Translators:
+# Igor F. Davalos Rojas <idavalosr@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 5.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-30 08:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Igor F. Davalos Rojas <idavalosr@gmail.com>, 2016\n"
+"Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../faq.rst:5
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Preguntas Frecuentes"
 
 #: ../../faq.rst:12
 msgid ""
@@ -22,6 +25,10 @@ msgid ""
 " `Google+ Community "
 "<https://plus.google.com/communities/107833394986612468374>`_ ."
 msgstr ""
+"Si tienes preguntas o comentarios por favor únete al `Grupo de Facebook "
+"<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin>`_ o a la"
+" `Comunidad Google+ "
+"<https://plus.google.com/communities/107833394986612468374>`_ ."
 
 #: ../../faq.rst:14
 msgid ""
@@ -29,14 +36,16 @@ msgid ""
 "<http://fromgistors.blogspot.com>`_ and the following Frequently Asked "
 "Questions."
 msgstr ""
+"Antes de preguntar, por favor revisa el sitio oficial  `From GIS to Remote "
+"Sensing <http://fromgistors.blogspot.com>`_ y las Preguntas Frecuentes FAQs."
 
 #: ../../faq.rst:23
 msgid "Plugin installation"
-msgstr ""
+msgstr "Instalación de Complemento"
 
 #: ../../faq.rst:28
 msgid "How to install the plugin manually?"
-msgstr ""
+msgstr "¿Cómo instalar el complemento manualmente?"
 
 #: ../../faq.rst:30
 msgid ""
@@ -44,6 +53,9 @@ msgid ""
 "connection is not available, or the installation is required on multiple "
 "computers), following a few steps:"
 msgstr ""
+"El SCP puede instalarse manualmente (puede ser útil cuando no esté "
+"disponible una conexión a internet o se desea instalar en varias "
+"computadoras) siguiendo estos pasos:"
 
 #: ../../faq.rst:32
 msgid ""
@@ -51,6 +63,9 @@ msgid ""
 "https://github.com/semiautomaticgit/SemiAutomaticClassificationPlugin/archive/master.zip"
 " ;"
 msgstr ""
+"Descarga el archivo zip de SCP desde "
+"https://github.com/semiautomaticgit/SemiAutomaticClassificationPlugin/archive/master.zip"
+" ;"
 
 #: ../../faq.rst:33
 msgid ""
@@ -58,6 +73,9 @@ msgid ""
 "and folders such as ``ui``) in a new folder named "
 "``SemiAutomaticClassificationPlugin`` (without ``-master``);"
 msgstr ""
+"extraer el contenido del archivo (varios archivos como ``COPYING.txt`` y "
+"carpetas como ``ui``) en una nueva carpeta llamada "
+"``SemiAutomaticClassificationPlugin`` (sin el ``-master``);"
 
 #: ../../faq.rst:34
 msgid ""
@@ -66,26 +84,37 @@ msgid ""
 "``/home/username/.qgis2/python/plugins/``) and delete the folder "
 "``SemiAutomaticClassificationPlugin`` if present;"
 msgstr ""
+"abre el directorio \"plugins\" (en Windows normalmente "
+"\"C:\\Users\\usuario\\.qgis2\\python\\plugins\", en Linux y Mac normalmente "
+"\"/home/usuario/.qgis2/python/plugins/\") borra el directorio "
+"``SemiAutomaticClassificationPlugin`` si existe;"
 
 #: ../../faq.rst:35
 msgid ""
 "copy the folder ``SemiAutomaticClassificationPlugin`` inside the QGIS "
 "``plugins`` directory;"
 msgstr ""
+"copia la carpeta ``SemiAutomaticClassificationPlugin`` dentro del directorio"
+" ``plugins`` de QGIS;"
 
 #: ../../faq.rst:36
 msgid ""
 "the plugin should be installed; start QGIS, open the Plugin Manager and be "
 "sure that ``Semi-Automatic Classification Plugin`` is checked."
 msgstr ""
+"el complemento debería estar instalado; inicia QGIS, abre el Administrador "
+"de complementos y asegúrate  que está seleccionado ``Semi-Automatic "
+"Classification Plugin``."
 
 #: ../../faq.rst:41
 msgid "Pre processing"
-msgstr ""
+msgstr "Pre procesado"
 
 #: ../../faq.rst:46
 msgid "Which image bands should I use for a semi-automatic classification?"
 msgstr ""
+"¿Cuales bandas de la imagen debería utilizar para la clasificación semi-"
+"automática?"
 
 #: ../../faq.rst:48
 msgid ""
@@ -94,15 +123,22 @@ msgid ""
 "band 6 that is thermal infrared; for Landsat 8 you should select bands: 2, "
 "3, 4, 5, 6, 7."
 msgstr ""
+"En general, es preferible evitar las bandas del infrarojo térmico. Si está "
+"usando Landsat 4, 5 o 7 debería seleccionar las bandas: 1, 2, 3, 4, 5, 7 "
+"evitando usar la banda 6 que es la del infrarojo térmico; para Landsat 8 "
+"debería elegir las bandas: 2, 3, 4, 5, 6, 7."
 
 #: ../../faq.rst:50
 msgid ""
 "For Sentinel-2 images you can use bands: 2, 3, 4, 5, 6, 7, 8, 8A, 11, 12."
 msgstr ""
+"Para imágenes Sentinel-2 puedes usar las bandas: 2, 3, 4, 5, 6, 7, 8, 8A, "
+"11, 12."
 
 #: ../../faq.rst:55
 msgid "Which Landsat bands can be converted to reflectance by the SCP?"
 msgstr ""
+"¿Cuáles de las bandas Landsat pueden convertirse a reflectancia con el SCP?"
 
 #: ../../faq.rst:57
 msgid ""
@@ -151,6 +187,8 @@ msgstr ""
 msgid ""
 "Can I apply the Landsat conversion and DOS correction to clipped bands?"
 msgstr ""
+"¿Se puede aplicar la conversión Landsat y la corrección DOS a bandas "
+"recortadas?"
 
 #: ../../faq.rst:83
 msgid ""
@@ -161,6 +199,13 @@ msgid ""
 "entire image) and then clip the conversion output (i.e. bands converted to "
 "reflectance)."
 msgstr ""
+"Sí, se puede recortar las imágenes antes de la conversión a reflectancia, "
+"después copiar el archivo MTL (incluido en el conjunto de datos Landsat) "
+"dentro del directorio que tiene las bandas recortadas. Si desea aplicar la "
+"corrección DOS (la cual es una técnica basada en imagen) deberá convertir "
+"las bandas Landsat originales (la imagen completa) y luego recién recortar "
+"las bandas resultantes de la conversión (Ej. bandas convertidas a "
+"reflectancia)."
 
 #: ../../faq.rst:89
 msgid ""
@@ -188,6 +233,10 @@ msgid ""
 "<http://landsat.gsfc.nasa.gov/?page_id=5377>`_). You can use this band for "
 "the creation of a mask."
 msgstr ""
+"La corrección DOS1 no remueve las nubes de una imagen. Sin embargo, las "
+"imágenes Landsat 8 incluyen la banda 9 que identifica las nubes (vea este "
+"enlace `NASA site <http://landsat.gsfc.nasa.gov/?page_id=5377>`_). Puede "
+"usar esta banda para crear una máscara."
 
 #: ../../faq.rst:103
 msgid ""
@@ -195,38 +244,50 @@ msgid ""
 "described `this paper <http://www.planning4adaptation.eu/Docs/papers/08_NWP-"
 "DoM_for_LCC_in_Dar_using_Landsat_Imagery.pdf>`_."
 msgstr ""
+"Para otros satélites Landsat, las nubes pueden ser enmascaradas usando el "
+"enfoque descrito en el siguiente artículo `this paper "
+"<http://www.planning4adaptation.eu/Docs/papers/08_NWP-"
+"DoM_for_LCC_in_Dar_using_Landsat_Imagery.pdf>`_."
 
 #: ../../faq.rst:105
 msgid ""
 "Also, see the following `video-tutorial <https://youtu.be/acxmIrM-"
 "Qns?t=37m08s>`_."
 msgstr ""
+"También puede ver el siguiente `video-tutorial <https://youtu.be/acxmIrM-"
+"Qns?t=37m08s>`_."
 
 #: ../../faq.rst:110
 msgid "How do I create a virtual raster manually in QGIS?"
-msgstr ""
+msgstr "¿Cómo puedo crear manualmente un ráster virtual en QGIS?"
 
 #: ../../faq.rst:112
 msgid "In order to create a multi-spectral virtual raster in QGIS:"
-msgstr ""
+msgstr "Para crear manualmente un ráster virtual multi-espectral en QGIS:"
 
 #: ../../faq.rst:114
 msgid ""
 "from the menu ``Raster`` select ``Miscellaneous > Build Virtual Raster "
 "(catalog)``;"
 msgstr ""
+"desde el menú \"Ráster\" selecciona \"Miscelánea > Construir ráster virtual "
+"(catálogo)\";"
 
 #: ../../faq.rst:115
 msgid ""
 "click the button ``Select...`` and select all the Landsat bands (in "
 "numerical order);"
 msgstr ""
+"click sobre el botón \"Seleccionar...\" y elegir las bandas Landsat (en "
+"orden numérico);"
 
 #: ../../faq.rst:116
 msgid ""
 "select the output file (for instance ``rgb.vrt``); check ``Separate`` (bands"
 " will be separated) and click ``OK``."
 msgstr ""
+"seleccionar Archivo de salida (por ejemplo \"rgb.vrt\"); marque \"Separar\" "
+"(las bandas serán separadas) y de click sobre \"Aceptar\"."
 
 #: ../../faq.rst:121
 msgid ""
@@ -306,6 +367,8 @@ msgstr ""
 msgid ""
 "Why using only Landsat 8 band 10 in the estimation of surface temperature?"
 msgstr ""
+"¿Por qué solo usar la banda 10 del Landsat 8 en la estimación de la "
+"temperatura de la superficie?"
 
 #: ../../faq.rst:174
 msgid ""
@@ -337,43 +400,52 @@ msgstr ""
 
 #: ../../faq.rst:193
 msgid "Errors"
-msgstr ""
+msgstr "Errores"
 
 #: ../../faq.rst:198
 msgid "How can I report an error?"
-msgstr ""
+msgstr "¿Cómo puedo reportar un error?"
 
 #: ../../faq.rst:200
 msgid ""
 "If you found an error of the Semi-Automatic Classification Plugin please "
 "follow these steps in order to collect the required information (log file):"
 msgstr ""
+"Si encuentra un error con el Semi-Automatic Classification Plugin por favor "
+"siga estos pasos para obtener la información necesaria (archivo log):"
 
 #: ../../faq.rst:202
 msgid "close QGIS if already open;"
-msgstr ""
+msgstr "cierre QGIS si está abierto;"
 
 #: ../../faq.rst:203
 msgid ""
 "open QGIS, open the Plugin tab :ref:`settings_debug_tab` and check the "
 "checkbox ``Records events in a log file`` ;"
 msgstr ""
+"inicie QGIS, abra la ventana principal de SCP, en la pestaña Setting abra la"
+" opción Log file :ref:`settings_debug_tab`; marque la casilla ``Records "
+"events in a log file`` ;"
 
 #: ../../faq.rst:208
 msgid ":guilabel:`Debug`"
-msgstr ""
+msgstr ":guilabel:`Debug`"
 
 #: ../../faq.rst:210
 msgid ""
 "click the button ``Test dependencies`` in the tab :ref:`settings_debug_tab` "
 ";"
 msgstr ""
+"click en el botón ``Test dependencies`` en la pestaña "
+":ref:`settings_debug_tab` ;"
 
 #: ../../faq.rst:211
 msgid ""
 "load the data in QGIS (or open a previously saved QGIS project) and repeat "
 "all the steps that cause the error in the Plugin;"
 msgstr ""
+"cargue los datos en QGIS (o abra un proyecto de QGIS grabado con "
+"anterioridad) y repita los pasos que causaron el error en el Complemento;"
 
 #: ../../faq.rst:212
 msgid ""
@@ -382,16 +454,22 @@ msgid ""
 "<https://docs.google.com/uc?id=0BysUrKXWIDwBc1llME4yRmpjMGc&export=download>`_"
 " ;"
 msgstr ""
+"si el problema pudiera estar relacionado con los datos de la imagen, por "
+"favor use `este conjunto de datos "
+"<https://docs.google.com/uc?id=0BysUrKXWIDwBc1llME4yRmpjMGc&export=download>`_"
+" ;"
 
 #: ../../faq.rst:213
 msgid ""
 "if an error message appears (like the one in the following image), copy the "
 "whole content of the message in a text file;"
 msgstr ""
+"si un mensaje de error aprarece (como el de la siguiente imagen), copie todo"
+" el contenido del mensage en un archivo de texto;"
 
 #: ../../faq.rst:218
 msgid ":guilabel:`Error message`"
-msgstr ""
+msgstr ":guilabel:`Error message`"
 
 #: ../../faq.rst:220
 msgid ""
@@ -400,10 +478,14 @@ msgid ""
 "the **log file** (which is a text file containing information about the "
 "Plugin processes);"
 msgstr ""
+"abra la pestaña :ref:`settings_debug_tab` y desmarque la casilla ``Records "
+"events in a log file``, luego de click en el botón ``Export Log file`` y "
+"grabe el **log file** (que es un archivo de texto conteniendo información "
+"sobre los procesos del Complemento);"
 
 #: ../../faq.rst:221
 msgid "open the **log file** and copy the whole content of the file;"
-msgstr ""
+msgstr "abra el **log file** y copie todo el contenido del archivo;"
 
 #: ../../faq.rst:222
 msgid ""
@@ -413,6 +495,12 @@ msgid ""
 "create a new post and copy the error message and the **log file** (or attach"
 " them)."
 msgstr ""
+"únase en Facebook al `group "
+"<https://www.facebook.com/groups/661271663969035/>`_ o a la comunidad de "
+"Google+ `community "
+"<https://plus.google.com/communities/107833394986612468374>`_ , inicie un "
+"nuevo comentario y copie el mensaje de error del **log file** (o suba el "
+"archivo). "
 
 #: ../../faq.rst:227
 msgid "Virtual raster creation issues. Why?"
@@ -427,16 +515,24 @@ msgid ""
 " to ``new_directory``). If you still get the same error you can create a "
 "virtual raster manually."
 msgstr ""
+"La creación atomática de un ráster virtual después de la conversión a "
+"reflectancia de una imagen Landsat, no es requerida para la clasificación. "
+"Pueden ocurrir errores si la ruta de destino contiene caracteres especiales "
+"(como letras acentuadas) o espacios; intente renombrar directorios (Ej. "
+"renombre \"new directory\" por \"new_directory\"). Si continúa teniendo el "
+"mismo error puede crear un ráster virtual manualmente."
 
 #: ../../faq.rst:235
 msgid "Error [26] 'The version of Numpy is outdated'. Why?"
-msgstr ""
+msgstr "Error [26] 'La versión de Numpy está desactualizada'. ¿Por qué?"
 
 #: ../../faq.rst:237
 msgid ""
 "QGIS 32bit could have an older version of Numpy as default; in order to "
 "update Numpy:"
 msgstr ""
+"QGIS 32bit podría tener una versión antigua de Numpy por defecto; para "
+"actualizar Numpy:"
 
 #: ../../faq.rst:240
 msgid ""
@@ -447,10 +543,16 @@ msgid ""
 "/WinPython-32bit-2.7.6.4.exe/download>`_ and `PyParsing "
 "<https://pypi.python.org/packages/source/p/pyparsing/pyparsing-1.5.7.zip>`_);"
 msgstr ""
+"descargue `este archivo "
+"<https://docs.google.com/uc?id=0BysUrKXWIDwBUmZaRGpXOF9nQ2M&export=download>`_"
+" (que se basa en `WinPython installer "
+"<http://sourceforge.net/projects/winpython/files/WinPython_2.7/2.7.6.4"
+"/WinPython-32bit-2.7.6.4.exe/download>`_ y `PyParsing "
+"<https://pypi.python.org/packages/source/p/pyparsing/pyparsing-1.5.7.zip>`_);"
 
 #: ../../faq.rst:241
 msgid "extract the file with `7-zip <http://www.7-zip.org/>`_;"
-msgstr ""
+msgstr "descomprima el archivo con `7-zip <http://www.7-zip.org/>`_;"
 
 #: ../../faq.rst:242
 msgid ""
@@ -460,6 +562,11 @@ msgid ""
 "\\site-packages``) overwriting the files ``pyparsing``, ``numpy``, "
 "``matplotlib``, and ``scipy``."
 msgstr ""
+"copie el contenido del directorio extraído dentro del directorio "
+"``apps\\Python27\\Lib\\site-packages`` dentro del directorio de instalación "
+"de QGIS (Ej. ``C:\\Program Files (x86)\\QGIS Chugiak\\apps\\Python27\\Lib"
+"\\site-packages``) overwriting the files ``pyparsing``, ``numpy``, "
+"``matplotlib``, and ``scipy``."
 
 #: ../../faq.rst:244
 msgid ""
@@ -467,10 +574,13 @@ msgid ""
 "`OSGEO4W advanced installer <http://download.osgeo.org/osgeo4w/osgeo4w-"
 "setup-x86.exe>`_."
 msgstr ""
+"Alternativamente debería poder instalar QGIS y Numpy con el `Instalador "
+"avanzado OSGEO4W <http://download.osgeo.org/osgeo4w/osgeo4w-"
+"setup-x86.exe>`_."
 
 #: ../../faq.rst:249
 msgid "Error 'Plugin is damaged. Python said: ascii'. Why?"
-msgstr ""
+msgstr "Error 'Plugin is damaged. Python said: ascii'. ¿Por qué?"
 
 #: ../../faq.rst:251
 msgid ""
@@ -479,6 +589,10 @@ msgid ""
 ".qgis2 in your user directory. Then run QGIS 2 and try to install the plugin"
 " following the :ref:`installation` guide."
 msgstr ""
+"Puede estar relacionado con una instalación errónea. Por favor desinstale "
+"QGIS e instálelo de nuevo con privilegios de administrador. Borre también el"
+" directorio .qgis2 en su directorio de usuario. Después arranque QGIS e "
+"intente instalar el complemento siguiendo la guía :ref:`installation`."
 
 #: ../../faq.rst:256
 msgid ""
@@ -486,14 +600,17 @@ msgid ""
 "Please try the installation creating a new user without special characters "
 "(e.g. ``user``)."
 msgstr ""
+"También puede estar relacionado al nombre de usuario que contiene caracteres"
+" especiales. Por favor intente la instalación creando un nuevo usuario sin "
+"caracteres especiales (Ej. \"usuario\")."
 
 #: ../../faq.rst:260
 msgid "Also, if the error message contains something like:"
-msgstr ""
+msgstr "Además, si el mensaje de error contiene algo como:"
 
 #: ../../faq.rst:260 ../../faq.rst:266
 msgid "``sfnt4 = sfnt4.decode('ascii').lower()``"
-msgstr ""
+msgstr "``sfnt4 = sfnt4.decode('ascii').lower()``"
 
 #: ../../faq.rst:262
 msgid ""
@@ -502,6 +619,10 @@ msgid ""
 "<http://stackoverflow.com/questions/18689854/enthought-matplotlib-problems-"
 "with-plot-function>`_):"
 msgstr ""
+"Puede estar relacionado con un problema conocido de Matplotlib (una librería"
+" de Python); para solucionar esto, puede (reportardo a `stackoverflow "
+"<http://stackoverflow.com/questions/18689854/enthought-matplotlib-problems-"
+"with-plot-function>`_):"
 
 #: ../../faq.rst:264
 msgid ""
@@ -509,18 +630,22 @@ msgid ""
 " ``C:\\PROGRA~1\\QGISCH~1\\apps\\Python27\\lib\\site-"
 "packages\\matplotlib\\``"
 msgstr ""
+"abrir en un editor de texto el archivo font_manager.py que está dentro del "
+"directorio ``C:\\PROGRA~1\\QGISCH~1\\apps\\Python27\\lib\\site-"
+"packages\\matplotlib\\``. La ruta puede cambiar según la versión del sistema"
+" operativo y de QGIS."
 
 #: ../../faq.rst:265
 msgid "search for the line"
-msgstr ""
+msgstr "busque por la línea"
 
 #: ../../faq.rst:268
 msgid "and replace it with the line"
-msgstr ""
+msgstr "y reemplace por la línea"
 
 #: ../../faq.rst:268
 msgid "``sfnt4 = sfnt4.decode('ascii', 'ignore').lower()``"
-msgstr ""
+msgstr "``sfnt4 = sfnt4.decode('ascii', 'ignore').lower()``"
 
 #: ../../faq.rst:270
 msgid ""
@@ -528,6 +653,9 @@ msgid ""
 "<http://trac.osgeo.org/osgeo4w/>`_, which includes an updated Matplotlib "
 "version."
 msgstr ""
+"Alternativamente, intente instalar QGIS a través de el `instalador OSGEO4W "
+"<http://trac.osgeo.org/osgeo4w/>`_, el cual incluye una versión actualizada "
+"de Matplotlib."
 
 #: ../../faq.rst:275
 msgid ""
@@ -735,23 +863,30 @@ msgstr ""
 #: ../../faq.rst:379
 msgid "The following links are remote sensing and Landsat images:"
 msgstr ""
+"Los siguientes enlaces son sobre teledetección e imágenes Landsat, en "
+"inglés:"
 
 #: ../../faq.rst:381
 msgid ""
 "`The Landsat 8 Data Users Handbook by USGS "
 "<http://landsat.usgs.gov/documents/Landsat8DataUsersHandbook.pdf>`_;"
 msgstr ""
+"`The Landsat 8 Data Users Handbook by USGS "
+"<http://landsat.usgs.gov/documents/Landsat8DataUsersHandbook.pdf>`_;"
 
 #: ../../faq.rst:382
 msgid ""
 "`The Landsat 7 Science Data Users Handbook by NASA "
 "<http://landsathandbook.gsfc.nasa.gov/pdfs/Landsat7_Handbook.pdf>`_;"
 msgstr ""
+"`The Landsat 7 Science Data Users Handbook by NASA "
+"<http://landsathandbook.gsfc.nasa.gov/pdfs/Landsat7_Handbook.pdf>`_;"
 
 #: ../../faq.rst:383
 msgid ""
 "`Remote Sensing Note by JARS <http://www.jars1974.net/pdf/rsnote_e.html>`_."
 msgstr ""
+"`Remote Sensing Note by JARS <http://www.jars1974.net/pdf/rsnote_e.html>`_."
 
 #: ../../faq.rst:384
 msgid ""
@@ -803,12 +938,19 @@ msgid ""
 "classification-plugin-exemple-de-lincendie-de-fin-mars-2015-en-ukraine-a"
 "-proximite-de-la/>`_;"
 msgstr ""
+"`Francés: Suivre l’impact des feux de forêts par imagerie satellite avec le "
+"plugin Qgis SCP <http://blog.martzluff.net/suivre-limpact-des-feux-de-"
+"forets-par-imagerie-satellite-avec-le-plugin-qgis-scp-semi-automatic-"
+"classification-plugin-exemple-de-lincendie-de-fin-mars-2015-en-ukraine-a"
+"-proximite-de-la/>`_;"
 
 #: ../../faq.rst:399
 msgid ""
 "`German: 2015 Jakob Erfassung von Landnutzungsveränderungen mit FOSS Image "
 "Processing Tools <https://www.youtube.com/watch?v=vIsHFvLS5_Q>`_;"
 msgstr ""
+"`Alemán: 2015 Jakob Erfassung von Landnutzungsveränderungen mit FOSS Image "
+"Processing Tools <https://www.youtube.com/watch?v=vIsHFvLS5_Q>`_;"
 
 #: ../../faq.rst:400
 msgid ""
@@ -816,12 +958,17 @@ msgid ""
 "<http://fromgistors.blogspot.com/2015/09/tutorial-classificazione-mosaico-"
 "landsat.html>`_;"
 msgstr ""
+"`Italiano: Classificazione e Mosaico di Varie Immagini Landsat "
+"<http://fromgistors.blogspot.com/2015/09/tutorial-classificazione-mosaico-"
+"landsat.html>`_;"
 
 #: ../../faq.rst:401
 msgid ""
 "`Korean: QGIS Semi-Automatic Classification Plugin "
 "<http://blog.daum.net/geoscience/715>`_;"
 msgstr ""
+"`Coreano: QGIS Semi-Automatic Classification Plugin "
+"<http://blog.daum.net/geoscience/715>`_;"
 
 #: ../../faq.rst:402
 msgid ""
@@ -829,24 +976,33 @@ msgid ""
 "Automatic Classification Plugin <http://qgisbrasil.org/blog/wp-"
 "content/uploads/2015/08/tutorial_scp_01.pdf>`_;"
 msgstr ""
+"`Portugués: Classificação Supervisionada de Imagens Orbitais com o Semi-"
+"Automatic Classification Plugin <http://qgisbrasil.org/blog/wp-"
+"content/uploads/2015/08/tutorial_scp_01.pdf>`_;"
 
 #: ../../faq.rst:403
 msgid ""
 "`Portuguese: Tutorial Classificação e caracterização de imagens de satélites"
 " <https://www.youtube.com/watch?v=Wab1UVmVl0k>`_;"
 msgstr ""
+"`Portugués: Tutorial Classificação e caracterização de imagens de satélites "
+"<https://www.youtube.com/watch?v=Wab1UVmVl0k>`_;"
 
 #: ../../faq.rst:404
 msgid ""
 "`Portuguese: Aprendizagem Supervisionada usando o SCP no QGIS "
 "<https://www.youtube.com/watch?v=FDYQrDb4qYY>`_;"
 msgstr ""
+"`Portugués: Aprendizagem Supervisionada usando o SCP no QGIS "
+"<https://www.youtube.com/watch?v=FDYQrDb4qYY>`_;"
 
 #: ../../faq.rst:405
 msgid ""
 "`Portuguese: Classificação supervisionada utilizando o QGIS e SCP "
 "<https://www.youtube.com/watch?v=TOMfdalS_U4>`_;"
 msgstr ""
+"`Portugués: Classificação supervisionada utilizando o QGIS e SCP "
+"<https://www.youtube.com/watch?v=TOMfdalS_U4>`_;"
 
 #: ../../faq.rst:406
 msgid ""
@@ -861,6 +1017,9 @@ msgid ""
 "<https://sernanpqgis.wordpress.com/2015/09/25/ejercicio-clasificacion-"
 "semiautomatica-plugin-scp/>`_;"
 msgstr ""
+"`Español: Ejercicio Clasificación Semiautomática Plugin (SCP) "
+"<https://sernanpqgis.wordpress.com/2015/09/25/ejercicio-clasificacion-"
+"semiautomatica-plugin-scp/>`_;"
 
 #: ../../faq.rst:408
 msgid ""
@@ -868,6 +1027,9 @@ msgid ""
 "Automatic Classification <http://carbajallosa.blogspot.it/2015/04"
 "/aplicaciones-de-teledeteccion-con-el.html>`_;"
 msgstr ""
+"`Español: Aplicaciones de Teledetección con el QGIS y el plugin Semi-"
+"Automatic Classification <http://carbajallosa.blogspot.it/2015/04"
+"/aplicaciones-de-teledeteccion-con-el.html>`_;"
 
 #: ../../faq.rst:409
 msgid ""
@@ -876,6 +1038,10 @@ msgid ""
 "<http://sistemasdeinformaciongeografica911.blogspot.mx/2015/04/descarga-de-"
 "landsat-5-7-y-8-qgis-semi.html>`_;"
 msgstr ""
+"`Español: Descarga de Landsat 8, 7, 5 y 4 Semi Automatic Classification "
+"Plugin Qgis 2.8 "
+"<http://sistemasdeinformaciongeografica911.blogspot.mx/2015/04/descarga-de-"
+"landsat-5-7-y-8-qgis-semi.html>`_;"
 
 #: ../../faq.rst:410
 msgid ""
@@ -883,16 +1049,21 @@ msgid ""
 "<https://geosupportsystem.wordpress.com/2015/04/02/landsat-8-och-"
 "fjarranalys-med-qgis/>`_;"
 msgstr ""
+"`Sueco: Landsat 8 och fjärranalys med QGIS "
+"<https://geosupportsystem.wordpress.com/2015/04/02/landsat-8-och-"
+"fjarranalys-med-qgis/>`_;"
 
 #: ../../faq.rst:411
 msgid ""
 "`Ukrainian: Посібник користувача модуля Напівавтоматичної класифікації "
 "<http://semiautomaticclassificationmanual.readthedocs.org/uk_UA/latest/>`_;"
 msgstr ""
+"`Ucraniano: Посібник користувача модуля Напівавтоматичної класифікації "
+"<http://semiautomaticclassificationmanual.readthedocs.org/uk_UA/latest/>`_;"
 
 #: ../../faq.rst:417
 msgid "How can I translate this user manual to another language?"
-msgstr ""
+msgstr "¿Cómo puedo traducir el manual del usuario a otro lenguaje?"
 
 #: ../../faq.rst:419
 msgid ""
@@ -902,38 +1073,49 @@ msgid ""
 "manual to your language. The following guide illustrates the main steps for "
 "the translation, which can be performed:"
 msgstr ""
+"Es posible traducir fácilmente el Manual del Usuario a cualquier idioma, "
+"debido a que está escrito en lenguaje reestructurado de marcas (usando "
+"Sphinx). Sin embargo su contribución es fundamental para la traducción del "
+"manual a su lenguaje. Las siguientes guías ilustran los pasos principales "
+"para la traducción. La cual puede efectuarse:"
 
 #: ../../faq.rst:423
 msgid "using the free online service Transifex;"
-msgstr ""
+msgstr "usando el servicio en línea gratuito Transifex;"
 
 #: ../../faq.rst:424
 msgid "using the gettext .po files."
-msgstr ""
+msgstr "usando los archivos gettext.po."
 
 #: ../../faq.rst:426
 msgid "**Method 1. Translation using the free online service Transifex**"
 msgstr ""
+"**Método 1. Traducción usando el servicio en línea gratito Transifex**"
 
 #: ../../faq.rst:428
 msgid ""
 "This is probably the easiest way to translate the manual using an online "
 "service."
 msgstr ""
+"Esta probablemente es la forma más fácil de traducir el manual usando un "
+"servicio en línea."
 
 #: ../../faq.rst:430
 msgid "Transifex free registration"
-msgstr ""
+msgstr "Transifex registro gratis"
 
 #: ../../faq.rst:432
 msgid ""
 "Go to the Transifex login page (https://www.transifex.com/signin/). You can "
 "sign in using your Google or Facebook account, or with a free registration."
 msgstr ""
+"Vaya a la página de acceso de Transfex (https://www.transifex.com/signin/). "
+"Puede acceder usando su cuenta de Google o Facebook, o mediante el registro "
+"gratuito."
 
 #: ../../faq.rst:435
 msgid "Join the Semi-automatic Classification Manual project"
-msgstr ""
+msgstr "unase al proyecto del Manual de Semi-automatic Classification"
 
 #: ../../faq.rst:437
 msgid ""
@@ -942,10 +1124,14 @@ msgid ""
 "the button Join team. If your language is not listed, click the button "
 "Request language."
 msgstr ""
+"Vaya a la página https://www.transifex.com/semi-automatic-classification"
+"/semi-automatic-classification-plugin-4-manual/ . Selecciones su lenguaje y "
+"de click en el botón Join team. Si su lenguaje no aparecelistado, click "
+"sobre el botón Request Language."
 
 #: ../../faq.rst:440
 msgid "Translation"
-msgstr ""
+msgstr "Traducción"
 
 #: ../../faq.rst:442
 msgid ""
@@ -958,17 +1144,19 @@ msgstr ""
 
 #: ../../faq.rst:446
 msgid "**Method 2. Translation using the gettext .po files**"
-msgstr ""
+msgstr "**Método 2. Traducir usando los archivos gettext.po**"
 
 #: ../../faq.rst:448
 msgid ""
 "In order to use this method, you should be familiar with GitHub. This "
 "translation method allows for the translation of the PO files locally."
 msgstr ""
+"Para elegir usar este método, debería estar familiarizado con GitHub. Este "
+"método de traducción permite la traducción de los archivos PO en modo local."
 
 #: ../../faq.rst:450
 msgid "Download the translation files"
-msgstr ""
+msgstr "Descargar los archivos de traducción"
 
 #: ../../faq.rst:452
 msgid ""
@@ -978,10 +1166,16 @@ msgid ""
 "it is not listed), or you can fork the repository. Every file .po is a text "
 "file that refers to a section of the User Manual."
 msgstr ""
+"Vaya al proyecto GitHub "
+"https://github.com/semiautomaticgit/SemiAutomaticClassificationManual_v4/tree/master/locale"
+" y descargue los archivos .po para su lenguaje (usted puede añadir su "
+"lenguaje si no está listado), o puede bifurcar el repositorio. Cada archivo "
+".po es un archivo de texto que se refiere a una sección del Manual del "
+"Usuario."
 
 #: ../../faq.rst:455
 msgid "Edit the translation files"
-msgstr ""
+msgstr "Editar los archivos de traducción"
 
 #: ../../faq.rst:457
 msgid ""
@@ -993,6 +1187,12 @@ msgid ""
 "Windows, Linux and Mac OS X. These editors allow for an easy translation of "
 "every sentence in the User Manual."
 msgstr ""
+"Ahora puede editar los archivos .po. Es conveniente editar estos archivos "
+"usando uno de los siguientes programas: por ejemplo `Poedit "
+"<http://www.poedit.net/>`_ para Windows y Mac OS X, o `Gtranslator "
+"<https://wiki.gnome.org/Apps/Gtranslator>`_ para Linux o `OmegaT "
+"<http://www.omegat.org/en/download_selector/ui.php>`_ (badado en Java) para "
+"Windows, Linux y Mac OS X."
 
 #: ../../faq.rst:463
 msgid "Where is the source code of SCP?"

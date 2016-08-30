@@ -1,19 +1,23 @@
-# 
+# Translators:
+# Geovano Pedro Hoffmann <hoffmange@hotmail.com>, 2016
+# Kuriakin Humberto Toscan <kuriakin.toscan@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-30 08:47+0200\n"
+"POT-Creation-Date: 2016-08-29 15:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Kuriakin Humberto Toscan <kuriakin.toscan@gmail.com>, 2016\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/semi-automatic-classification/teams/53374/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../main_interface_window.rst:5
 msgid "Main Interface Window"
-msgstr ""
+msgstr "Interface Principal do Windows"
 
 #: ../../main_interface_window.rst:220
 msgid ""
@@ -188,7 +192,7 @@ msgstr ""
 #: ../../main_interface_window.rst:300 ../../main_interface_window.rst:423
 #: ../../main_interface_window.rst:541
 msgid "Search"
-msgstr ""
+msgstr "Pesquisar"
 
 #: ../../main_interface_window.rst:302
 msgid ""
@@ -245,7 +249,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:316
 msgid "Landsat images"
-msgstr ""
+msgstr "Imagens Landsat"
 
 #: ../../main_interface_window.rst:330 ../../main_interface_window.rst:453
 #: ../../main_interface_window.rst:571
@@ -325,15 +329,15 @@ msgstr ""
 
 #: ../../main_interface_window.rst:339 ../../main_interface_window.rst:463
 msgid "Download options"
-msgstr ""
+msgstr "Opções de download"
 
 #: ../../main_interface_window.rst:345 ../../main_interface_window.rst:469
 msgid ":guilabel:`Download options`"
-msgstr ""
+msgstr ":guilabel:`Opções de download`"
 
 #: ../../main_interface_window.rst:347
 msgid "**Landsat 8 bands**"
-msgstr ""
+msgstr "**Bandas do Landsat 8**"
 
 #: ../../main_interface_window.rst:349
 msgid ""
@@ -352,7 +356,7 @@ msgstr ""
 #: ../../main_interface_window.rst:357 ../../main_interface_window.rst:479
 #: ../../main_interface_window.rst:580
 msgid "Download"
-msgstr ""
+msgstr "Baixar"
 
 #: ../../main_interface_window.rst:359
 msgid ""
@@ -460,7 +464,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:408
 msgid "Area coordinates"
-msgstr ""
+msgstr "Coordenadas da área"
 
 #: ../../main_interface_window.rst:410
 msgid ""
@@ -475,6 +479,8 @@ msgid ""
 "Define search settings such as the date of acquisition or search for "
 "specific Sentinel images using the Image ID or name."
 msgstr ""
+"Define as configurações de pesquisa, tal como a data de aquisição ou a busca"
+" por imagens específicas Sentinel usando a ID da Imagem ou o nome."
 
 #: ../../main_interface_window.rst:430
 msgid ""
@@ -492,7 +498,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:438
 msgid "Sentinel images"
-msgstr ""
+msgstr "Imagens Sentinel"
 
 #: ../../main_interface_window.rst:441
 msgid ":guilabel:`ImageName`: the Sentinel Image Name;"
@@ -692,7 +698,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:595
 msgid "Tools"
-msgstr ""
+msgstr "Ferramentas"
 
 #: ../../main_interface_window.rst:597
 msgid ""
@@ -702,7 +708,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:602
 msgid "Multiple ROI Creation"
-msgstr ""
+msgstr "Criação múltipla de ROI"
 
 #: ../../main_interface_window.rst:608
 msgid "|roi_multiple| :guilabel:`Multiple ROI Creation`"
@@ -751,7 +757,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:627
 msgid "Point coordinates and ROI definition"
-msgstr ""
+msgstr "Coordenadas do ponto e definição da ROI"
 
 #: ../../main_interface_window.rst:639
 msgid ""
@@ -1016,7 +1022,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:739
 msgid "Algorithm band weight"
-msgstr ""
+msgstr "Algoritmo de peso da banda"
 
 #: ../../main_interface_window.rst:745
 msgid "|weight_tool| :guilabel:`Algorithm band weight`"
@@ -1033,7 +1039,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:753
 msgid "Band weight"
-msgstr ""
+msgstr "Peso da banda"
 
 #: ../../main_interface_window.rst:758
 msgid ""
@@ -1070,7 +1076,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:771 ../../main_interface_window.rst:794
 msgid "Signature threshold"
-msgstr ""
+msgstr "Limiar de assinatura"
 
 #: ../../main_interface_window.rst:777
 msgid "|threshold_tool| :guilabel:`Signature threshold`"
@@ -1096,18 +1102,24 @@ msgid ""
 "for Minimum Distance, pixels are unclassified if distance is greater than "
 "threshold value;"
 msgstr ""
+"para Distância Mínima, pixels são não classificada se a distância for "
+"superior ao valor limiar;"
 
 #: ../../main_interface_window.rst:788
 msgid ""
 "for Maximum Likelihood, pixels are unclassified if probability is less than "
 "threshold  value (max 100);"
 msgstr ""
+"para máxima verossimilhança, são pixels não classificados, se a "
+"probabilidade é menor do que o valor limiar (max 100);"
 
 #: ../../main_interface_window.rst:789
 msgid ""
 "for Spectral Angle Mapping, pixels are unclassified if spectral angle "
 "distance is greater than threshold value (max 90)."
 msgstr ""
+"para o Ângulo Espectral de Mapeamento, os pixels não são classificados se a "
+"distância é maior do que o valor do limiar (máx 90)."
 
 #: ../../main_interface_window.rst:803
 msgid ""
@@ -1360,7 +1372,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:911
 msgid "Landsat"
-msgstr ""
+msgstr "Landsat"
 
 #: ../../main_interface_window.rst:917
 msgid "|landsat_tool| :guilabel:`Landsat`"
@@ -1446,7 +1458,7 @@ msgstr ""
 #: ../../main_interface_window.rst:940 ../../main_interface_window.rst:1003
 #: ../../main_interface_window.rst:1052
 msgid "Metadata"
-msgstr ""
+msgstr "Metadados"
 
 #: ../../main_interface_window.rst:942
 msgid ""
@@ -2100,7 +2112,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:1351
 msgid "Reclassification"
-msgstr ""
+msgstr "Reclassificação"
 
 #: ../../main_interface_window.rst:1357
 msgid "|reclassification_tool| :guilabel:`Reclassification`"
@@ -2859,55 +2871,55 @@ msgstr ""
 
 #: ../../main_interface_window.rst:1724
 msgid "GeoEye-1;"
-msgstr ""
+msgstr "GeoEye-1;"
 
 #: ../../main_interface_window.rst:1725
 msgid "Landsat 8 OLI;"
-msgstr ""
+msgstr "Landsat 8 OLI;"
 
 #: ../../main_interface_window.rst:1726
 msgid "Landsat 7 ETM+;"
-msgstr ""
+msgstr "Landsat 7 ETM+;"
 
 #: ../../main_interface_window.rst:1727
 msgid "Landsat 5 TM;"
-msgstr ""
+msgstr "Landsat 5 TM;"
 
 #: ../../main_interface_window.rst:1728
 msgid "Landsat 4 TM;"
-msgstr ""
+msgstr "Landsat 4 TM;"
 
 #: ../../main_interface_window.rst:1729
 msgid "Landsat 1, 2, and 3 MSS;"
-msgstr ""
+msgstr "Landsat 1, 2, e 3 MSS;"
 
 #: ../../main_interface_window.rst:1730
 msgid "Pleiades;"
-msgstr ""
+msgstr "Pleiades;"
 
 #: ../../main_interface_window.rst:1731
 msgid "QuickBird;"
-msgstr ""
+msgstr "QuickBird;"
 
 #: ../../main_interface_window.rst:1732
 msgid "RapidEye;"
-msgstr ""
+msgstr "RapidEye;"
 
 #: ../../main_interface_window.rst:1733
 msgid "Sentinel-2;"
-msgstr ""
+msgstr "Sentinel-2;"
 
 #: ../../main_interface_window.rst:1734
 msgid "SPOT 4;"
-msgstr ""
+msgstr "SPOT 4;"
 
 #: ../../main_interface_window.rst:1735
 msgid "SPOT 5;"
-msgstr ""
+msgstr "SPOT 5;"
 
 #: ../../main_interface_window.rst:1736
 msgid "SPOT 6;"
-msgstr ""
+msgstr "SPOT 6;"
 
 #: ../../main_interface_window.rst:1737
 msgid "WorldView-2 and WorldView-3;"
@@ -3220,7 +3232,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:1840
 msgid "Settings"
-msgstr ""
+msgstr "Configurações"
 
 #: ../../main_interface_window.rst:1842
 msgid ""
@@ -3362,7 +3374,7 @@ msgstr ""
 
 #: ../../main_interface_window.rst:1923
 msgid "Classification process"
-msgstr ""
+msgstr "Processo de classificação"
 
 #: ../../main_interface_window.rst:1925
 msgid ""
