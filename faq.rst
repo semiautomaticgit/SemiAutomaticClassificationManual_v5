@@ -434,8 +434,9 @@ This is probably the easiest way to translate the manual using an online service
 	
 2. Join the Semi-automatic Classification Manual project
 	
-	Go to the page https://www.transifex.com/semi-automatic-classification/semi-automatic-classification-plugin-4-manual/ .
-	Select your language and click the button Join team. If your language is not listed, click the button Request language.
+	Go to the page https://www.transifex.com/semi-automatic-classification/semi-automatic-classification-plugin-manual .
+	Select your language and click the button Join team.
+	If your language is not listed, click the button Request language.
 
 3. Translation
 
