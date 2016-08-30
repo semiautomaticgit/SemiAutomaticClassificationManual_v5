@@ -8,10 +8,10 @@ Semi-Automatic Classification Plugin User Manual
 	:numbered:
   
 	introduction.rst
-	Installation.rst
-	Interface.rst
+	installation.rst
+	interface.rst
 	remote_sensing.rst
-	Tutorials.rst
+	tutorials.rst
 	thematic_tutorials.rst
-	semi-automatic_OS.rst
-	FAQ.rst
+	semi-automatic_os.rst
+	faq.rst
