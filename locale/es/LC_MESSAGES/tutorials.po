@@ -26,6 +26,11 @@ msgid ""
 "interface `at this page "
 "<http://docs.qgis.org/2.14/en/docs/user_manual/introduction/qgis_gui.html>`_)."
 msgstr ""
+"El siguiente es un tutorial bastante básico para la clasificación de la "
+"cobertura terrestre usando Semi-Automatic Classification Plugin "
+"(:guilabel:`SCP`). Se supone que tienes conocimientos básicos de QGIS "
+"(puedes encontrar una guía frla interface de QGIS `en esta página "
+"<http://docs.qgis.org/2.14/en/docs/user_manual/introduction/qgis_gui.html>`_)."
 
 #: ../../tutorials.rst:15
 msgid ""
@@ -43,18 +48,25 @@ msgid ""
 "<http://fromgistors.blogspot.com/2014/10/supervised-classification-of-"
 "hyperspectral.html>`_;"
 msgstr ""
+"`Supervised Classification of Hyperspectral Data "
+"<http://fromgistors.blogspot.com/2014/10/supervised-classification-of-"
+"hyperspectral.html>`_;"
 
 #: ../../tutorials.rst:18
 msgid ""
 "`Monitoring Deforestation <http://fromgistors.blogspot.com/2014/09"
 "/monitoring-changes-in-amazon-rainforest.html>`_;"
 msgstr ""
+"`Monitoring Deforestation <http://fromgistors.blogspot.com/2014/09"
+"/monitoring-changes-in-amazon-rainforest.html>`_;"
 
 #: ../../tutorials.rst:19
 msgid ""
 "`Flood Monitoring <http://fromgistors.blogspot.com/2014/09/flood-monitoring-"
 "tutorial-using-semi.html>`_;"
 msgstr ""
+"`Flood Monitoring <http://fromgistors.blogspot.com/2014/09/flood-monitoring-"
+"tutorial-using-semi.html>`_;"
 
 #: ../../tutorials.rst:20
 msgid ""
@@ -62,6 +74,9 @@ msgid ""
 "<http://fromgistors.blogspot.com/2014/01/estimation-of-land-surface-"
 "temperature.html>`_;"
 msgstr ""
+"`Estimation of Land Surface Temperature with Landsat Thermal Infrared Band "
+"<http://fromgistors.blogspot.com/2014/01/estimation-of-land-surface-"
+"temperature.html>`_;"
 
 #: ../../tutorials.rst:21
 msgid ""
@@ -69,6 +84,9 @@ msgid ""
 "<http://fromgistors.blogspot.com/2014/01/land-cover-classification-of-"
 "cropland.html>`_."
 msgstr ""
+"`Land Cover Classification of Cropland "
+"<http://fromgistors.blogspot.com/2014/01/land-cover-classification-of-"
+"cropland.html>`_."
 
 #: ../../tutorials.rst:23
 msgid ""

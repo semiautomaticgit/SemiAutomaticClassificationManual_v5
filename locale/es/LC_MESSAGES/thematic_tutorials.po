@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-29 15:42+0200\n"
+"POT-Creation-Date: 2016-08-30 08:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Igor F. Davalos Rojas <idavalosr@gmail.com>, 2016\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
@@ -16,13 +16,15 @@ msgstr ""
 
 #: ../../thematic_tutorials.rst:5
 msgid "Thematic Tutorials"
-msgstr ""
+msgstr "Tutoriales Temáticos"
 
 #: ../../thematic_tutorials.rst:11
 msgid ""
 "The following are thematic tutorials. Before these tutorials, it is "
 "recommended to read the :ref:`tutorials`."
 msgstr ""
+"Los siguientes son tutoriales temáticos. Antes de seguirlos, es recomendable"
+" seguir los :ref:`tutorials`."
 
 #: ../../thematic_tutorials.rst:15
 msgid ""
@@ -40,18 +42,25 @@ msgid ""
 "<http://fromgistors.blogspot.com/2014/10/supervised-classification-of-"
 "hyperspectral.html>`_;"
 msgstr ""
+"`Supervised Classification of Hyperspectral Data "
+"<http://fromgistors.blogspot.com/2014/10/supervised-classification-of-"
+"hyperspectral.html>`_;"
 
 #: ../../thematic_tutorials.rst:18
 msgid ""
 "`Monitoring Deforestation <http://fromgistors.blogspot.com/2014/09"
 "/monitoring-changes-in-amazon-rainforest.html>`_;"
 msgstr ""
+"`Monitoring Deforestation <http://fromgistors.blogspot.com/2014/09"
+"/monitoring-changes-in-amazon-rainforest.html>`_;"
 
 #: ../../thematic_tutorials.rst:19
 msgid ""
 "`Flood Monitoring <http://fromgistors.blogspot.com/2014/09/flood-monitoring-"
 "tutorial-using-semi.html>`_;"
 msgstr ""
+"`Flood Monitoring <http://fromgistors.blogspot.com/2014/09/flood-monitoring-"
+"tutorial-using-semi.html>`_;"
 
 #: ../../thematic_tutorials.rst:20
 msgid ""
@@ -59,6 +68,9 @@ msgid ""
 "<http://fromgistors.blogspot.com/2014/01/estimation-of-land-surface-"
 "temperature.html>`_;"
 msgstr ""
+"`Estimation of Land Surface Temperature with Landsat Thermal Infrared Band "
+"<http://fromgistors.blogspot.com/2014/01/estimation-of-land-surface-"
+"temperature.html>`_;"
 
 #: ../../thematic_tutorials.rst:21
 msgid ""
@@ -66,6 +78,9 @@ msgid ""
 "<http://fromgistors.blogspot.com/2014/01/land-cover-classification-of-"
 "cropland.html>`_."
 msgstr ""
+"`Land Cover Classification of Cropland "
+"<http://fromgistors.blogspot.com/2014/01/land-cover-classification-of-"
+"cropland.html>`_."
 
 #: ../../thematic_tutorials.rst:23
 msgid ""

@@ -16,4 +16,4 @@ msgstr ""
 
 #: ../../interface.rst:5
 msgid "The Interface of SCP"
-msgstr "La Interface de SCP"
+msgstr "La Interfaz de SCP"
