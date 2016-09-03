@@ -1,6 +1,6 @@
 .. Semi-Automatic Classification Plugin documentation master file
 
-Semi-Automatic Classification Plugin User Manual
+Semi-Automatic Classification Plugin Documentation
 ================================================================
 
 .. toctree::

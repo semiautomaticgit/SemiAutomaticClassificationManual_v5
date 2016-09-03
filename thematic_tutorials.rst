@@ -10,7 +10,6 @@ Thematic Tutorials
 
 The following are thematic tutorials.
 Before these tutorials, it is recommended to read the :ref:`tutorials`.
-
 	
 Also, visit the blog `From GIS to Remote Sensing <http://fromgistors.blogspot.com/search/label/Tutorial>`_ for other tutorials such as:
 
