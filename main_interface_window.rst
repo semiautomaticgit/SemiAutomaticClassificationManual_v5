@@ -515,6 +515,8 @@ Login https://urs.earthdata.nasa.gov
 `EOSDIS Earthdata` credentials (https://urs.earthdata.nasa.gov ) are required for download.
 Login using your `EOSDIS Earthdata` credentials or register for free at https://urs.earthdata.nasa.gov/users/new .
 	
+	**Warning**: Before downloading ASTER images, you must approve LP DAAC Data Pool clicking the following https://urs.earthdata.nasa.gov/approve_app?client_id=ijpRZvb9qeKCK5ctsn75Tg
+	
 * :guilabel:`User` |input_text| |registry_save|: enter the user name;
 * :guilabel:`Password` |input_text| |registry_save|: enter the password;
 * |checkbox| :guilabel:`remember`: remember user name and password in QGIS;

@@ -15,6 +15,7 @@ It is assumed that you have a basic knowledge of QGIS (you can find a guide to Q
 	:maxdepth: 1
 	
 	tutorial_1.rst
+	tutorial_2.rst
 	
 Also, visit the blog `From GIS to Remote Sensing <http://fromgistors.blogspot.com/search/label/Tutorial>`_ for other tutorials such as:
 
