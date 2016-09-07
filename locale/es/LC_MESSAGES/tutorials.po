@@ -29,7 +29,7 @@ msgstr ""
 "El siguiente es un tutorial bastante básico para la clasificación de la "
 "cobertura terrestre usando Semi-Automatic Classification Plugin "
 "(:guilabel:`SCP`). Se supone que tienes conocimientos básicos de QGIS "
-"(puedes encontrar una guía frla interface de QGIS `en esta página "
+"(puedes encontrar una guía de la interfaz de QGIS `en esta página "
 "<http://docs.qgis.org/2.14/en/docs/user_manual/introduction/qgis_gui.html>`_)."
 
 #: ../../tutorials.rst:19

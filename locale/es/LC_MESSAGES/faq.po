@@ -85,8 +85,8 @@ msgid ""
 "``SemiAutomaticClassificationPlugin`` if present;"
 msgstr ""
 "abre el directorio \"plugins\" (en Windows normalmente "
-"\"C:\\Users\\usuario\\.qgis2\\python\\plugins\", en Linux y Mac normalmente "
-"\"/home/usuario/.qgis2/python/plugins/\") borra el directorio "
+"``C:\\Users\\nombreusuario\\.qgis2\\python\\plugins``, en Linux y Mac "
+"normalmente \"/home/usuario/.qgis2/python/plugins/\") borra el directorio "
 "``SemiAutomaticClassificationPlugin`` si existe;"
 
 #: ../../faq.rst:35
@@ -108,7 +108,7 @@ msgstr ""
 
 #: ../../faq.rst:41
 msgid "Pre processing"
-msgstr "Pre procesado"
+msgstr "Pre procesamiento"
 
 #: ../../faq.rst:46
 msgid "Which image bands should I use for a semi-automatic classification?"
@@ -349,7 +349,7 @@ msgstr ""
 
 #: ../../faq.rst:130
 msgid "Processing"
-msgstr "Procesado"
+msgstr "Procesamiento"
 
 #: ../../faq.rst:135
 msgid "I get classification errors. How can I improve the accuracy?"
@@ -517,7 +517,7 @@ msgid ""
 "click the button ``Test dependencies`` in the tab :ref:`settings_debug_tab` "
 ";"
 msgstr ""
-"click en el botón ``Test dependencies`` en la pestaña "
+"click en el botón ``Verificar dependencias`` en la pestaña "
 ":ref:`settings_debug_tab` ;"
 
 #: ../../faq.rst:211
