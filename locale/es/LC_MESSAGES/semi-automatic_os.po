@@ -1,5 +1,4 @@
 # Translators:
-# Luca Congedo <semiautomatic.blogger@gmail.com>, 2016
 # Igor F. Davalos Rojas <idavalosr@gmail.com>, 2016
 msgid ""
 msgstr ""
@@ -48,7 +47,7 @@ msgid ""
 "guide for the installation of the Semi-Automatic OS in the open source "
 "program of virtualization VirtualBox."
 msgstr ""
-" Semi-Automatic OS está basdo en `Debian <https://www.debian.org/>`_ , y "
+" Semi-Automatic OS está basado en `Debian <https://www.debian.org/>`_ , y "
 "diseñado para necesitar muy pocos recursos de hardware. Usa `LXDE "
 "<http://lxde.org/>`_ y `Openbox <http://openbox.org/>`_ como entorno de "
 "escritorio principal. Esta máquina virtual puede ser muy útil para evaluar "
@@ -101,7 +100,7 @@ msgstr "Inicia VirtualBox y crea una nueva máquina virtual Debian;"
 
 #: ../../semi-automatic_os.rst:36
 msgid "Click the New button;"
-msgstr "Haz click en el botón Nueva;"
+msgstr "Haz clic en el botón Nueva;"
 
 #: ../../semi-automatic_os.rst:38
 msgid ""
@@ -121,7 +120,7 @@ msgid ""
 msgstr ""
 "Selecciona el tamaño de memoria; más es mejor, pero este parámetro no debe "
 "exceder la mitad de la memoria RAM del sistema anfitrión (por ejemplo si el "
-"sistema anfitrión tiene 1GB de RAM, escribe 512 MB); click en Siguiente;"
+"sistema anfitrión tiene 1GB de RAM, escribe 512 MB); clic en Siguiente;"
 
 #: ../../semi-automatic_os.rst:46
 msgid ""

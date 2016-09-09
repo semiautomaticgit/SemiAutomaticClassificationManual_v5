@@ -262,8 +262,10 @@ Open the tab :ref:`download_tab` clicking the button |download| in the :ref:`SCP
 Select the tab :ref:`Sentinel_download_tab`.
 We are searching a specific image acquired on May 06, 2016.
 
-In :ref:`login_Sentinel` enter the user name and password for accessing data (`free registration is required <https://scihub.copernicus.eu/userguide/1SelfRegistration>`_) in :guilabel:`User` (:guilabel:`guest`) and :guilabel:`Password` (:guilabel:`guest`).
+In :ref:`login_Sentinel` enter the user name and password for accessing data (`free registration is required <https://scihub.copernicus.eu/userguide/1SelfRegistration>`_).
 
+	**WARNING** : The guest/guest account is not available anymore. Free registration is required. See https://scihub.copernicus.eu/news/News00097 .
+	
 In :ref:`area_coordinates_Sentinel` enter:
 
 * :guilabel:`UL X (Lon)`: 12
