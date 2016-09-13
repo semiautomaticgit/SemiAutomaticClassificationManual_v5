@@ -42,7 +42,7 @@ Semi-Automatic Classification Plugin installation
 
 * From the menu ``All``, select the Semi-Automatic Classification Plugin and click the button ``Install plugin``;
 
-	**TIP**: in case of issues or an offline installation is required see :ref:`plugin_installation_1`.
+	**TIP**: in case of issues or an offline installation is required see :ref:`plugin_installation_1` and :ref:`plugin_installation_2`.
 
 .. image:: _static/plugins.jpg
 

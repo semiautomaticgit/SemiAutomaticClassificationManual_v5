@@ -71,6 +71,8 @@ msgid ""
 "**TIP**: in case of issues or an offline installation is required see "
 ":ref:`plugin_installation_1`."
 msgstr ""
+"**ПОРАДА**: у випадку виникнення проблем або офлайн-встановлення "
+"рекомендовано ознайомитись з :ref:`plugin_installation_1`."
 
 #: ../../installation_debian.rst:49
 msgid ""
@@ -93,6 +95,10 @@ msgid ""
 "Bar of QGIS. It is possible to move the :ref:`toolbar_tools` and the dock "
 "according to your needs, as in the following image."
 msgstr ""
+"Тепер, коли Модуль напівавтоматичної класифікації встановлено, до QGIS "
+"додано відповідні панелі. Також, з  панелі меню QGIS доступне меню SCP. "
+":ref:`toolbar_tools` та панель, що плаває, можна переміщувати відповідно до "
+"ваших потреб, як це показано на рисунку."
 
 #: ../../installation_debian.rst:64
 msgid ""
@@ -100,6 +106,8 @@ msgid ""
 "processing time. From the :ref:`SCP_menu` select |settings_tool| ``Settings "
 "> Processing`` ."
 msgstr ""
+"Для зменшення часу обробки рекомендується налаштувати доступну RAM. З "
+":ref:`SCP_menu` виберіть |settings_tool| ``Settings > Processing`` ."
 
 #: ../../installation_debian.rst:69
 msgid ""

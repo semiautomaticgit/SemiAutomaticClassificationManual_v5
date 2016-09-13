@@ -35,6 +35,51 @@ The SCP can be installed manually (this can be useful when an internet connectio
 #. copy the folder ``SemiAutomaticClassificationPlugin`` inside the QGIS ``plugins`` directory;
 #. the plugin should be installed; start QGIS, open the Plugin Manager and be sure that ``Semi-Automatic Classification Plugin`` is checked.
 
+.. _plugin_installation_2:
+
+How to install the plugin from the official SCP repository?
+--------------------------------------------------------------
+
+It is possible to install the SCP using the official repository.
+This repository allows for the installation of the latest version of SCP (``master``), in some cases also before the availability thereof in the QGIS repository.
+Therefore, this can be useful if you need a fix or a new function that is still not available in the QGIS repository.
+Moreover, the ``master`` version in the SCP repository can be installed along with the version available in the QGIS repository.
+
+In order to install the SCP repository follow these steps:
+
+* Run QGIS 2;
+
+* From the main menu, select ``Plugins`` > ``Manage and Install Plugins``;
+
+.. image:: _static/install_u.jpg
+
+* Click ``Settings`` then click the button ``Add``;
+
+.. image:: _static/qgis_repos_settings.jpg
+
+* Inside the ``Repository details`` enter:
+
+Name::
+
+	SCP
+	
+	
+URL::
+
+	https://raw.githubusercontent.com/semiautomaticgit/SemiAutomaticClassificationPlugin/master/repository.xml 
+	
+and click ``OK``;
+
+.. image:: _static/qgis_repos_add.jpg
+
+* After the repository update, the item ``Semi-Automatic Classification Plugin - master`` should be listed with the other plugins;
+
+.. image:: _static/qgis_repos_list.jpg
+
+* From the menu ``All``, select the ``Semi-Automatic Classification Plugin - master`` and click the button ``Install plugin``; the latest version of SCP should be automatically activated (ignore errors, the restart of QGIS could be necessary to complete the SCP installation); it is possible to deactivate the other SCP installed in the QGIS repository;
+
+.. image:: _static/qgis_repos_installed.jpg
+
 .. _FAQ_pre_processing:
  
 Pre processing
