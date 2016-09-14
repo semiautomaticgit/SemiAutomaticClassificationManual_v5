@@ -1,10 +1,12 @@
-# 
+# Translators:
+# Daria Svidzinska <d.svidzinska@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-30 08:47+0200\n"
+"POT-Creation-Date: 2016-09-04 10:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Daria Svidzinska <d.svidzinska@gmail.com>, 2016\n"
 "Language-Team: Ukrainian (Ukraine) (https://www.transifex.com/semi-automatic-classification/teams/53374/uk_UA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,11 +16,11 @@ msgstr ""
 
 #: ../../working_toolbar.rst:5
 msgid "Working toolbar"
-msgstr ""
+msgstr "Робоча панель"
 
 #: ../../working_toolbar.rst:80
 msgid ":guilabel:`Working toolbar`"
-msgstr ""
+msgstr ":guilabel:`Робоча панель`"
 
 #: ../../working_toolbar.rst:82
 msgid ""
@@ -26,60 +28,64 @@ msgid ""
 ":ref:`input_image`, creating :guilabel:`temporary ROIs` and "
 ":guilabel:`classification previews`."
 msgstr ""
+":guilabel:`Робоча панель` забезпечує унаочнення :ref:`input_image`, "
+"створення :guilabel:`тимчасових ROI` та :guilabel:`попередній перегляд "
+"результатів класифікації`."
 
 #: ../../working_toolbar.rst:84
 msgid ""
 "The functions are described in detail in the following paragraphs, using "
 "these conventions:"
 msgstr ""
+"Ці функції детально описано нижче з використанням таких умовних позначень:"
 
 #: ../../working_toolbar.rst:86
 msgid "|input_date| = Input date"
-msgstr ""
+msgstr "|input_date| = Введення дати"
 
 #: ../../working_toolbar.rst:88
 msgid "``[I]`` = Input text"
-msgstr ""
+msgstr "``[I]`` = Введення тексту"
 
 #: ../../working_toolbar.rst:90
 msgid "|input_list| = List"
-msgstr ""
+msgstr "|input_list| = Вибір елемента з переліку"
 
 #: ../../working_toolbar.rst:92
 msgid "|input_number| = Input number"
-msgstr ""
+msgstr "|input_number| = Введення числа"
 
 #: ../../working_toolbar.rst:94
 msgid "|optional| = Optional"
-msgstr ""
+msgstr "|optional| = Необов'язковий елемент"
 
 #: ../../working_toolbar.rst:96
 msgid "|project_save| = Configuration stored in the active project of QGIS"
-msgstr ""
+msgstr "|project_save| = Налаштування зберігаються в активному проекті QGIS"
 
 #: ../../working_toolbar.rst:98
 msgid "|registry_save| = Configuration stored in QGIS registry"
-msgstr ""
+msgstr "|registry_save| = Налаштування зберігаються в реєстрі QGIS"
 
 #: ../../working_toolbar.rst:100
 msgid "|input_slider| = Slider"
-msgstr ""
+msgstr "|input_slider| = Повзунок"
 
 #: ../../working_toolbar.rst:102
 msgid "|input_table| = Table"
-msgstr ""
+msgstr "|input_table| = Таблиця"
 
 #: ../../working_toolbar.rst:108
 msgid "Image control"
-msgstr ""
+msgstr "Контроль зображення"
 
 #: ../../working_toolbar.rst:110
 msgid "|plugin|: show the :ref:`main_interface_window`;"
-msgstr ""
+msgstr "|plugin|: показати :ref:`main_interface_window`;"
 
 #: ../../working_toolbar.rst:111
 msgid "|zoom_to_Image|: zoom the map to the extent of :ref:`input_image`;"
-msgstr ""
+msgstr "|zoom_to_Image|: збільшити мапу до охоплення :ref:`input_image`;"
 
 #: ../../working_toolbar.rst:112
 msgid ""
@@ -89,22 +95,34 @@ msgid ""
 " new color composites can be entered typing the band numbers separated by "
 "``-`` or ``;`` or ``,`` (e.g. RGB = 4-3-2 or RGB = 4;3;2 or RGB = 4,3,2);"
 msgstr ""
+"|radiobutton| :guilabel:`RGB=` |input_list| |project_save|: використовуйте "
+"цю кнопку, щоб показати/сховати :ref:`input_image` на мапі; з переліку "
+"виберіть :ref:`color_composite_definition`, яку слід застосувати до "
+":ref:`input_image`; нові кольорові комбінації можуть бути визначені, якщо "
+"надрукувати номери каналів, розділені ``-`` або ``;`` або ``,`` (наприклад, "
+"RGB = 4-3-2 або RGB = 4;3;2 або RGB = 4,3,2);"
 
 #: ../../working_toolbar.rst:113
 msgid ""
 "|cumulative_stretch|: display the input image stretching the minimum and "
 "maximum values according to cumulative count of current map extent;"
 msgstr ""
+"|cumulative_stretch|: унаочнити входове зображення, розтягуючи мінімальне та"
+" максимальне значення відповідно до накопиченої наявності (cumulative count)"
+" поточного охоплення мапи;"
 
 #: ../../working_toolbar.rst:114
 msgid ""
 "|std_dev_stretch|: display the input image stretching the minimum and "
 "maximum values according to standard deviation of current map extent;"
 msgstr ""
+"|std_dev_stretch|: унаочнити входове зображення, розтягуючи мінімальне та "
+"максимальне значення відповідно до стандартного відхилення (standard "
+"deviation) поточного охоплення мапи;"
 
 #: ../../working_toolbar.rst:119
 msgid "Temporary ROI"
-msgstr ""
+msgstr "Тимчасові ROI"
 
 #: ../../working_toolbar.rst:121
 msgid ""
@@ -113,17 +131,25 @@ msgid ""
 ":guilabel:`temporary ROI` can be drawn manually or using a "
 ":ref:`region_growing_algorithm`."
 msgstr ""
+":guilabel:`Тимчасова ROI` це унаочнений на мапі тимчасовий полігон, який "
+"може бути збережений як постійний до :ref:`training_input`. "
+":guilabel:`Тимчасова ROI` може бути окреслена вручну або з застосуванням "
+":ref:`region_growing_algorithm`."
 
 #: ../../working_toolbar.rst:124
 msgid ""
 "|zoom_to_ROI|: zoom the map to the extent of :guilabel:`temporary ROI`;"
 msgstr ""
+"|zoom_to_ROI|: збільшити мапу до охоплення :guilabel:`тимчасової ROI`;"
 
 #: ../../working_toolbar.rst:125
 msgid ""
 "|radiobutton| :guilabel:`ROI`: use the button to show/hide the "
 ":guilabel:`temporary ROI` and the :guilabel:`Training input` in the map;"
 msgstr ""
+"|radiobutton| :guilabel:`ROI`: використовуйте цю кнопку, щоб "
+"показати/сховати :guilabel:`тимчасові ROI` та :guilabel:`Входових навчальних"
+" даних` на мапі;"
 
 #: ../../working_toolbar.rst:126
 msgid ""
@@ -133,6 +159,12 @@ msgid ""
 "press the keyboard button ``CTRL`` to add a multipart polygon; press the "
 "keyboard buttons ``CTRL + Z`` for removing the last multipart polygon;"
 msgstr ""
+"|manual_ROI|: активуйте вказівник, щоб створити :guilabel:`тимчасову ROI` "
+"окреслюванням полігону намапі; клацанням лівою кнопкою мишки на мапі "
+"визначте вузли ROI та клацанням правою кнопкою мишки визначте останній "
+"вузол, що замкне полігон; натисніть на клавіатурі кнопку ``CTRL``, щоб "
+"додати багаточастинний полігон; натисніть на клавіатурі кнопки ``CTRL + Z``,"
+" щоб видалити останній багаточастинний полігон;"
 
 #: ../../working_toolbar.rst:127
 msgid ""
@@ -144,6 +176,14 @@ msgid ""
 "created if overlapping to other parts); press the keyboard buttons ``CTRL + "
 "Z`` for removing the last multipart polygon;"
 msgstr ""
+"|roi_single|: активуйте вказівник, щоб створити :guilabel:`тимчасову ROI` з "
+"використанням алгоритму нарощування області; клацніть лівою кнопкою мишки на"
+" мапі, щоб створити ROI; клацніть правою кнопокою мишки на мапі, щоб "
+"унаочнити спектральну сигнатуру пікселя :ref:`input_image` на "
+":ref:`spectral_signature_plot`; натисніть на клавіатурі кнопку ``CTRL``, щоб"
+" додати багаточастинний полігон (нові частини не створюються, якщо наявне "
+"перекриття з іншими частинами); натисніть кнопки клавіатури ``CTRL + Z``, "
+"щоб видалити останній багаточастинний полігон;"
 
 #: ../../working_toolbar.rst:128
 msgid ""
@@ -151,6 +191,9 @@ msgid ""
 "algorithm at the same seed pixel as the previous one; it is useful after "
 "changing the :guilabel:`region growing parameters`;"
 msgstr ""
+"|roi_redo|: створити :guilabel:`тимчасову ROI` з використанням алгоритму "
+"нарощування області в тому самому пікселі-насінині, що і попередню; це може "
+"бути зручно після зміни :guilabel:`параметрів нарощування області`;"
 
 #: ../../working_toolbar.rst:133
 msgid ""
@@ -158,6 +201,9 @@ msgid ""
 " for the ROI creation using a region growing algorithm on the "
 ":ref:`input_image`:"
 msgstr ""
+":guilabel:`Параметри нарощування області`: наступні параметри необхідні для "
+"створення ROI з застосуванням алгоритму нарощування області до "
+":`input_image`:"
 
 #: ../../working_toolbar.rst:131
 msgid ""
@@ -165,6 +211,9 @@ msgid ""
 "defines the maximum spectral distance between the seed pixel and the "
 "surrounding pixels (in radiometry unit);"
 msgstr ""
+":guilabel:`Dist` |input_number| |project_save|: встановлює інтервал, який "
+"визначає максимальну спектральну відстань між пікселем-насіниною та "
+"пікселями, що його оточують (у радіометричних одиницях);"
 
 #: ../../working_toolbar.rst:132
 msgid ""
@@ -175,6 +224,11 @@ msgid ""
 "band`` is unchecked, then ROI could have a size smaller than ``Min ROI "
 "size``;"
 msgstr ""
+":guilabel:`Min` |input_number| |project_save|: встановлює мінімальну площу "
+"ROI (в пікселях); це налаштування заміщає ``Range radius``, доки не "
+"досягнуто мінмальний розмір ROI; якщо ``Rapid ROI on band`` активовано, тоді"
+" ROI матиме розмір не менший за ``Min ROI size``; якщо ``Rapid ROI on band``"
+" не активовано, тоді ROI може мати розмір менший за ``Min ROI size``;"
 
 #: ../../working_toolbar.rst:133
 msgid ""
@@ -182,10 +236,13 @@ msgid ""
 "ROI (i.e. the side length of a square, centred at the seed pixel, which "
 "inscribes the ROI) in pixel unit;"
 msgstr ""
+":guilabel:`Max` |input_number| |project_save|: встановлює максимальну ширину"
+" ROI  в пікселях (тобто довжину сторони квадрата з центром в пікселі-"
+"насінині, до якого вписана ROI);"
 
 #: ../../working_toolbar.rst:138
 msgid "Classification preview"
-msgstr ""
+msgstr "Попередній перегляд результатів класифікації"
 
 #: ../../working_toolbar.rst:140
 msgid ""
@@ -195,12 +252,20 @@ msgid ""
 "before classifying the entire image which can be time consuming (see "
 ":ref:`classification_output`)."
 msgstr ""
+":guilabel:`Попередній перегляд класифікації` відповідає за унаочнення "
+"тимчасової класифікації (тобто попередній перегляд результатів "
+"класифікації). Попередній перегляд класифікації зручний для перевірки "
+"алгоритму на невеличкому фрагменті :ref:`input_image` перш ніж проводити "
+"класифікацію всього зображення, яка може зайняти тривалий час (дивіться "
+":ref:`classification_output`)."
 
 #: ../../working_toolbar.rst:143
 msgid ""
 ":guilabel:`Classification preview` is performed according to the parameters "
 "defined in :ref:`classification_alg`."
 msgstr ""
+":guilabel:`Попередній перегляд класифікації` виконується у відповідності з "
+"параметрами, визначеними у :ref:`classification_alg`."
 
 #: ../../working_toolbar.rst:145
 msgid ""
@@ -213,6 +278,14 @@ msgid ""
 "the corresponding spectral signature (i.e. probably the spectral signature "
 "identifies correctly those pixels)."
 msgstr ""
+"Додатково до растру класифікації, може бути унаочнений "
+":ref:`algorithm_raster`, який зручний для оцінки відстані між пікселем, "
+"віднесеним до ``класу X``, та відповідною спектральною сигнатурою `X`. На "
+":guilabel:`Попередніх переглядах класифікації` чорні пікселі знаходяться на "
+"значних відстанях від відповідних спектральних сигнатур (можливо нові ROI "
+"або спектральні сигнатури повинні бути зібрані для цих ділянок), а білі "
+"пікселі ближчі до відповідної спектральної сигнатури (відповідно, "
+"спектральна сигнатура коректно характеризує ці пікселі)."
 
 #: ../../working_toolbar.rst:148
 msgid ""
@@ -220,6 +293,10 @@ msgid ""
 "inside a layer group named ``Class_temp_group`` (custom name can be defined "
 "in  :ref:`group_name`) and are deleted when the QGIS session is closed."
 msgstr ""
+"Після створення нового попереднього перегляду, старі попередні перегляди в "
+"панелі легенди QGIS Layers переміщуються до групи ``Class_temp_group`` (ім'я"
+" групи може бути змінене у :ref:`group_name`) та видаляються після закриття "
+"сесії QGIS."
 
 #: ../../working_toolbar.rst:150
 msgid ""
@@ -227,18 +304,26 @@ msgid ""
 "when the QGIS session is closed; a QGIS message (that can be ignored) could "
 "ask for the path of missing layers when opening a previously saved project."
 msgstr ""
+"**ПОПЕРЕДЖЕННЯ**: Попередні перегляди результатів класифікації автоматично "
+"видаляються з диска, коли сесія QGIS закривається; при повторному відкритті "
+"збереженого проекту повідомлення QGIS може попростити вказати шлях до "
+"зниклих шарів (це повідомлення може бути проігнороване) ."
 
 #: ../../working_toolbar.rst:152
 msgid ""
 "|zoom_to_preview|: zoom the map to the extent of the last "
 ":ref:`classification_preview`;"
 msgstr ""
+"|zoom_to_preview|: збільшити мапу до охоплення останнього "
+":ref:`classification_preview`;"
 
 #: ../../working_toolbar.rst:153
 msgid ""
 "|radiobutton| :guilabel:`Preview`: use the button to show/hide the last "
 ":ref:`classification_preview` in the map;"
 msgstr ""
+"|radiobutton| :guilabel:`Попередній перегляд`: використовуйте цю кнопку, щоб"
+" показати/сховати останній :ref:`classification_preview` на мапі;"
 
 #: ../../working_toolbar.rst:154
 msgid ""
@@ -248,12 +333,19 @@ msgid ""
 "to start the classification process and show the :ref:`algorithm_raster` of "
 "the preview;"
 msgstr ""
+"|preview|: активуйте вказівник, щоб створити :ref:`classification_preview`; "
+"клацніть лівою кнопкою мишки на карті, щоб розпочати процес класифікації та "
+"унаочнити попередній перегляд її результатів; клацніть правою кнопкою мишки,"
+" щоб розпочати процес класифікації та унаочнити :ref:`algorithm_raster` "
+"попереднього перегляду;"
 
 #: ../../working_toolbar.rst:155
 msgid ""
 "|preview_redo|: create a new :ref:`classification_preview` centred at the "
 "same pixel as the previous one;"
 msgstr ""
+"|preview_redo|: створити новий :ref:`classification_preview` з центром в "
+"тому самому пікселі, що і попередній;"
 
 #: ../../working_toolbar.rst:156
 msgid ""
@@ -261,15 +353,22 @@ msgid ""
 "transparency, which is useful for comparing  the classification to other "
 "layers;"
 msgstr ""
+":guilabel:`T` |input_number|: динамічно змінює прозорість попереднього "
+"перегляду результатів класифікації, що зручно для її співставлення з іншими "
+"шарами;"
 
 #: ../../working_toolbar.rst:157
 msgid ""
 ":guilabel:`S` |input_number| |project_save|: size of the preview in pixel "
 "unit (i.e. the side length of a square, centred at the clicked pixel);"
 msgstr ""
+":guilabel:`S` |input_number| |project_save|: розмір попереднього перегляду в"
+" пікселях (довжина сторони квадрата з центром в пікселі на якому клацнули);"
 
 #: ../../working_toolbar.rst:158
 msgid ""
 "|remove_temp|: remove from QGIS the :guilabel:`classification previews` that"
 " are archived in the :guilabel:`Class_temp_group`;"
 msgstr ""
+"|remove_temp|: видалити з QGIS :guilabel:`попередні перегляди класифікацій`,"
+" які знаходяться в :guilabel:`Class_temp_group`;"

@@ -20,7 +20,7 @@ msgstr "SCP Herramientas"
 
 #: ../../toolbar_tools.rst:50
 msgid ":guilabel:`SCP Tools`"
-msgstr ""
+msgstr ":guilabel:`SCP Herramientas`"
 
 #: ../../toolbar_tools.rst:52
 msgid ""
@@ -28,6 +28,9 @@ msgid ""
 "functions of the :ref:`main_interface_window`, the "
 ":ref:`spectral_signature_plot`, and the :ref:`scatter_plot`."
 msgstr ""
+"La barra de herramientas :guilabel:`SCP Herramientas` permite elegir las "
+"funciones principales de la :ref:`main_interface_window`, el "
+":ref:`spectral_signature_plot`, y el :ref:`scatter_plot`."
 
 #: ../../toolbar_tools.rst:54
 msgid "|band_set| :ref:`band_set_tab`;"

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-30 08:47+0200\n"
+"POT-Creation-Date: 2016-09-04 10:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Igor F. Davalos Rojas <idavalosr@gmail.com>, 2016\n"
 "Language-Team: Spanish (https://www.transifex.com/semi-automatic-classification/teams/53374/es/)\n"
@@ -16,11 +16,11 @@ msgstr ""
 
 #: ../../working_toolbar.rst:5
 msgid "Working toolbar"
-msgstr ""
+msgstr "Barra de Trabajo"
 
 #: ../../working_toolbar.rst:80
 msgid ":guilabel:`Working toolbar`"
-msgstr ""
+msgstr ":guilabel:`Barra de Trabajo`"
 
 #: ../../working_toolbar.rst:82
 msgid ""
@@ -28,6 +28,9 @@ msgid ""
 ":ref:`input_image`, creating :guilabel:`temporary ROIs` and "
 ":guilabel:`classification previews`."
 msgstr ""
+"La :guilabel:`Barra de Trabajo` permite elegir opciones para mostrar la "
+":ref:`input_image`, creación de :guilabel:`temporary ROIs` y "
+":guilabel:`classification previews`."
 
 #: ../../working_toolbar.rst:84
 msgid ""
@@ -43,47 +46,48 @@ msgstr "|input_date| = Ingresar fecha"
 
 #: ../../working_toolbar.rst:88
 msgid "``[I]`` = Input text"
-msgstr ""
+msgstr "``[I]`` = Ingresar texto"
 
 #: ../../working_toolbar.rst:90
 msgid "|input_list| = List"
-msgstr ""
+msgstr "|input_list| = Lista"
 
 #: ../../working_toolbar.rst:92
 msgid "|input_number| = Input number"
-msgstr ""
+msgstr "|input_number| = Introducir número"
 
 #: ../../working_toolbar.rst:94
 msgid "|optional| = Optional"
-msgstr ""
+msgstr "|optional| = Opcional"
 
 #: ../../working_toolbar.rst:96
 msgid "|project_save| = Configuration stored in the active project of QGIS"
-msgstr ""
+msgstr "|project_save| = Configuración guardada en el proyecto activo de QGIS"
 
 #: ../../working_toolbar.rst:98
 msgid "|registry_save| = Configuration stored in QGIS registry"
-msgstr ""
+msgstr "|registry_save| = Configuración guardada en el registro de QGIS"
 
 #: ../../working_toolbar.rst:100
 msgid "|input_slider| = Slider"
-msgstr ""
+msgstr "|input_slider| = Deslizador"
 
 #: ../../working_toolbar.rst:102
 msgid "|input_table| = Table"
-msgstr ""
+msgstr "|input_table| = Tabla"
 
 #: ../../working_toolbar.rst:108
 msgid "Image control"
-msgstr ""
+msgstr "Control de la imagen"
 
 #: ../../working_toolbar.rst:110
 msgid "|plugin|: show the :ref:`main_interface_window`;"
-msgstr ""
+msgstr "|plugin|: muestra la :ref:`main_interface_window`;"
 
 #: ../../working_toolbar.rst:111
 msgid "|zoom_to_Image|: zoom the map to the extent of :ref:`input_image`;"
 msgstr ""
+"|zoom_to_Image|: ajusta el mapa a la extensión de la :ref:`input_image`;"
 
 #: ../../working_toolbar.rst:112
 msgid ""
@@ -93,22 +97,34 @@ msgid ""
 " new color composites can be entered typing the band numbers separated by "
 "``-`` or ``;`` or ``,`` (e.g. RGB = 4-3-2 or RGB = 4;3;2 or RGB = 4,3,2);"
 msgstr ""
+"|radiobutton| :guilabel:`RGB=` |input_list| |project_save|: usa el botón "
+"para mostrar/ocultar la :ref:`input_image` en el mapa; de la lista "
+"selecciona una :ref:`color_composite_definition` que será aplicada a la "
+":ref:`input_image`; se pueden ingresar nuevas composiciones de color "
+"escribiendo los números de banda separados por ``-`` o ``;`` o ``,`` (Ej. "
+"RGB = 4-3-2 o RGB = 4;3;2 o RGB = 4,3,2);"
 
 #: ../../working_toolbar.rst:113
 msgid ""
 "|cumulative_stretch|: display the input image stretching the minimum and "
 "maximum values according to cumulative count of current map extent;"
 msgstr ""
+"|cumulative_stretch|: muestra el estiramiento de la imagen de entrada "
+"obteniendo los valores mínimos y máximos en función del conteo acumulativo "
+"de la extensión actual del mapa;"
 
 #: ../../working_toolbar.rst:114
 msgid ""
 "|std_dev_stretch|: display the input image stretching the minimum and "
 "maximum values according to standard deviation of current map extent;"
 msgstr ""
+"|std_dev_stretch|: muestra el estiramiento de la imagen de entrada "
+"obteniendo los valores mínimos y máximos en función de la desviación "
+"estándar de la extensión actual del mapa;"
 
 #: ../../working_toolbar.rst:119
 msgid "Temporary ROI"
-msgstr ""
+msgstr "ROI Temporal"
 
 #: ../../working_toolbar.rst:121
 msgid ""
@@ -117,17 +133,24 @@ msgid ""
 ":guilabel:`temporary ROI` can be drawn manually or using a "
 ":ref:`region_growing_algorithm`."
 msgstr ""
+"Un :guilabel:`temporary ROI` es un polígono temporal mostrado en el mapa, el"
+" cual puede ser guardado permanentemente en el the :ref:`training_input`. El"
+" :guilabel:`temporary ROI` puede ser dibujado manualmente o usando el "
+":ref:`region_growing_algorithm`."
 
 #: ../../working_toolbar.rst:124
 msgid ""
 "|zoom_to_ROI|: zoom the map to the extent of :guilabel:`temporary ROI`;"
 msgstr ""
+"|zoom_to_ROI|: ajusta el mapa a la extensión del :guilabel:`temporary ROI`;"
 
 #: ../../working_toolbar.rst:125
 msgid ""
 "|radiobutton| :guilabel:`ROI`: use the button to show/hide the "
 ":guilabel:`temporary ROI` and the :guilabel:`Training input` in the map;"
 msgstr ""
+"|radiobutton| :guilabel:`ROI`: usa este botón para mostrar/ocultar el "
+":guilabel:`temporary ROI` y el :guilabel:`Training input` en el mapa;"
 
 #: ../../working_toolbar.rst:126
 msgid ""
@@ -137,6 +160,12 @@ msgid ""
 "press the keyboard button ``CTRL`` to add a multipart polygon; press the "
 "keyboard buttons ``CTRL + Z`` for removing the last multipart polygon;"
 msgstr ""
+"|manual_ROI|: activa el puntero para crear un :guilabel:`temporary ROI` "
+"dibujando un polígono en el mapa; clic izquierdo en el mapa para definir los"
+" vértices del ROI y clic derecho para definir el último vértice y cerrar el "
+"polígono; presiona la tecla ``CTRL`` para agregar un polígono multipartes; "
+"presiona las teclas ``CTRL + Z`` para remover el último polígono "
+"multipartes;"
 
 #: ../../working_toolbar.rst:127
 msgid ""
@@ -189,7 +218,7 @@ msgstr ""
 
 #: ../../working_toolbar.rst:138
 msgid "Classification preview"
-msgstr ""
+msgstr "Clasificación preliminar"
 
 #: ../../working_toolbar.rst:140
 msgid ""
@@ -199,12 +228,19 @@ msgid ""
 "before classifying the entire image which can be time consuming (see "
 ":ref:`classification_output`)."
 msgstr ""
+":guilabel:`Clasificación preliminar` permite mostrar clasificaciones "
+"temporales (i.e. clasificación preliminar). La vista preliminar de la "
+"clasificación es útil para probar el algoritmo en un área pequeña de la "
+":ref:`input_image`, antes de clasificar la imagen completa que puede tomar "
+"mucho tiempo (mira :ref:`classification_output`)."
 
 #: ../../working_toolbar.rst:143
 msgid ""
 ":guilabel:`Classification preview` is performed according to the parameters "
 "defined in :ref:`classification_alg`."
 msgstr ""
+":guilabel:`Clasificación preliminar` es ejecutada de acuerdo a los "
+"parámetros definidos en el :ref:`classification_alg`."
 
 #: ../../working_toolbar.rst:145
 msgid ""
@@ -224,6 +260,10 @@ msgid ""
 "inside a layer group named ``Class_temp_group`` (custom name can be defined "
 "in  :ref:`group_name`) and are deleted when the QGIS session is closed."
 msgstr ""
+"Luego de la creación de una nueva vista previa, las antiguas son colocadas "
+"en el Panel de Capas de QGIS dentro de un grupo de capas llamado "
+"``Class_temp_group`` (se puede definir un nombre personalizado en  "
+":ref:`group_name`) y son eliminadas cuando la sesión de QGIS es cerrada."
 
 #: ../../working_toolbar.rst:150
 msgid ""
@@ -231,18 +271,26 @@ msgid ""
 "when the QGIS session is closed; a QGIS message (that can be ignored) could "
 "ask for the path of missing layers when opening a previously saved project."
 msgstr ""
+"**ADVERTENCIA**: Las clasificaciones preliminares son eliminadas "
+"automáticamente del disco cuando la sesión de QGIS se cierra; un mensaje de "
+"QGIS (que puede ser ignorado) podría preguntar por la ruta de capas perdidas"
+" cuando abras un proyecto grabado anteriormente."
 
 #: ../../working_toolbar.rst:152
 msgid ""
 "|zoom_to_preview|: zoom the map to the extent of the last "
 ":ref:`classification_preview`;"
 msgstr ""
+"|zoom_to_preview|: ajusta el mapa a la extensión de la última "
+":ref:`classification_preview`;"
 
 #: ../../working_toolbar.rst:153
 msgid ""
 "|radiobutton| :guilabel:`Preview`: use the button to show/hide the last "
 ":ref:`classification_preview` in the map;"
 msgstr ""
+"|radiobutton| :guilabel:`Previa`: usa el botón para mostrar/ocultar la "
+"última :ref:`classification_preview` en el mapa;"
 
 #: ../../working_toolbar.rst:154
 msgid ""
@@ -252,12 +300,19 @@ msgid ""
 "to start the classification process and show the :ref:`algorithm_raster` of "
 "the preview;"
 msgstr ""
+"|preview|: activa el puntero para la creación de una "
+":ref:`classification_preview`; clic izquierdo en el mapa para iniciar el "
+"proceso de clasificación y mostrar su vista preliminar; clic derecho inicia "
+"el proceso de clasificación y muestra el :ref:`algorithm_raster` de la vista"
+" preliminar;"
 
 #: ../../working_toolbar.rst:155
 msgid ""
 "|preview_redo|: create a new :ref:`classification_preview` centred at the "
 "same pixel as the previous one;"
 msgstr ""
+"|preview_redo|: crea una nueva :ref:`classification_preview` centrada en el "
+"mismo pixel de la anterior;"
 
 #: ../../working_toolbar.rst:156
 msgid ""
@@ -265,15 +320,23 @@ msgid ""
 "transparency, which is useful for comparing  the classification to other "
 "layers;"
 msgstr ""
+":guilabel:`T` |input_number|: cambia dinámicamente la transparencia de la "
+"clasificación preliminar, lo cual es útil para comparar la clasificación con"
+" otras capas;"
 
 #: ../../working_toolbar.rst:157
 msgid ""
 ":guilabel:`S` |input_number| |project_save|: size of the preview in pixel "
 "unit (i.e. the side length of a square, centred at the clicked pixel);"
 msgstr ""
+":guilabel:`S` |input_number| |project_save|: tamaño de la vista preliminar "
+"en unidades de pixel (i.e. el largo de un lado de un cuadrado, centrado en "
+"el pixel en el cual se dio clic);"
 
 #: ../../working_toolbar.rst:158
 msgid ""
 "|remove_temp|: remove from QGIS the :guilabel:`classification previews` that"
 " are archived in the :guilabel:`Class_temp_group`;"
 msgstr ""
+"|remove_temp|: elimina de QGIS las :guilabel:`clasificación preliminar` que "
+"están registradas en el :guilabel:`Class_temp_group`;"

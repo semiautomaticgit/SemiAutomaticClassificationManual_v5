@@ -66,7 +66,7 @@ Name::
 	
 URL::
 
-	https://raw.githubusercontent.com/semiautomaticgit/SemiAutomaticClassificationPlugin/master/repository.xml 
+	https://semiautomaticgit.github.io/SemiAutomaticClassificationPlugin/repository.xml 
 	
 and click ``OK``;
 
