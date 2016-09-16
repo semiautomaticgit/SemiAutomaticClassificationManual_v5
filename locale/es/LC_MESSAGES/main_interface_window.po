@@ -717,7 +717,7 @@ msgid ""
 "automatically converted after the download, according to the settings "
 "defined in :ref:`sentinel2_tab`;"
 msgstr ""
-"|checkbox| :guilabel:`Preprocesar imágenes`: si está seleciconado, las "
+"|checkbox| :guilabel:`Preprocesar imágenes`: si está seleccionado, las "
 "bandas son convertidas automáticamente después de la descarga, utilizando la"
 " configuración definida en :ref:`sentinel2_tab`;"
 

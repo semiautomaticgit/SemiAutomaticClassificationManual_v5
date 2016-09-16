@@ -1369,7 +1369,7 @@ msgstr ""
 "usando uno de los siguientes programas: por ejemplo `Poedit "
 "<http://www.poedit.net/>`_ para Windows y Mac OS X, o `Gtranslator "
 "<https://wiki.gnome.org/Apps/Gtranslator>`_ para Linux o `OmegaT "
-"<http://www.omegat.org/en/download_selector/ui.php>`_ (badado en Java) para "
+"<http://www.omegat.org/en/download_selector/ui.php>`_ (basado en Java) para "
 "Windows, Linux y Mac OS X."
 
 #: ../../faq.rst:464

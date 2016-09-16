@@ -70,7 +70,7 @@ msgstr "|batch_tool| :ref:`batch_tab`;"
 
 #: ../../toolbar_tools.rst:63
 msgid "|settings| :ref:`settings_tab`;"
-msgstr "|configuración| :ref:`settings_tab`;"
+msgstr "|settings| :ref:`settings_tab`;"
 
 #: ../../toolbar_tools.rst:64
 msgid ""
@@ -90,7 +90,7 @@ msgid ""
 "<https://plus.google.com/communities/107833394986612468374>`_ are available "
 "for sharing information and asking for help about SCP;"
 msgstr ""
-"|help| :guilabel:`Online help`: abre la `Ayuda en línea "
+"|help| :guilabel:`Ayuda en línea`: abre la `Ayuda en línea "
 "<http://fromgistors.blogspot.com/p/online-help.html>`_ en un navegador web; "
 "además, el `grupo en Facebook "
 "<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin/>`_ y la "
