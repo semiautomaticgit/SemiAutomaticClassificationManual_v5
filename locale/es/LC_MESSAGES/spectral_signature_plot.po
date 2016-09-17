@@ -1,5 +1,4 @@
 # Translators:
-# Luca Congedo <semiautomatic.blogger@gmail.com>, 2016
 # Igor F. Davalos Rojas <idavalosr@gmail.com>, 2016
 msgid ""
 msgstr ""
@@ -17,7 +16,7 @@ msgstr ""
 
 #: ../../spectral_signature_plot.rst:5
 msgid "Spectral Signature Plot"
-msgstr "Gráfico de Firmas Digitales"
+msgstr "Gráfico de Firmas Espectrales"
 
 #: ../../spectral_signature_plot.rst:71
 msgid ""
