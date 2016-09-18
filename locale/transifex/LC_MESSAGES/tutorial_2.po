@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Semi-Automatic Classification Plugin 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-07 22:55+0200\n"
+"POT-Creation-Date: 2016-09-18 22:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -127,64 +127,68 @@ msgstr ""
 msgid ""
 "In :ref:`login_Sentinel` enter the user name and password for accessing data"
 " (`free registration is required "
-"<https://scihub.copernicus.eu/userguide/1SelfRegistration>`_) in "
-":guilabel:`User` (:guilabel:`guest`) and :guilabel:`Password` "
-"(:guilabel:`guest`)."
+"<https://scihub.copernicus.eu/userguide/1SelfRegistration>`_)."
 msgstr ""
 
 #: ../../tutorial_2.rst:267
-msgid "In :ref:`area_coordinates_Sentinel` enter:"
+msgid ""
+"**WARNING** : The guest/guest account is not available anymore. Free "
+"registration is required. See https://scihub.copernicus.eu/news/News00097 ."
 msgstr ""
 
 #: ../../tutorial_2.rst:269
-msgid ":guilabel:`UL X (Lon)`: 12"
-msgstr ""
-
-#: ../../tutorial_2.rst:270
-msgid ":guilabel:`UL Y (Lat)`: 42"
+msgid "In :ref:`area_coordinates_Sentinel` enter:"
 msgstr ""
 
 #: ../../tutorial_2.rst:271
-msgid ":guilabel:`LR X (Lon)`: 13"
+msgid ":guilabel:`UL X (Lon)`: 12"
 msgstr ""
 
 #: ../../tutorial_2.rst:272
-msgid ":guilabel:`LR Y (Lat)`: 41"
+msgid ":guilabel:`UL Y (Lat)`: 42"
+msgstr ""
+
+#: ../../tutorial_2.rst:273
+msgid ":guilabel:`LR X (Lon)`: 13"
 msgstr ""
 
 #: ../../tutorial_2.rst:274
+msgid ":guilabel:`LR Y (Lat)`: 41"
+msgstr ""
+
+#: ../../tutorial_2.rst:276
 msgid ""
 "**TIP** : In general it is possible to define the area coordinates clicking "
 "the button |pointer| and drawing a rectangle in the map."
 msgstr ""
 
-#: ../../tutorial_2.rst:276
+#: ../../tutorial_2.rst:278
 msgid "In :ref:`search_Sentinel` set:"
 msgstr ""
 
-#: ../../tutorial_2.rst:278
+#: ../../tutorial_2.rst:280
 msgid ":guilabel:`Date from`: 2016-05-06"
 msgstr ""
 
-#: ../../tutorial_2.rst:279
+#: ../../tutorial_2.rst:281
 msgid ":guilabel:`to`: 2016-05-06"
 msgstr ""
 
-#: ../../tutorial_2.rst:284
+#: ../../tutorial_2.rst:286
 msgid ":guilabel:`Search Sentinel-2 images`"
 msgstr ""
 
-#: ../../tutorial_2.rst:286
+#: ../../tutorial_2.rst:288
 msgid ""
 "Now click the button :guilabel:`Find` |search_images| and after a few "
 "seconds the image will be listed in the ``Image list``."
 msgstr ""
 
-#: ../../tutorial_2.rst:291
+#: ../../tutorial_2.rst:293
 msgid ":guilabel:`Sentinel-2 search result`"
 msgstr ""
 
-#: ../../tutorial_2.rst:293
+#: ../../tutorial_2.rst:295
 msgid ""
 "In the result table, click the item ``T32TQM`` in the field "
 ":guilabel:`Zone`, which is the :guilabel:`Granule` "
@@ -194,17 +198,17 @@ msgid ""
 "cover."
 msgstr ""
 
-#: ../../tutorial_2.rst:296
+#: ../../tutorial_2.rst:298
 msgid ""
 "**TIP** : It is also possible to display the image overview (which is "
 "composed of several granules) with the button |image_overview|."
 msgstr ""
 
-#: ../../tutorial_2.rst:301
+#: ../../tutorial_2.rst:303
 msgid ":guilabel:`Image preview`"
 msgstr ""
 
-#: ../../tutorial_2.rst:303
+#: ../../tutorial_2.rst:305
 msgid ""
 "Click the tab :ref:`sentinel2_download_options` and uncheck bands 1, 9, and "
 "10. Also, uncheck the options |checkbox| :guilabel:`Preprocess images` "
@@ -213,7 +217,7 @@ msgid ""
 ":guilabel:`Load bands in QGIS` (because we are going to clip the images)."
 msgstr ""
 
-#: ../../tutorial_2.rst:306
+#: ../../tutorial_2.rst:308
 msgid ""
 "**TIP** : The option |checkbox| :guilabel:`Only if preview in Layers` allows"
 " for downloading only images in the result table which are loaded as "
@@ -222,11 +226,11 @@ msgid ""
 "that one wish to download."
 msgstr ""
 
-#: ../../tutorial_2.rst:311
+#: ../../tutorial_2.rst:313
 msgid ":guilabel:`Selection of bands for download`"
 msgstr ""
 
-#: ../../tutorial_2.rst:313
+#: ../../tutorial_2.rst:315
 msgid ""
 "In order to start the image download, click the button |run| and select a "
 "directory where bands are saved (e.g. ``Desktop``). The download could last "
@@ -234,21 +238,21 @@ msgid ""
 "from 30 to 90MB). The download progress is displayed in a bar."
 msgstr ""
 
-#: ../../tutorial_2.rst:317
+#: ../../tutorial_2.rst:319
 msgid ""
 "After the download, all the bands and the metadata files are saved in the "
 "output directory."
 msgstr ""
 
-#: ../../tutorial_2.rst:322
+#: ../../tutorial_2.rst:324
 msgid ":guilabel:`Download of Sentinel bands`"
 msgstr ""
 
-#: ../../tutorial_2.rst:327
+#: ../../tutorial_2.rst:329
 msgid "Automatic Conversion to Surface Reflectance"
 msgstr ""
 
-#: ../../tutorial_2.rst:329
+#: ../../tutorial_2.rst:331
 msgid ""
 "Conversion to reflectance (see :ref:`radiance_reflectance_definition`) can "
 "be performed automatically. The metadata file (a .xml file whose name "
@@ -257,7 +261,7 @@ msgid ""
 "information about the :ref:`TOA_conversion` and :ref:`Surface_conversion`."
 msgstr ""
 
-#: ../../tutorial_2.rst:333
+#: ../../tutorial_2.rst:335
 msgid ""
 "In order to convert bands to reflectance, open the tab "
 ":ref:`pre_processing_tab` clicking the button |preprocessing| in the "
@@ -265,7 +269,7 @@ msgid ""
 "select the tab :ref:`sentinel2_tab`."
 msgstr ""
 
-#: ../../tutorial_2.rst:335
+#: ../../tutorial_2.rst:337
 msgid ""
 "Click the button :guilabel:`Directory containing Sentinel-2 bands` "
 "|open_file| and select the directory that should be named "
@@ -275,7 +279,7 @@ msgid ""
 "is inside the same directory)."
 msgstr ""
 
-#: ../../tutorial_2.rst:339
+#: ../../tutorial_2.rst:341
 msgid ""
 "**TIP** : If a Sentinel-2 image was downloaded directly from the site "
 "https://scihub.copernicus.eu and you want to convert images to reflectance "
@@ -284,21 +288,21 @@ msgid ""
 "same directory of bands (files .jp2)."
 msgstr ""
 
-#: ../../tutorial_2.rst:341
+#: ../../tutorial_2.rst:343
 msgid ""
 "In order to calculate :ref:`Surface_conversion` we are going to apply the "
 ":ref:`DOS1_correction`; therefore, enable the option :guilabel:`Apply DOS1 "
 "atmospheric correction`."
 msgstr ""
 
-#: ../../tutorial_2.rst:343
+#: ../../tutorial_2.rst:345
 msgid ""
 "**TIP** : It is recommended to perform the DOS1 atmospheric correction to "
 "the entire image (before clipping the image) in order to improve the "
 "calculation of parameters based on the image."
 msgstr ""
 
-#: ../../tutorial_2.rst:345
+#: ../../tutorial_2.rst:347
 msgid ""
 "Uncheck the option |checkbox| :guilabel:`Create Band set and use Band set "
 "tools` because we are going to define this in the following step "
@@ -307,11 +311,11 @@ msgid ""
 "(e.g. ``Desktop``)."
 msgstr ""
 
-#: ../../tutorial_2.rst:351
+#: ../../tutorial_2.rst:353
 msgid ":guilabel:`Sentinel-2 conversion to reflectance`"
 msgstr ""
 
-#: ../../tutorial_2.rst:353
+#: ../../tutorial_2.rst:355
 msgid ""
 "After a few minutes, converted bands are loaded and displayed (file name "
 "starts with ``RT_``). If :guilabel:`Play sound when finished` is checked in "
@@ -319,15 +323,15 @@ msgid ""
 "is finished."
 msgstr ""
 
-#: ../../tutorial_2.rst:359
+#: ../../tutorial_2.rst:361
 msgid ":guilabel:`Converted Sentinel-2 bands`"
 msgstr ""
 
-#: ../../tutorial_2.rst:364
+#: ../../tutorial_2.rst:366
 msgid "Clip the Data"
 msgstr ""
 
-#: ../../tutorial_2.rst:366
+#: ../../tutorial_2.rst:368
 msgid ""
 "Sentinel-2 images have a large extent. In order to reduce the computational "
 "time, we are going to clip bands to the same study area as "
@@ -335,40 +339,40 @@ msgid ""
 " :ref:`clip_multiple_rasters_tab`."
 msgstr ""
 
-#: ../../tutorial_2.rst:370
+#: ../../tutorial_2.rst:372
 msgid ""
 "Click the button |reload| to refresh the layer list, and check all the "
 "layers whose name starts with ``RT_`` (the band number is at the end of the "
 "layer name)."
 msgstr ""
 
-#: ../../tutorial_2.rst:372
+#: ../../tutorial_2.rst:374
 msgid ""
 "Click the button |pointer| and select an area such as the following image, "
 "or enter the following values:"
 msgstr ""
 
-#: ../../tutorial_2.rst:374
+#: ../../tutorial_2.rst:376
 msgid ":guilabel:`UL X`: 791810"
 msgstr ""
 
-#: ../../tutorial_2.rst:375
+#: ../../tutorial_2.rst:377
 msgid ":guilabel:`UL Y`: 4643020"
 msgstr ""
 
-#: ../../tutorial_2.rst:376
+#: ../../tutorial_2.rst:378
 msgid ":guilabel:`LR X`: 809750"
 msgstr ""
 
-#: ../../tutorial_2.rst:377
+#: ../../tutorial_2.rst:379
 msgid ":guilabel:`LR Y`: 4626230"
 msgstr ""
 
-#: ../../tutorial_2.rst:382
+#: ../../tutorial_2.rst:384
 msgid ":guilabel:`Clip area`"
 msgstr ""
 
-#: ../../tutorial_2.rst:384
+#: ../../tutorial_2.rst:386
 msgid ""
 "Click the button |run| and select a directory (e.g. ``clip``) where clipped "
 "bands are saved (with the file name prefix defined in :guilabel:`Output name"
@@ -377,15 +381,15 @@ msgid ""
 "layers."
 msgstr ""
 
-#: ../../tutorial_2.rst:391
+#: ../../tutorial_2.rst:393
 msgid ":guilabel:`Clipped bands`"
 msgstr ""
 
-#: ../../tutorial_2.rst:396
+#: ../../tutorial_2.rst:398
 msgid "Create the Band Set"
 msgstr ""
 
-#: ../../tutorial_2.rst:398
+#: ../../tutorial_2.rst:400
 msgid ""
 "Now we need to define the :guilabel:`Band set` which is the input image for "
 ":guilabel:`SCP`. Open the tab :ref:`band_set_tab` clicking the button "
@@ -393,7 +397,7 @@ msgid ""
 ":ref:`SCP_dock`."
 msgstr ""
 
-#: ../../tutorial_2.rst:401
+#: ../../tutorial_2.rst:403
 msgid ""
 "Click the button |reload| to refresh the layer list, and check all the "
 "clipped bands; then click |plus| to add selected rasters to the "
@@ -407,25 +411,25 @@ msgid ""
 "unit` (required for spectral signature calculation)."
 msgstr ""
 
-#: ../../tutorial_2.rst:408
+#: ../../tutorial_2.rst:410
 msgid ":guilabel:`Definition of a band set`"
 msgstr ""
 
-#: ../../tutorial_2.rst:410
+#: ../../tutorial_2.rst:412
 msgid ""
 "You can notice that the item ``<< band set >>`` is selected as "
 ":ref:`input_image` in the :ref:`SCP_dock`."
 msgstr ""
 
-#: ../../tutorial_2.rst:415
+#: ../../tutorial_2.rst:417
 msgid ":guilabel:`Band set`"
 msgstr ""
 
-#: ../../tutorial_2.rst:420
+#: ../../tutorial_2.rst:422
 msgid "Create the ROIs"
 msgstr ""
 
-#: ../../tutorial_2.rst:422
+#: ../../tutorial_2.rst:424
 msgid ""
 "In order to collect ROIs we need to :ref:`tutorial_1_2` as described in "
 ":ref:`tutorial_1` (in the :ref:`SCP_dock` click the button |new_file| and "
@@ -433,61 +437,61 @@ msgid ""
 ":ref:`spectral_signature_definition` thereof."
 msgstr ""
 
-#: ../../tutorial_2.rst:428
+#: ../../tutorial_2.rst:430
 msgid ":guilabel:`Definition of Training input in SCP`"
 msgstr ""
 
-#: ../../tutorial_2.rst:430
+#: ../../tutorial_2.rst:432
 msgid ""
 "We are going to create several ROIs using the Macroclass IDs defined in the "
 "following table (see :ref:`classes_definition`)."
 msgstr ""
 
-#: ../../tutorial_2.rst:432
+#: ../../tutorial_2.rst:434
 msgid ":guilabel:`Macroclasses`"
 msgstr ""
 
-#: ../../tutorial_2.rst:435
+#: ../../tutorial_2.rst:437
 msgid "Macroclass name"
 msgstr ""
 
-#: ../../tutorial_2.rst:435
+#: ../../tutorial_2.rst:437
 msgid "Macroclass ID"
 msgstr ""
 
-#: ../../tutorial_2.rst:437
+#: ../../tutorial_2.rst:439
 msgid "Water"
 msgstr ""
 
-#: ../../tutorial_2.rst:437
+#: ../../tutorial_2.rst:439
 msgid "1"
 msgstr ""
 
-#: ../../tutorial_2.rst:439
+#: ../../tutorial_2.rst:441
 msgid "Built-up"
 msgstr ""
 
-#: ../../tutorial_2.rst:439
+#: ../../tutorial_2.rst:441
 msgid "2"
 msgstr ""
 
-#: ../../tutorial_2.rst:441
+#: ../../tutorial_2.rst:443
 msgid "Vegetation"
 msgstr ""
 
-#: ../../tutorial_2.rst:441
+#: ../../tutorial_2.rst:443
 msgid "3"
 msgstr ""
 
-#: ../../tutorial_2.rst:443
+#: ../../tutorial_2.rst:445
 msgid "Bare soil"
 msgstr ""
 
-#: ../../tutorial_2.rst:443
+#: ../../tutorial_2.rst:445
 msgid "4"
 msgstr ""
 
-#: ../../tutorial_2.rst:446
+#: ../../tutorial_2.rst:448
 msgid ""
 "In this phase we are creating the database of spectral signatures used to "
 "identify land cover classes (the ones defined as macroclasses). However, "
@@ -499,7 +503,7 @@ msgid ""
 "different :guilabel:`C ID` to every ROI)."
 msgstr ""
 
-#: ../../tutorial_2.rst:450
+#: ../../tutorial_2.rst:452
 msgid ""
 "In the list :guilabel:`RGB=` of :ref:`working_toolbar` select ``3-2-1`` to "
 "display a natural color image (see ref:`color_composite_definition` and "
@@ -508,7 +512,7 @@ msgid ""
 "areas are white and vegetation is green."
 msgstr ""
 
-#: ../../tutorial_2.rst:454
+#: ../../tutorial_2.rst:456
 msgid ""
 "**TIP** : If a :ref:`band_set_tab` is defined, a temporary virtual raster "
 "(named ``band_set.vrt``) is created automatically, which allows for the "
@@ -517,11 +521,11 @@ msgid ""
 "in the QGIS Layers."
 msgstr ""
 
-#: ../../tutorial_2.rst:459
+#: ../../tutorial_2.rst:461
 msgid ":guilabel:`Color composite RGB = 3-2-1`"
 msgstr ""
 
-#: ../../tutorial_2.rst:461
+#: ../../tutorial_2.rst:463
 msgid ""
 "Now in the list :guilabel:`RGB=` of the :ref:`working_toolbar` type "
 "``3-7-10`` (you can also use the tool :ref:`RGB_list_tab`). Using this color"
@@ -531,11 +535,11 @@ msgid ""
 "the right part of the image."
 msgstr ""
 
-#: ../../tutorial_2.rst:469
+#: ../../tutorial_2.rst:471
 msgid ":guilabel:`Color composite RGB = 3-7-10`"
 msgstr ""
 
-#: ../../tutorial_2.rst:471
+#: ../../tutorial_2.rst:473
 msgid ""
 "Now create the ROIs following the same steps described in "
 ":ref:`tutorial_1_3` of :ref:`tutorial_1`. After clicking the button "
@@ -547,7 +551,7 @@ msgid ""
 "vegetation has higher NDVI values than soil."
 msgstr ""
 
-#: ../../tutorial_2.rst:476
+#: ../../tutorial_2.rst:478
 msgid ""
 "For instance, move the mouse over a vegetation area and left click to create"
 " a ROI when you see a local maximum value. This way, the created ROI and the"
@@ -555,17 +559,17 @@ msgid ""
 "vegetation."
 msgstr ""
 
-#: ../../tutorial_2.rst:482
+#: ../../tutorial_2.rst:484
 msgid ":guilabel:`NDVI value of vegetation pixel displayed in the map`"
 msgstr ""
 
-#: ../../tutorial_2.rst:484
+#: ../../tutorial_2.rst:486
 msgid ""
 "The color composite ``RGB = 7-3-2`` is also useful for highlighting "
 "vegetation."
 msgstr ""
 
-#: ../../tutorial_2.rst:486
+#: ../../tutorial_2.rst:488
 msgid ""
 "Create several ROIs (the more is the better). The region growing algorithm "
 "can create more homogeneous ROIs (i.e. standard deviation of spectral "
@@ -575,14 +579,14 @@ msgid ""
 ":ref:`max_likelihood_algorithm`)."
 msgstr ""
 
-#: ../../tutorial_2.rst:489
+#: ../../tutorial_2.rst:491
 msgid ""
 "In general, you should create one ROI for each color that you can "
 "distinguish in the image. Therefore, change the color composite in order to "
 "identify the different types of land cover."
 msgstr ""
 
-#: ../../tutorial_2.rst:492
+#: ../../tutorial_2.rst:494
 msgid ""
 "**TIP** : Change frequently the :ref:`color_composite_definition` in order "
 "to clearly identify the materials at the ground; use the mouse wheel on the "
@@ -592,45 +596,45 @@ msgid ""
 "image stretching)."
 msgstr ""
 
-#: ../../tutorial_2.rst:494
+#: ../../tutorial_2.rst:496
 msgid "A few examples of ROIs are illustrated in the following figures."
 msgstr ""
 
-#: ../../tutorial_2.rst:499
+#: ../../tutorial_2.rst:501
 msgid ":guilabel:`Water ROI: lake`"
 msgstr ""
 
-#: ../../tutorial_2.rst:504
+#: ../../tutorial_2.rst:506
 msgid ":guilabel:`Built-up ROI: large buildings`"
 msgstr ""
 
-#: ../../tutorial_2.rst:509
+#: ../../tutorial_2.rst:511
 msgid ":guilabel:`Built-up ROI: road`"
 msgstr ""
 
-#: ../../tutorial_2.rst:514
+#: ../../tutorial_2.rst:516
 msgid ":guilabel:`Built-up ROI: buildings and narrow roads`"
 msgstr ""
 
-#: ../../tutorial_2.rst:519
+#: ../../tutorial_2.rst:521
 msgid ":guilabel:`Vegetation ROI: deciduous trees`"
 msgstr ""
 
-#: ../../tutorial_2.rst:524
+#: ../../tutorial_2.rst:526
 msgid ":guilabel:`Vegetation ROI: crop`"
 msgstr ""
 
-#: ../../tutorial_2.rst:529
+#: ../../tutorial_2.rst:531
 msgid ":guilabel:`Bare soil ROI: uncultivated land`"
 msgstr ""
 
-#: ../../tutorial_2.rst:531
+#: ../../tutorial_2.rst:533
 msgid ""
 "It is worth mentioning that you can show or hide the temporary ROI clicking "
 "the button |radiobutton| :guilabel:`ROI` in :ref:`working_toolbar`."
 msgstr ""
 
-#: ../../tutorial_2.rst:533
+#: ../../tutorial_2.rst:535
 msgid ""
 "**TIP** : Install the plugin `QuickMapServices "
 "<http://plugins.qgis.org/plugins/quick_map_services/>`_ in QGIS, and add a "
@@ -638,7 +642,7 @@ msgid ""
 "facilitate the identification of ROIs using high resolution data."
 msgstr ""
 
-#: ../../tutorial_2.rst:535
+#: ../../tutorial_2.rst:537
 msgid ""
 "We can also try to mask clouds in the image, creating ROIs of clouds and "
 "assigning the special :guilabel:`MC ID` = 0 (which is an ID used for "
@@ -651,22 +655,22 @@ msgid ""
 " that will be discussed in other tutorials)."
 msgstr ""
 
-#: ../../tutorial_2.rst:542
+#: ../../tutorial_2.rst:544
 msgid ":guilabel:`Example of ROI for clouds`"
 msgstr ""
 
-#: ../../tutorial_2.rst:547
+#: ../../tutorial_2.rst:549
 msgid "Create a Classification Preview"
 msgstr ""
 
-#: ../../tutorial_2.rst:549
+#: ../../tutorial_2.rst:551
 msgid ""
 "As pointed out in :ref:`tutorial_1`, previews are temporary classifications "
 "that are useful for assessing the effects of spectral signatures during the "
 "ROI collection."
 msgstr ""
 
-#: ../../tutorial_2.rst:551
+#: ../../tutorial_2.rst:553
 msgid ""
 "Set the colors of the spectral signatures in the :ref:`ROI_list`; then, in "
 "the :ref:`classification_alg` select the classification algorithm "
@@ -675,15 +679,15 @@ msgid ""
 "point of the image in the map."
 msgstr ""
 
-#: ../../tutorial_2.rst:554
+#: ../../tutorial_2.rst:556
 msgid "The classification preview is displayed in the map."
 msgstr ""
 
-#: ../../tutorial_2.rst:559
+#: ../../tutorial_2.rst:561
 msgid ":guilabel:`Example of preview using C IDs`"
 msgstr ""
 
-#: ../../tutorial_2.rst:561
+#: ../../tutorial_2.rst:563
 msgid ""
 "In order to create a classification preview using Macroclass IDs check the "
 "option |checkbox| :guilabel:`MC ID` in the tab :ref:`classification_alg` of "
@@ -693,11 +697,11 @@ msgid ""
 "choose a representative color)."
 msgstr ""
 
-#: ../../tutorial_2.rst:567
+#: ../../tutorial_2.rst:569
 msgid ":guilabel:`COlors of MC IDs`"
 msgstr ""
 
-#: ../../tutorial_2.rst:569
+#: ../../tutorial_2.rst:571
 msgid ""
 "Now click the button |preview_redo| in the :ref:`working_toolbar` to "
 "calculate a new preview at the same area of the previous one. In the "
@@ -706,7 +710,7 @@ msgid ""
 "(black pixels)."
 msgstr ""
 
-#: ../../tutorial_2.rst:572
+#: ../../tutorial_2.rst:574
 msgid ""
 "**TIP** : In the :ref:`working_toolbar` click the button |radiobutton| "
 ":guilabel:`Preview` to easily show or hide the classification previews, and "
@@ -714,15 +718,15 @@ msgid ""
 ":guilabel:`Input image`."
 msgstr ""
 
-#: ../../tutorial_2.rst:577
+#: ../../tutorial_2.rst:579
 msgid ":guilabel:`Example of preview using MC IDs`"
 msgstr ""
 
-#: ../../tutorial_2.rst:582
+#: ../../tutorial_2.rst:584
 msgid "Assess Spectral Signatures"
 msgstr ""
 
-#: ../../tutorial_2.rst:584
+#: ../../tutorial_2.rst:586
 msgid ""
 "Spectral signatures are used by :ref:`classification_algorithm_definition` "
 "for labelling image pixels. Different materials may have similar spectral "
@@ -735,7 +739,7 @@ msgid ""
 "according to the algorithm used for classification."
 msgstr ""
 
-#: ../../tutorial_2.rst:590
+#: ../../tutorial_2.rst:592
 msgid ""
 "One can simply assess spectral signature similarity by displaying a "
 "signature plot. In order to display the signature plot, in the "
@@ -747,11 +751,11 @@ msgid ""
 "materials."
 msgstr ""
 
-#: ../../tutorial_2.rst:599
+#: ../../tutorial_2.rst:601
 msgid ":guilabel:`Spectral plot`"
 msgstr ""
 
-#: ../../tutorial_2.rst:601
+#: ../../tutorial_2.rst:603
 msgid ""
 "In the plot we can see the line of each signature (with the color defined in"
 " the :ref:`ROI_list`), and the spectral range (minimum and maximum) of each "
@@ -762,11 +766,11 @@ msgid ""
 ":ref:`signature_details`."
 msgstr ""
 
-#: ../../tutorial_2.rst:608
+#: ../../tutorial_2.rst:610
 msgid ":guilabel:`Spectral signature values`"
 msgstr ""
 
-#: ../../tutorial_2.rst:610
+#: ../../tutorial_2.rst:612
 msgid ""
 "Additionally, we can calculate the spectral distances of signatures (for "
 "more information see :ref:`spectral_distance_definition`). Highlight two or "
@@ -777,11 +781,11 @@ msgid ""
 "vary according to considered algorithm."
 msgstr ""
 
-#: ../../tutorial_2.rst:617
+#: ../../tutorial_2.rst:619
 msgid ":guilabel:`Spectral distances`"
 msgstr ""
 
-#: ../../tutorial_2.rst:619
+#: ../../tutorial_2.rst:621
 msgid ""
 "For instance, two signatures can be very similar "
 ":ref:`spectra_angle_mapping_algorithm` (very low :ref:`spectral_angle`), but"
@@ -792,42 +796,42 @@ msgid ""
 "the way we create ROIs influences the signatures."
 msgstr ""
 
-#: ../../tutorial_2.rst:625
+#: ../../tutorial_2.rst:627
 msgid "Create the Classification Output"
 msgstr ""
 
-#: ../../tutorial_2.rst:627
+#: ../../tutorial_2.rst:629
 msgid ""
 "Repeat iteratively the phases :ref:`tutorial_2_2`, :ref:`tutorial_2_3`, and "
 ":ref:`tutorial_2_4` until the classification previews show good results."
 msgstr ""
 
-#: ../../tutorial_2.rst:629
+#: ../../tutorial_2.rst:631
 msgid ""
 "To start the classification of the entire image, open the tab "
 ":ref:`classification_output`, click the button |run| and define the name of "
 "the classification output."
 msgstr ""
 
-#: ../../tutorial_2.rst:631
+#: ../../tutorial_2.rst:633
 msgid ""
 "**TIP** : Set the :guilabel:`Available RAM (MB)` in :ref:`ram` settings, in "
 "order to reduce the computational time; the recommended value is half of the"
 " system RAM."
 msgstr ""
 
-#: ../../tutorial_2.rst:633
+#: ../../tutorial_2.rst:635
 msgid ""
 "If |checkbox| :guilabel:`Play sound when finished` is checked in "
 ":ref:`classification_process` settings, a sound is played when the process "
 "is finished."
 msgstr ""
 
-#: ../../tutorial_2.rst:638
+#: ../../tutorial_2.rst:640
 msgid ":guilabel:`Classification`"
 msgstr ""
 
-#: ../../tutorial_2.rst:640
+#: ../../tutorial_2.rst:642
 msgid ""
 "It is worth mentioning that :guilabel:`SCP` provides other tools and "
 "techniques that can improve the classification results, which are described "
