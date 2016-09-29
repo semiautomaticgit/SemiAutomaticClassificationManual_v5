@@ -817,7 +817,7 @@ msgid ""
 "the ROI creation;"
 msgstr ""
 
-#: ../../main_interface_window.rst:644 ../../main_interface_window.rst:1652
+#: ../../main_interface_window.rst:644 ../../main_interface_window.rst:1657
 msgid "|remove|: delete the highlighted rows from the table;"
 msgstr ""
 
@@ -841,7 +841,7 @@ msgstr ""
 #: ../../main_interface_window.rst:1314 ../../main_interface_window.rst:1346
 #: ../../main_interface_window.rst:1394 ../../main_interface_window.rst:1440
 #: ../../main_interface_window.rst:1469 ../../main_interface_window.rst:1498
-#: ../../main_interface_window.rst:1527 ../../main_interface_window.rst:1835
+#: ../../main_interface_window.rst:1527 ../../main_interface_window.rst:1840
 msgid "Run"
 msgstr ""
 
@@ -2385,7 +2385,7 @@ msgid ""
 "In addition, it is possible to calculate a raster using **decision rules**."
 msgstr ""
 
-#: ../../main_interface_window.rst:1551 ../../main_interface_window.rst:1691
+#: ../../main_interface_window.rst:1551 ../../main_interface_window.rst:1696
 msgid "Band list"
 msgstr ""
 
@@ -2599,7 +2599,7 @@ msgid ""
 "expression."
 msgstr ""
 
-#: ../../main_interface_window.rst:1627
+#: ../../main_interface_window.rst:1626
 msgid ":guilabel:`Index calculation` |input_list|: list of spectral indices:"
 msgstr ""
 
@@ -2617,11 +2617,11 @@ msgid ""
 " * \"#RED#\" - 7.5 * \"#BLUE#\" + 1) @ EVI`` );"
 msgstr ""
 
-#: ../../main_interface_window.rst:1632
+#: ../../main_interface_window.rst:1637
 msgid "Decision rules"
 msgstr ""
 
-#: ../../main_interface_window.rst:1638
+#: ../../main_interface_window.rst:1643
 msgid ""
 ":guilabel:`Decision rules` allows for the calculation of an output raster "
 "based on rules. Rules are conditional statements based on other rasters; if "
@@ -2629,7 +2629,7 @@ msgid ""
 "assigned to the output pixel."
 msgstr ""
 
-#: ../../main_interface_window.rst:1641
+#: ../../main_interface_window.rst:1646
 msgid ""
 "Rules are verified from the first to the last row in the table; if the first"
 " :guilabel:`Rule` is false, the next :guilabel:`Rule` is verified for that "
@@ -2639,19 +2639,19 @@ msgid ""
 "true."
 msgstr ""
 
-#: ../../main_interface_window.rst:1647
+#: ../../main_interface_window.rst:1652
 msgid ""
 "|input_table| :guilabel:`Decision rules`: table containing the following "
 "fields;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1646
+#: ../../main_interface_window.rst:1651
 msgid ""
 ":guilabel:`Value`: the value assigned to pixels if the :guilabel:`Rule` is "
 "true;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1647
+#: ../../main_interface_window.rst:1652
 msgid ""
 ":guilabel:`Rule`: the rule to be verified (e.g. ``\"raster1\" > 0``); "
 "multiple conditional statements can be entered separated by ``;`` (e.g. "
@@ -2659,35 +2659,35 @@ msgid ""
 ":guilabel:`Value` where ``raster1`` > 0 and ``raster2`` < 1);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1649
+#: ../../main_interface_window.rst:1654
 msgid "|move_up|: move highlighted rule up;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1650
+#: ../../main_interface_window.rst:1655
 msgid "|move_down|: move highlighted rule down;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1651
+#: ../../main_interface_window.rst:1656
 msgid "|add|: add a new row to the table;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1653
+#: ../../main_interface_window.rst:1658
 msgid "|reset|: clear the table;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1654
+#: ../../main_interface_window.rst:1659
 msgid "|export|: export the rules to a text file that can be imported later;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1655
+#: ../../main_interface_window.rst:1660
 msgid "|import|: import rules from a text file;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1660
+#: ../../main_interface_window.rst:1665
 msgid "Output raster"
 msgstr ""
 
-#: ../../main_interface_window.rst:1662
+#: ../../main_interface_window.rst:1667
 msgid ""
 "The output raster is a .tif file, with the same spatial resolution and "
 "projection of input rasters; if input rasters have different spatial "
@@ -2695,32 +2695,32 @@ msgid ""
 "for output raster."
 msgstr ""
 
-#: ../../main_interface_window.rst:1664
+#: ../../main_interface_window.rst:1669
 msgid ""
 "|checkbox| :guilabel:`Use NoData value` |input_number|: if checked, set the "
 "value of ``NoData`` pixels in output raster;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1666
+#: ../../main_interface_window.rst:1671
 msgid ""
 "Extent: if the following options are unchecked, the output raster extent "
 "will include the extents of all input rasters;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1666
+#: ../../main_interface_window.rst:1671
 msgid ""
 "|checkbox| :guilabel:`Intersection`: if checked, the extent of output raster"
 " equals the intersection of input raster extents (i.e. minimum extent);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1667
+#: ../../main_interface_window.rst:1672
 msgid ""
 "|checkbox| :guilabel:`Same as` |input_list|: if checked, the extent of "
 "output raster equals the extent of :guilabel:`\"Map extent\"` (the extent of"
 " the map currently displayed) or a selected layer;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1668
+#: ../../main_interface_window.rst:1673
 msgid ""
 "|run|: if ``Expression`` is active and text is green, choose the output "
 "destination and start the calculation based on ``Expression``; if ``Decision"
@@ -2728,15 +2728,15 @@ msgid ""
 "start the calculation based on ``Decision rules``;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1673
+#: ../../main_interface_window.rst:1678
 msgid "Band set"
 msgstr ""
 
-#: ../../main_interface_window.rst:1679
+#: ../../main_interface_window.rst:1684
 msgid "|bandset_tool| :guilabel:`Band set`"
 msgstr ""
 
-#: ../../main_interface_window.rst:1681
+#: ../../main_interface_window.rst:1686
 msgid ""
 "This tab allows for the definition of a set of single band rasters "
 "(:guilabel:`Band set`) used as :guilabel:`Input image`. The ``Center "
@@ -2744,48 +2744,48 @@ msgid ""
 " :guilabel:`SCP`."
 msgstr ""
 
-#: ../../main_interface_window.rst:1684
+#: ../../main_interface_window.rst:1689
 msgid ""
 "If a :guilabel:`Band set` of single band rasters is defined, then the item "
 "``<< band set >>`` will be listed in the :ref:`working_toolbar` as "
 ":guilabel:`input image`."
 msgstr ""
 
-#: ../../main_interface_window.rst:1686
+#: ../../main_interface_window.rst:1691
 msgid "The :guilabel:`Band set` definition is saved with the QGIS project."
 msgstr ""
 
-#: ../../main_interface_window.rst:1693
+#: ../../main_interface_window.rst:1698
 msgid "List of single band rasters loaded in QGIS."
 msgstr ""
 
-#: ../../main_interface_window.rst:1695
+#: ../../main_interface_window.rst:1700
 msgid ""
 "|open_file|: open one or more raster file (single band) which are added to "
 "the :guilabel:`Band set` and loaded in QGIS;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1696
+#: ../../main_interface_window.rst:1701
 msgid "|reload|: refresh list of raster bands loaded in QGIS;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1697
+#: ../../main_interface_window.rst:1702
 msgid "|select_all|: select all raster bands;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1698
+#: ../../main_interface_window.rst:1703
 msgid "|plus|: add selected rasters to the :guilabel:`Band set`."
 msgstr ""
 
-#: ../../main_interface_window.rst:1703
+#: ../../main_interface_window.rst:1708
 msgid "Band set definition"
 msgstr ""
 
-#: ../../main_interface_window.rst:1705
+#: ../../main_interface_window.rst:1710
 msgid "Definition of bands composing the :guilabel:`input image` ."
 msgstr ""
 
-#: ../../main_interface_window.rst:1707
+#: ../../main_interface_window.rst:1712
 msgid ""
 "If the :guilabel:`Center wavelength` of bands is not defined, the band "
 "number is used and some :guilabel:`SCP` tools will be disabled. It is "
@@ -2796,223 +2796,223 @@ msgid ""
 "processing."
 msgstr ""
 
-#: ../../main_interface_window.rst:1714
+#: ../../main_interface_window.rst:1719
 msgid ""
 "|input_table| :guilabel:`Band set definition`: table containing the "
 "following fields;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1711
+#: ../../main_interface_window.rst:1716
 msgid ""
 ":guilabel:`Band name` |project_save|: name of the band; name cannot be "
 "edited;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1712
+#: ../../main_interface_window.rst:1717
 msgid ""
 ":guilabel:`Center wavelength` |project_save|: center of the wavelength of "
 "the band;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1713
+#: ../../main_interface_window.rst:1718
 msgid ""
 ":guilabel:`Multiplicative Factor` |project_save|: multiplicative rescaling "
 "factor;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1714
+#: ../../main_interface_window.rst:1719
 msgid ":guilabel:`Additive Factor` |project_save|: additive rescaling factor;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1716
+#: ../../main_interface_window.rst:1721
 msgid "|move_up|: move highlighted bands upward;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1717
+#: ../../main_interface_window.rst:1722
 msgid "|move_down|: move highlighted bands downward;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1718
+#: ../../main_interface_window.rst:1723
 msgid ""
 "|order_by_name| : sort automatically bands by name, giving priority to the "
 "ending numbers of name;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1719
+#: ../../main_interface_window.rst:1724
 msgid "|remove|: remove highlighted bands from the :guilabel:`Band set`;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1720
+#: ../../main_interface_window.rst:1725
 msgid "|reset|: clear all bands from :guilabel:`Band set`;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1721
+#: ../../main_interface_window.rst:1726
 msgid "|export|: export the :guilabel:`Band set` to a file;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1722
+#: ../../main_interface_window.rst:1727
 msgid "|import|: import a previously saved :guilabel:`Band set` from file;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1739
+#: ../../main_interface_window.rst:1744
 msgid ""
 ":guilabel:`Quick wavelength settings` |input_list| |optional|: rapid "
 "definition of band center wavelength for the following satellite sensors:"
 msgstr ""
 
-#: ../../main_interface_window.rst:1725
+#: ../../main_interface_window.rst:1730
 msgid "ASTER;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1726
+#: ../../main_interface_window.rst:1731
 msgid "GeoEye-1;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1727
+#: ../../main_interface_window.rst:1732
 msgid "Landsat 8 OLI;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1728
+#: ../../main_interface_window.rst:1733
 msgid "Landsat 7 ETM+;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1729
+#: ../../main_interface_window.rst:1734
 msgid "Landsat 5 TM;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1730
+#: ../../main_interface_window.rst:1735
 msgid "Landsat 4 TM;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1731
+#: ../../main_interface_window.rst:1736
 msgid "Landsat 1, 2, and 3 MSS;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1732
+#: ../../main_interface_window.rst:1737
 msgid "Pleiades;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1733
+#: ../../main_interface_window.rst:1738
 msgid "QuickBird;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1734
+#: ../../main_interface_window.rst:1739
 msgid "RapidEye;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1735
+#: ../../main_interface_window.rst:1740
 msgid "Sentinel-2;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1736
+#: ../../main_interface_window.rst:1741
 msgid "SPOT 4;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1737
+#: ../../main_interface_window.rst:1742
 msgid "SPOT 5;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1738
+#: ../../main_interface_window.rst:1743
 msgid "SPOT 6;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1739
+#: ../../main_interface_window.rst:1744
 msgid "WorldView-2 and WorldView-3;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1744
+#: ../../main_interface_window.rst:1749
 msgid ""
 ":guilabel:`Wavelength unit` |input_list| |project_save|: select the "
 "wavelength unit among:"
 msgstr ""
 
-#: ../../main_interface_window.rst:1742
+#: ../../main_interface_window.rst:1747
 msgid ":guilabel:`Band number`: no unit, only band number;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1743
+#: ../../main_interface_window.rst:1748
 msgid ":math:`\\mu m`: micrometres;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1744
+#: ../../main_interface_window.rst:1749
 msgid ":guilabel:`nm`: nanometres;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1749
+#: ../../main_interface_window.rst:1754
 msgid "Band set tools"
 msgstr ""
 
-#: ../../main_interface_window.rst:1751
+#: ../../main_interface_window.rst:1756
 msgid ""
 "It is possible to perform several processes directly on :guilabel:`Band "
 "set`."
 msgstr ""
 
-#: ../../main_interface_window.rst:1753
+#: ../../main_interface_window.rst:1758
 msgid ""
 "|checkbox| :guilabel:`Create virtual raster of band set`: if checked, create"
 " a virtual raster of bands;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1754
+#: ../../main_interface_window.rst:1759
 msgid ""
 "|checkbox| :guilabel:`Create raster of band set (stack bands)`: if checked, "
 "stack all the bands and create a unique .tif raster;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1755
+#: ../../main_interface_window.rst:1760
 msgid ""
 "|checkbox| :guilabel:`Build band overviews`: if checked, build raster "
 "overviews (i.e. pyramids) for improving display performance; overview files "
 "are created in the same directory as bands;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1756
+#: ../../main_interface_window.rst:1761
 msgid ""
 "|checkbox| :guilabel:`Band calc expression`: if checked, calculate the "
 ":ref:`expression` entered in :ref:`band_calc_tab`; it is recommended the use"
 " of :guilabel:`Band set` variables in the expression (e.g. ``bandset#b1`` );"
 msgstr ""
 
-#: ../../main_interface_window.rst:1757
+#: ../../main_interface_window.rst:1762
 msgid "|run|: choose the output destination and start the process;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1762 ../../main_interface_window.rst:1775
+#: ../../main_interface_window.rst:1767 ../../main_interface_window.rst:1780
 msgid "Batch"
 msgstr ""
 
-#: ../../main_interface_window.rst:1768
+#: ../../main_interface_window.rst:1773
 msgid "|batch_tool| :guilabel:`Batch`"
 msgstr ""
 
-#: ../../main_interface_window.rst:1770
+#: ../../main_interface_window.rst:1775
 msgid ""
 "This tab allows for the automatic execution (batch) of several "
 ":guilabel:`SCP` functions using a scripting interface."
 msgstr ""
 
-#: ../../main_interface_window.rst:1777
+#: ../../main_interface_window.rst:1782
 msgid ""
 "Enter a batch expression; each function must be in a new line. Functions "
 "have the following structure:"
 msgstr ""
 
-#: ../../main_interface_window.rst:1780
+#: ../../main_interface_window.rst:1785
 msgid "``function name``; ``function options``"
 msgstr ""
 
-#: ../../main_interface_window.rst:1782
+#: ../../main_interface_window.rst:1787
 msgid ""
 "Each functions has options, identified by a name, with the following "
 "structure:"
 msgstr ""
 
-#: ../../main_interface_window.rst:1784
+#: ../../main_interface_window.rst:1789
 msgid "``option name``: ``option argument``"
 msgstr ""
 
-#: ../../main_interface_window.rst:1786
+#: ../../main_interface_window.rst:1791
 msgid ""
 "Options must be separated by the character ``;`` . Each function option "
 "represents an option in the corresponding interface of :guilabel:`SCP`; "
@@ -3021,7 +3021,7 @@ msgid ""
 "unchecked."
 msgstr ""
 
-#: ../../main_interface_window.rst:1789
+#: ../../main_interface_window.rst:1794
 msgid ""
 "According to the function, some of the options are mandatory while other "
 "options can be omitted from the expression. Option names that contain "
@@ -3029,50 +3029,50 @@ msgid ""
 " arguments such as lists; lists must be separated by ``,`` ."
 msgstr ""
 
-#: ../../main_interface_window.rst:1792
+#: ../../main_interface_window.rst:1797
 msgid "If the expression contains errors, the text is red."
 msgstr ""
 
-#: ../../main_interface_window.rst:1794
+#: ../../main_interface_window.rst:1799
 msgid "|reset|: clear the expression;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1795
+#: ../../main_interface_window.rst:1800
 msgid "|export|: export the batch expression to a file;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1796
+#: ../../main_interface_window.rst:1801
 msgid "|import|: import a previously saved batch expression from file;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1816
+#: ../../main_interface_window.rst:1821
 msgid ""
 ":guilabel:`Functions`: the following functions are available with the "
 "corresponding options;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1799
+#: ../../main_interface_window.rst:1804
 msgid ""
 ":ref:`accuracy_tab`: calculate accuracy (``accuracy;classification_file_path"
 " : '';reference_file_path : '';shapefile_field_name : '';output_raster_path "
 ": ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1800
+#: ../../main_interface_window.rst:1805
 msgid ""
 ":ref:`aster_tab`: ASTER conversion of (``aster_conversion;input_raster_path "
 ": '';celsius_temperature : 0;apply_dos1 : 0;use_nodata : 1;nodata_value : "
 "0;create_bandset : 1;output_dir : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1801
+#: ../../main_interface_window.rst:1806
 msgid ""
 ":ref:`band_calc_tab`: band calculation (``band_calc;expression : "
 "'';output_raster_path : '';extent_same_as_raster_name : "
 "'';extent_intersection : 1;set_nodata : 0;nodata_value : 0``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1802
+#: ../../main_interface_window.rst:1807
 msgid ""
 ":ref:`classification_output`: perform classification "
 "(``classification;use_macroclass : 0;algorithm_name  : 'Minimum "
@@ -3081,42 +3081,42 @@ msgid ""
 " : 0;save_algorithm_files : 0;output_classification_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1803
+#: ../../main_interface_window.rst:1808
 msgid ""
 ":ref:`classification_dilation_tab`: dilation of a classification "
 "(``classification_dilation;input_raster_path : '';class_values : "
 "'';size_in_pixels : 1;pixel_connection : 4;output_raster_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1804
+#: ../../main_interface_window.rst:1809
 msgid ""
 ":ref:`classification_erosion_tab`: erosion of a classification "
 "(``classification_erosion;input_raster_path : '';class_values : "
 "'';size_in_pixels : 1;pixel_connection : 4;output_raster_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1805
+#: ../../main_interface_window.rst:1810
 msgid ""
 ":ref:`classification_report_tab`: report of a classification "
 "(``classification_report;input_raster_path : '';use_nodata : 0;nodata_value "
 ": 0;output_report_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1806
+#: ../../main_interface_window.rst:1811
 msgid ""
 ":ref:`classification_sieve_tab`: classification "
 "sieve(``classification_sieve;input_raster_path : '';size_threshold : "
 "2;pixel_connection : 4;output_raster_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1807
+#: ../../main_interface_window.rst:1812
 msgid ""
 ":ref:`classification_vector_tab`: convert classification to vector "
 "(``classification_to_vector;input_raster_path : '';use_signature_list_code :"
 " 1;code_field : 'C_ID';output_vector_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1808
+#: ../../main_interface_window.rst:1813
 msgid ""
 ":ref:`clip_multiple_rasters_tab`: clip multiple rasters "
 "(``clip_multiple_rasters;input_raster_path : '';output_dir : "
@@ -3124,7 +3124,7 @@ msgid ""
 ": '';nodata_value : 0;output_name_prefix : 'clip'``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1809
+#: ../../main_interface_window.rst:1814
 msgid ""
 ":ref:`edit_raster_tab`: edit raster values using a shapefile "
 "(``edit_raster_using_shapefile;input_raster_path : '';input_vector_path : "
@@ -3132,28 +3132,28 @@ msgid ""
 "1, 2, raster)'``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1810
+#: ../../main_interface_window.rst:1815
 msgid ""
 ":ref:`land_cover_change_tab`: calculate land cover change "
 "(``land_cover_change;reference_raster_path : '';new_raster_path : "
 "'';output_raster_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1811
+#: ../../main_interface_window.rst:1816
 msgid ""
 ":ref:`landsat_tab`: Landsat conversion (``landsat_conversion;input_dir : "
 "'';mtl_file_path : '';celsius_temperature : 0;apply_dos1 : 0;use_nodata : "
 "1;nodata_value : 0;pansharpening : 0;create_bandset : 1;output_dir : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1812
+#: ../../main_interface_window.rst:1817
 msgid ""
 ":ref:`pca_tab`: Principal Component Analysis (``pca;use_number_of_components"
 " : 0, number_of_components : 2;use_nodata : 1;nodata_value : 0;output_dir : "
 "''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1813
+#: ../../main_interface_window.rst:1818
 msgid ""
 ":ref:`reclassification_tab`: raster reclassification "
 "(``reclassification;input_raster_path : '';value_list : 'oldVal-newVal"
@@ -3161,21 +3161,21 @@ msgid ""
 "'MC_ID';output_raster_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1814
+#: ../../main_interface_window.rst:1819
 msgid ""
 ":ref:`sentinel2_tab`: Sentinel-2 conversion(``sentinel_conversion;input_dir "
 ": '';mtd_safl1c_file_path : '';apply_dos1 : 0;use_nodata : 1;nodata_value : "
 "0;create_bandset : 1;output_dir : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1815
+#: ../../main_interface_window.rst:1820
 msgid ""
 ":ref:`split_raster_tab`: split raster to single bands "
 "(``split_raster_bands;input_raster_path : '';output_dir : "
 "'';output_name_prefix : 'split'``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1816
+#: ../../main_interface_window.rst:1821
 msgid ""
 ":ref:`vector_to_raster_tab`: convert vector to raster "
 "(``vector_to_raster;vector_file_path : '';use_value_field : "
@@ -3183,36 +3183,36 @@ msgid ""
 "'';type_of_conversion : 'Center of pixels';output_raster_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1822
+#: ../../main_interface_window.rst:1827
 msgid "In addition, the following functions are available:"
 msgstr ""
 
-#: ../../main_interface_window.rst:1819
+#: ../../main_interface_window.rst:1824
 msgid ""
 ":guilabel:`Add raster to QGIS`: add a raster to QGIS "
 "(``add_raster;input_raster_path : '';input_raster_name : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1820
+#: ../../main_interface_window.rst:1825
 msgid ""
 ":guilabel:`Create Band set`: create a :guilabel:`Band set` "
 "(``create_bandset;raster_path_list : '';center_wavelength : "
 "'';multiplicative_factor : '';additive_factor : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1821
+#: ../../main_interface_window.rst:1826
 msgid ""
 ":guilabel:`Open training input`: open a training input file "
 "(``open_training_input;training_file_path : ''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1822
+#: ../../main_interface_window.rst:1827
 msgid ""
 ":guilabel:`Set working directory`: set a working directory (argument is the "
 "path to a directory) (``!working_dir!;''``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1824
+#: ../../main_interface_window.rst:1829
 msgid ""
 "If a working directory is defined, ``!working_dir!`` can be entered in other"
 " functions where a path is required (e.g. ``add_raster;input_raster_path : "
@@ -3220,164 +3220,164 @@ msgid ""
 " of batch expression is::"
 msgstr ""
 
-#: ../../main_interface_window.rst:1837
+#: ../../main_interface_window.rst:1842
 msgid ""
 "|run|: if text in the batch expression is green, start the batch processes;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1842
+#: ../../main_interface_window.rst:1847
 msgid "Settings"
 msgstr ""
 
-#: ../../main_interface_window.rst:1844
+#: ../../main_interface_window.rst:1849
 msgid ""
 "The tab |settings_tool| :guilabel:`Settings` allows for the customization of"
 " :guilabel:`SCP`."
 msgstr ""
 
-#: ../../main_interface_window.rst:1849
+#: ../../main_interface_window.rst:1854
 msgid "Interface"
 msgstr ""
 
-#: ../../main_interface_window.rst:1851
+#: ../../main_interface_window.rst:1856
 msgid "Customization of the interface."
 msgstr ""
 
-#: ../../main_interface_window.rst:1857
+#: ../../main_interface_window.rst:1862
 msgid ":guilabel:`Interface`"
 msgstr ""
 
-#: ../../main_interface_window.rst:1862
+#: ../../main_interface_window.rst:1867
 msgid "Field names of training input"
 msgstr ""
 
-#: ../../main_interface_window.rst:1864
+#: ../../main_interface_window.rst:1869
 msgid ""
 "Set the names of fields in the :ref:`training_input` . Changing field names "
 "should usually be avoided."
 msgstr ""
 
-#: ../../main_interface_window.rst:1867
+#: ../../main_interface_window.rst:1872
 msgid ""
 ":guilabel:`MC ID field` |input_text| |registry_save|: name of the Macroclass"
 " ID field (default is ``MC_ID``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1868
+#: ../../main_interface_window.rst:1873
 msgid ""
 ":guilabel:`MC Info field` |input_text| |registry_save|: name of the "
 "Macroclass Information field (default is ``MC_info``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1869
+#: ../../main_interface_window.rst:1874
 msgid ""
 ":guilabel:`C ID field` |input_text| |registry_save|: name of the Class ID "
 "field (default is ``C_ID``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1870
+#: ../../main_interface_window.rst:1875
 msgid ""
 ":guilabel:`C Info field` |input_text| |registry_save|: name of the Class "
 "Information field (default is ``C_info``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1871
+#: ../../main_interface_window.rst:1876
 msgid "|reset|: reset field names to default;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1876
+#: ../../main_interface_window.rst:1881
 msgid "ROI style"
 msgstr ""
 
-#: ../../main_interface_window.rst:1878
+#: ../../main_interface_window.rst:1883
 msgid ""
 "Change ROI color and transparency for a better visualization of temporary "
 "ROIs on the map."
 msgstr ""
 
-#: ../../main_interface_window.rst:1880
+#: ../../main_interface_window.rst:1885
 msgid ":guilabel:`ROI color` |registry_save|: button for changing ROI color;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1881
+#: ../../main_interface_window.rst:1886
 msgid ""
 ":guilabel:`Transparency` |input_slider| |registry_save|: change ROI "
 "transparency;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1882
+#: ../../main_interface_window.rst:1887
 msgid "|reset|: reset ROI color and transparency to default;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1887
+#: ../../main_interface_window.rst:1892
 msgid "Variable name for expressions"
 msgstr ""
 
-#: ../../main_interface_window.rst:1889
+#: ../../main_interface_window.rst:1894
 msgid ""
 "Set the variable name used in expressions of the :ref:`reclassification_tab`"
 " and  :ref:`edit_raster_tab` ."
 msgstr ""
 
-#: ../../main_interface_window.rst:1891
+#: ../../main_interface_window.rst:1896
 msgid ""
 ":guilabel:`Variable name` |input_text| |registry_save|: set variable name "
 "(default is ``raster``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1892
+#: ../../main_interface_window.rst:1897
 msgid "|reset|: reset variable name to default;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1897
+#: ../../main_interface_window.rst:1902
 msgid "Temporary group name"
 msgstr ""
 
-#: ../../main_interface_window.rst:1899
+#: ../../main_interface_window.rst:1904
 msgid ""
 "Set the temporary group name in QGIS Layers used for temporary layers ."
 msgstr ""
 
-#: ../../main_interface_window.rst:1901
+#: ../../main_interface_window.rst:1906
 msgid ""
 ":guilabel:`Group name` |input_text| |registry_save|: set group name (default"
 " is ``Class_temp_group``);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1902
+#: ../../main_interface_window.rst:1907
 msgid "|reset|: reset group name to default;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1907
+#: ../../main_interface_window.rst:1912
 msgid "Dock"
 msgstr ""
 
-#: ../../main_interface_window.rst:1909
+#: ../../main_interface_window.rst:1914
 msgid ""
 "|checkbox| :guilabel:`Download news on startup`: if checked, news about the "
 ":guilabel:`SCP` and related services are downloaded on startup and displayed"
 " in :guilabel:`Dock`;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1914
+#: ../../main_interface_window.rst:1919
 msgid "Processing"
 msgstr ""
 
-#: ../../main_interface_window.rst:1920
+#: ../../main_interface_window.rst:1925
 msgid ":guilabel:`Processing`"
 msgstr ""
 
-#: ../../main_interface_window.rst:1925
+#: ../../main_interface_window.rst:1930
 msgid "Classification process"
 msgstr ""
 
-#: ../../main_interface_window.rst:1927
+#: ../../main_interface_window.rst:1932
 msgid ""
 "|checkbox| :guilabel:`Play sound when finished` |registry_save|: if checked,"
 " play a sound when the classification process is completed;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1928
+#: ../../main_interface_window.rst:1933
 msgid ""
 "|checkbox| :guilabel:`Use virtual rasters for temp files` |registry_save|: "
 "if checked, create virtual rasters for certain temporary files, instead of "
@@ -3385,7 +3385,7 @@ msgid ""
 "calculations;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1929
+#: ../../main_interface_window.rst:1934
 msgid ""
 "|checkbox| :guilabel:`Raster compression` |registry_save|: if checked, a "
 "lossless compression (DEFLATE or PACKBITS) is applied to raster outputs in "
@@ -3393,11 +3393,11 @@ msgid ""
 "compressed files are sometimes larger than files without compression;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1934
+#: ../../main_interface_window.rst:1939
 msgid "RAM"
 msgstr ""
 
-#: ../../main_interface_window.rst:1936
+#: ../../main_interface_window.rst:1941
 msgid ""
 ":guilabel:`Available RAM (MB)` |input_number| |registry_save|: set the "
 "available RAM (in MB) that is used during the processes in order to improve "
@@ -3406,65 +3406,76 @@ msgid ""
 "lower than 512MB;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1941
+#: ../../main_interface_window.rst:1946
 msgid "Temporary directory"
 msgstr ""
 
-#: ../../main_interface_window.rst:1943
+#: ../../main_interface_window.rst:1948
 msgid ""
 "|open_dir| |registry_save|: select a new temporary directory where temporary"
 " files are saved during processing; the path to the current temporary "
 "directory is displayed; default is a system temporary directory;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1944
+#: ../../main_interface_window.rst:1949
 msgid "|reset|: reset to default temporary directory;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1949
+#: ../../main_interface_window.rst:1954
 msgid "Debug"
 msgstr ""
 
-#: ../../main_interface_window.rst:1955
+#: ../../main_interface_window.rst:1960
 msgid ":guilabel:`Debug`"
 msgstr ""
 
-#: ../../main_interface_window.rst:1957
+#: ../../main_interface_window.rst:1962
 msgid ""
 "Debugging utilities for the creation of a Log file (i.e. recording of "
 ":guilabel:`SCP` activities for reporting issues) and testing :guilabel:`SCP`"
 " dependencies."
 msgstr ""
 
-#: ../../main_interface_window.rst:1959
+#: ../../main_interface_window.rst:1964
 msgid "If you found a plugin error, please read :ref:`error_0` ."
 msgstr ""
 
-#: ../../main_interface_window.rst:1964
+#: ../../main_interface_window.rst:1969
 msgid "Log file"
 msgstr ""
 
-#: ../../main_interface_window.rst:1966
+#: ../../main_interface_window.rst:1971
 msgid ""
 "|checkbox| :guilabel:`Records events in a log file` |registry_save|: if "
 "checked, start recording events in a Log file;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1967
+#: ../../main_interface_window.rst:1972
 msgid "|export|: export the Log file (i.e. a .txt file);"
 msgstr ""
 
-#: ../../main_interface_window.rst:1968
+#: ../../main_interface_window.rst:1973
 msgid "|reset|: clear the content of Log file;"
 msgstr ""
 
-#: ../../main_interface_window.rst:1973
+#: ../../main_interface_window.rst:1978
 msgid "Test"
 msgstr ""
 
-#: ../../main_interface_window.rst:1975
+#: ../../main_interface_window.rst:1980
 msgid ""
 ":guilabel:`Test dependencies` |enter|: test :guilabel:`SCP` dependencies "
 "(GDAL, GDAL subprocess, NumPy, SciPy, Matplotlib, Internet connection); "
 "results are displayed in a window;"
+msgstr ""
+
+#: ../../main_interface_window.rst:1628
+msgid ""
+"|open_file|: open a text file (.txt) containing custom expressions to be "
+"listed in :guilabel:`Index calculation`; the text file must contain an "
+"expression for each line; each line must be in the form ``expression_name; "
+"expression`` (separated by ``;``) where the ``expression_name`` is the "
+"expression name that is displayed in the :guilabel:`Index calculation`; if "
+"you open an empty text file, the default values are restored; following an "
+"example of text content::"
 msgstr ""
