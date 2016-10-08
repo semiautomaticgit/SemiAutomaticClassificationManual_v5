@@ -338,11 +338,11 @@ msgstr ""
 msgid ":guilabel:`Bare soil`"
 msgstr ""
 
-#: ../../tutorial_1.rst:387
+#: ../../tutorial_1.rst:419
 msgid "Create a Classification Preview"
 msgstr ""
 
-#: ../../tutorial_1.rst:389
+#: ../../tutorial_1.rst:421
 msgid ""
 "The classification process is based on collected ROIs (and spectral "
 "signatures thereof). It is useful to create a :ref:`classification_preview` "
@@ -351,7 +351,7 @@ msgid ""
 "more ROIs to better classify land cover."
 msgstr ""
 
-#: ../../tutorial_1.rst:393
+#: ../../tutorial_1.rst:425
 msgid ""
 "Before running a classification (or a preview), set the color of land cover "
 "classes that will be displayed in the classification raster. In the "
@@ -359,17 +359,17 @@ msgid ""
 " each ROI to choose a representative color of each class."
 msgstr ""
 
-#: ../../tutorial_1.rst:399
+#: ../../tutorial_1.rst:431
 msgid ":guilabel:`Definition of class colors`"
 msgstr ""
 
-#: ../../tutorial_1.rst:401
+#: ../../tutorial_1.rst:433
 msgid ""
 "Now we need to select the classification algorithm. In this tutorial we are "
 "going to select the :ref:`spectra_angle_mapping_algorithm`."
 msgstr ""
 
-#: ../../tutorial_1.rst:404
+#: ../../tutorial_1.rst:436
 msgid ""
 "In :ref:`classification_alg` select the :guilabel:`Spectral Angle Mapping` "
 ":ref:`classification_algorithm`. In :ref:`classification_preview` set "
@@ -378,17 +378,17 @@ msgid ""
 "and the result is a classified square centered in clicked point."
 msgstr ""
 
-#: ../../tutorial_1.rst:411
+#: ../../tutorial_1.rst:443
 msgid ":guilabel:`Classification preview displayed over the image`"
 msgstr ""
 
-#: ../../tutorial_1.rst:413
+#: ../../tutorial_1.rst:445
 msgid ""
 "Previews are temporary rasters (deleted after QGIS is closed) placed in a "
 "group named :guilabel:`Class_temp_group` in the QGIS panel Layers."
 msgstr ""
 
-#: ../../tutorial_1.rst:415
+#: ../../tutorial_1.rst:447
 msgid ""
 "**TIP** : When loading a previously saved QGIS project, a message could ask "
 "to handle missing layers, which are temporary layers that SCP creates during"
@@ -396,7 +396,7 @@ msgid ""
 "and ignore these layers."
 msgstr ""
 
-#: ../../tutorial_1.rst:417
+#: ../../tutorial_1.rst:449
 msgid ""
 "In general, it is good to perform a classification preview every time a ROI "
 "(or a spectral signature) is added to the :ref:`ROI_list`. Therefore, the "
@@ -404,18 +404,18 @@ msgid ""
 "concurrent processes."
 msgstr ""
 
-#: ../../tutorial_1.rst:422
+#: ../../tutorial_1.rst:454
 msgid "Create the Classification Output"
 msgstr ""
 
-#: ../../tutorial_1.rst:424
+#: ../../tutorial_1.rst:456
 msgid ""
 "Assuming that the results of classification previews were good (i.e. pixels "
 "are assigned to the correct class defined in the :ref:`ROI_list`), we can "
 "perform the actual land cover classification of the whole image."
 msgstr ""
 
-#: ../../tutorial_1.rst:426
+#: ../../tutorial_1.rst:458
 msgid ""
 "In the :ref:`classification_output` click the button |run| and define the "
 "path of the classification output, which is a raster file (.tif). If "
@@ -424,16 +424,16 @@ msgid ""
 "is finished."
 msgstr ""
 
-#: ../../tutorial_1.rst:432
+#: ../../tutorial_1.rst:464
 msgid ":guilabel:`Result of the land cover classification`"
 msgstr ""
 
-#: ../../tutorial_1.rst:434
+#: ../../tutorial_1.rst:466
 msgid ""
 "**Well done!** You have just performed your first land cover classification."
 msgstr ""
 
-#: ../../tutorial_1.rst:437
+#: ../../tutorial_1.rst:469
 msgid ""
 "Water and vegetation are correctly identified. However, you can see that "
 "there are several classification errors (especially soil classified as "
@@ -441,12 +441,41 @@ msgid ""
 "is insufficient."
 msgstr ""
 
-#: ../../tutorial_1.rst:443
+#: ../../tutorial_1.rst:475
 msgid ":guilabel:`Example of error: Bare soil classified as Built-up`"
 msgstr ""
 
-#: ../../tutorial_1.rst:445
+#: ../../tutorial_1.rst:477
 msgid ""
 "We can improve the classification using some of the tools described in the "
 "next tutorial."
+msgstr ""
+
+#: ../../tutorial_1.rst:384
+msgid ""
+"The following examples display a few RGB color composites of Landsat images."
+msgstr ""
+
+#: ../../tutorial_1.rst:389
+msgid ":guilabel:`Built-up ROI: large buildings`"
+msgstr ""
+
+#: ../../tutorial_1.rst:394
+msgid ":guilabel:`Built-up ROI: road`"
+msgstr ""
+
+#: ../../tutorial_1.rst:399
+msgid ":guilabel:`Built-up ROI: buildings and narrow roads`"
+msgstr ""
+
+#: ../../tutorial_1.rst:404
+msgid ":guilabel:`Bare soil ROI: uncultivated land`"
+msgstr ""
+
+#: ../../tutorial_1.rst:409
+msgid ":guilabel:`Vegetation ROI: deciduous trees`"
+msgstr ""
+
+#: ../../tutorial_1.rst:414
+msgid ":guilabel:`Vegetation ROI: crop`"
 msgstr ""

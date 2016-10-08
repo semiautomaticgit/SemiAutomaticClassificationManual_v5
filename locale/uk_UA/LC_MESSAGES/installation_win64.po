@@ -73,6 +73,9 @@ msgid ""
 "**TIP**: in case of issues or an offline installation is required see "
 ":ref:`plugin_installation_1` and :ref:`plugin_installation_2`."
 msgstr ""
+"**ПОРАДА**: у випадку виникнення проблем або офлайн-встановлення "
+"рекомендовано ознайомитись з :ref:`plugin_installation_1` та  "
+":ref:`plugin_installation_2`."
 
 #: ../../installation_win64.rst:41
 msgid ""
