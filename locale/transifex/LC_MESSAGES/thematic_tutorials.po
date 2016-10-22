@@ -49,20 +49,19 @@ msgstr ""
 
 #: ../../thematic_tutorials.rst:25
 msgid ""
-"`Estimation of Land Surface Temperature with Landsat Thermal Infrared Band "
-"<http://fromgistors.blogspot.com/2014/01/estimation-of-land-surface-"
-"temperature.html>`_;"
-msgstr ""
-
-#: ../../thematic_tutorials.rst:26
-msgid ""
 "`Land Cover Classification of Cropland "
 "<http://fromgistors.blogspot.com/2014/01/land-cover-classification-of-"
 "cropland.html>`_."
 msgstr ""
 
-#: ../../thematic_tutorials.rst:28
+#: ../../thematic_tutorials.rst:27
 msgid ""
 "For other unofficial tutorials, also in languages other than English, see "
 ":ref:`other_3`."
 msgstr ""
+
+#~ msgid ""
+#~ "`Estimation of Land Surface Temperature with Landsat Thermal Infrared Band "
+#~ "<http://fromgistors.blogspot.com/2014/01/estimation-of-land-surface-"
+#~ "temperature.html>`_;"
+#~ msgstr ""

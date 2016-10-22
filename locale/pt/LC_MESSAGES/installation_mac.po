@@ -71,6 +71,9 @@ msgid ""
 "**TIP**: in case of issues or an offline installation is required see "
 ":ref:`plugin_installation_1` and :ref:`plugin_installation_2`."
 msgstr ""
+"**TIP**: No caso de encontrar algum problema durante a instalação, ou de "
+"necessitar de fazer a instalação em modo offline, consulte "
+":ref:`plugin_installation_1` and :ref:`plugin_installation_2`."
 
 #: ../../installation_mac.rst:41
 msgid ""
@@ -94,6 +97,11 @@ msgid ""
 "Bar of QGIS. It is possible to move the :ref:`toolbar_tools` and the dock "
 "according to your needs, as in the following image."
 msgstr ""
+"Nesta fase, o Semi-Automatic Classification Plugin está instalado e deverá "
+"aparecer no QGIS um novo Painel e uma nova Barra de Ferramentas. Para além "
+"disso, é acrescentado à Barra de Menus do QGIS, o Menu SCP. É possível mover"
+" a :ref:`toolbar_tools` e o Painel, de acordo com as necessidades, como se "
+"demonstra na imagem seguinte."
 
 #: ../../installation_mac.rst:56
 msgid ""
@@ -101,6 +109,9 @@ msgid ""
 "processing time. From the :ref:`SCP_menu` select |settings_tool| ``Settings "
 "> Processing`` ."
 msgstr ""
+"Recomenda-se configurar a memória RAM disponível no computador, de forma a "
+"reduzir o tempo de processamento. Assim, a partir do :ref:`SCP_menu` select "
+"|settings_tool| ``Settings > Processing`` ."
 
 #: ../../installation_mac.rst:61
 msgid ""
