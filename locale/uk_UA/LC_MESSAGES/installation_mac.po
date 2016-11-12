@@ -44,7 +44,7 @@ msgstr "Тепер QGIS 2 встановлено."
 
 #: ../../installation_mac.rst:27
 msgid "Semi-Automatic Classification Plugin installation"
-msgstr "Встановлення Модуля напівавтоматичної класифікації"
+msgstr "Встановлення Semi-Automatic Classification Plugin"
 
 #: ../../installation_mac.rst:29
 msgid "Run QGIS 2;"
@@ -94,8 +94,8 @@ msgid ""
 "Bar of QGIS. It is possible to move the :ref:`toolbar_tools` and the dock "
 "according to your needs, as in the following image."
 msgstr ""
-"Тепер, коли Модуль напівавтоматичної класифікації встановлено, до QGIS "
-"додано відповідні панелі. Також, з  панелі меню QGIS доступне меню SCP. "
+"Тепер, коли Semi-Automatic Classification Plugin встановлено, до QGIS додано"
+" відповідні панелі. Також, з  панелі меню QGIS доступне меню SCP. "
 ":ref:`toolbar_tools` та панель, що плаває, можна переміщувати відповідно до "
 "ваших потреб, як це показано на рисунку."
 

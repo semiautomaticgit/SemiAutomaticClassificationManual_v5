@@ -20,7 +20,7 @@ msgstr "Інструменти SCP"
 
 #: ../../toolbar_tools.rst:50
 msgid ":guilabel:`SCP Tools`"
-msgstr ":guilabel:`Інструменти SCPs`"
+msgstr ":guilabel:`Інструменти SCP`"
 
 #: ../../toolbar_tools.rst:52
 msgid ""
@@ -28,9 +28,9 @@ msgid ""
 "functions of the :ref:`main_interface_window`, the "
 ":ref:`spectral_signature_plot`, and the :ref:`scatter_plot`."
 msgstr ""
-"Панель інструментів :guilabel:`інструменти SCP` забезпечує доступ до основних функцій :ref:`main_interface_window`, :ref:`spectral_signature_plot` та :ref:`scatter_plot`.\n"
-"\n"
-":guilabel:`Меню SCP` забезпечує доступ до основних функцій :ref:`main_interface_window`, :ref:`spectral_signature_plot` та :ref:`scatter_plot`."
+"Панель інструментів :guilabel:`Інструменти SCP` забезпечує доступ до "
+"основних функцій :ref:`main_interface_window`, "
+":ref:`spectral_signature_plot` та :ref:`scatter_plot`."
 
 #: ../../toolbar_tools.rst:54
 msgid "|band_set| :ref:`band_set_tab`;"
@@ -77,7 +77,7 @@ msgid ""
 "|guide| :guilabel:`User manual`: open the online user manual in a web "
 "browser;"
 msgstr ""
-"|guide| :guilabel:`Посібник користувача`: відкриває олайн-посібник "
+"|guide| :guilabel:`Посібник користувача`: відкрити онлайн-посібник "
 "користувача у веб-переглядачі;"
 
 #: ../../toolbar_tools.rst:65
@@ -90,8 +90,8 @@ msgid ""
 "<https://plus.google.com/communities/107833394986612468374>`_ are available "
 "for sharing information and asking for help about SCP;"
 msgstr ""
-"|help| :guilabel:`Онлайн-довідка`: відкриває `Онлайн-довідку "
-"<http://fromgistors.blogspot.com/p/online-help.html>`_у веб-переглядачі; "
+"|help| :guilabel:`Онлайн-довідка`: відкрити `Онлайн-довідку "
+"<http://fromgistors.blogspot.com/p/online-help.html>`_ у веб-переглядачі; "
 "також, для поширення інформації та отримання допомоги щодо роботи з SCP "
 "доступні `Група Facebook "
 "<https://www.facebook.com/groups/SemiAutomaticClassificationPlugin/>`_ та "
