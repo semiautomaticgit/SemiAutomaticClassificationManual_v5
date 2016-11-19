@@ -15,64 +15,64 @@ msgstr ""
 msgid "SCP menu"
 msgstr ""
 
-#: ../../scp_menu.rst:50
+#: ../../scp_menu.rst:53
 msgid ":guilabel:`SCP menu`"
 msgstr ""
 
-#: ../../scp_menu.rst:52
+#: ../../scp_menu.rst:55
 msgid ""
 "The :guilabel:`SCP menu` allows for the selection of the main functions of "
 "the :ref:`main_interface_window`, the :ref:`spectral_signature_plot`, and "
 "the :ref:`scatter_plot`."
 msgstr ""
 
-#: ../../scp_menu.rst:54
+#: ../../scp_menu.rst:57
 msgid "|band_set| :ref:`band_set_tab`;"
 msgstr ""
 
-#: ../../scp_menu.rst:55
+#: ../../scp_menu.rst:58
 msgid "|download| :ref:`download_tab`;"
 msgstr ""
 
-#: ../../scp_menu.rst:56
+#: ../../scp_menu.rst:59
 msgid "|tools| :ref:`tools_tab`;"
 msgstr ""
 
-#: ../../scp_menu.rst:57
+#: ../../scp_menu.rst:60
 msgid "|preprocessing| :ref:`pre_processing_tab`;"
 msgstr ""
 
-#: ../../scp_menu.rst:58
+#: ../../scp_menu.rst:61
 msgid "|postprocessing| :ref:`post_processing_tab`;"
 msgstr ""
 
-#: ../../scp_menu.rst:59
+#: ../../scp_menu.rst:62
 msgid "|bandcalc| :ref:`band_calc_tab`;"
 msgstr ""
 
-#: ../../scp_menu.rst:60
+#: ../../scp_menu.rst:63
 msgid "|sign_plot| :ref:`spectral_signature_plot`;"
 msgstr ""
 
-#: ../../scp_menu.rst:61
+#: ../../scp_menu.rst:64
 msgid "|scatter_plot| :ref:`scatter_plot`;"
 msgstr ""
 
-#: ../../scp_menu.rst:62
+#: ../../scp_menu.rst:65
 msgid "|batch_tool| :ref:`batch_tab`;"
 msgstr ""
 
-#: ../../scp_menu.rst:63
+#: ../../scp_menu.rst:66
 msgid "|settings| :ref:`settings_tab`;"
 msgstr ""
 
-#: ../../scp_menu.rst:64
+#: ../../scp_menu.rst:67
 msgid ""
 "|guide| :guilabel:`User manual`: open the online user manual in a web "
 "browser;"
 msgstr ""
 
-#: ../../scp_menu.rst:65
+#: ../../scp_menu.rst:68
 msgid ""
 "|help| :guilabel:`Online help`: open the `Online help "
 "<http://fromgistors.blogspot.com/p/online-help.html>`_ in a web browser; "
@@ -81,4 +81,10 @@ msgid ""
 " `Google+ Community "
 "<https://plus.google.com/communities/107833394986612468374>`_ are available "
 "for sharing information and asking for help about SCP;"
+msgstr ""
+
+#: ../../scp_menu.rst:69
+msgid ""
+"|docks| :guilabel:`Show plugin`: show all the SCP toolbars and dock if "
+"previously hidden;"
 msgstr ""

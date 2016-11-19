@@ -16,7 +16,7 @@ msgstr ""
 
 #: ../../installation_mac.rst:5
 msgid "Installation in Mac OS"
-msgstr ""
+msgstr "Instalasi pada OS Mac"
 
 #: ../../installation_mac.rst:14
 msgid "QGIS download and installation"
@@ -27,12 +27,16 @@ msgid ""
 "Download and install the latest version of QGIS and GDAL from `here "
 "<http://www.kyngchaos.com/software/qgis>`_ ."
 msgstr ""
+"Unduh dan instal QGIS versi terbaru dan GDAL dari sini "
+"<http://www.kyngchaos.com/software/qgis>`_ ."
 
 #: ../../installation_mac.rst:18
 msgid ""
 "In addition, download and install the python modules Numpy, Scipy, and "
 "Matplotlib from this `link <http://www.kyngchaos.com/software/python>`_ ."
 msgstr ""
+"Selain itu, unduh dan instal modul python Numpy, Scipy, dan Matplotlib dari "
+"link berikut <http://www.kyngchaos.com/software/python>`_ ."
 
 #: ../../installation_mac.rst:20
 msgid "Now, QGIS 2 is installed."
@@ -88,6 +92,10 @@ msgid ""
 "Bar of QGIS. It is possible to move the :ref:`toolbar_tools` and the dock "
 "according to your needs, as in the following image."
 msgstr ""
+"Sekarang, plugin Semi-Automatic Classification telah terinstall dan toolbar "
+"dan dok telah ditambahkan di QGIS. Menu SCP juga telah tersedia di Menu Bar "
+"QGIS. Sangat mungkin mengubah :ref:`toolbar_tools` dan dok menurut kehendak "
+"anda, seperti gambar berikut ini."
 
 #: ../../installation_mac.rst:56
 msgid ""
@@ -95,6 +103,8 @@ msgid ""
 "processing time. From the :ref:`SCP_menu` select |settings_tool| ``Settings "
 "> Processing`` ."
 msgstr ""
+"Konfigurasi RAM yang tersedia dianjurkan untuk mengurangi waktu pemrosesan. "
+"Dari :ref:`SCP_menu` pilih |settings_too| ``Settings > Processing``."
 
 #: ../../installation_mac.rst:61
 msgid ""
@@ -102,3 +112,6 @@ msgid ""
 "should be half of the system RAM. For instance, if your system has 2GB of "
 "RAM, set the value to 1024MB."
 msgstr ""
+"Pada :ref:`settings_tab`, set ``Available RAM (MB)`` ke nilai setengah dari "
+"sistem RAM. Misalnya, jika sistem anda memiliki RAM 2GB, atur nilainya "
+"menjadi 1024MB."

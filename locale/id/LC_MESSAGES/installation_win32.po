@@ -16,7 +16,7 @@ msgstr ""
 
 #: ../../installation_win32.rst:5
 msgid "Installation in Windows 32 bit"
-msgstr ""
+msgstr "Instalasi pada Windows 32 bit"
 
 #: ../../installation_win32.rst:14
 msgid "QGIS download and installation"
@@ -29,12 +29,18 @@ msgid ""
 "of QGIS 2.8 from this `link <http://qgis.org/downloads/QGIS-"
 "OSGeo4W-2.8.4-1-Setup-x86.exe>`_);"
 msgstr ""
+"Unduh dan instal QGIS versi 32 bit dari sini "
+"<http://www.qgis.org/en/site/forusers/download.html>`_ (unduh langsung QGIS "
+"2.8 dari link berikut <http://qgis.org/downloads/QGIS-"
+"OSGeo4W-2.8.4-1-Setup-x86.exe>`_);"
 
 #: ../../installation_win32.rst:18
 msgid ""
 "Execute the QGIS installer with administrative rights, accepting the default"
 " configuration."
 msgstr ""
+"Jalankan installer QGIS dengan mode administrative, pilih konfigurasi "
+"default."
 
 #: ../../installation_win32.rst:20
 msgid "Now, QGIS 2 is installed."
@@ -90,3 +96,7 @@ msgid ""
 "Bar of QGIS. It is possible to move the :ref:`toolbar_tools` and the dock "
 "according to your needs, as in the following image."
 msgstr ""
+"Sekarang, plugin Semi-Automatic Classification telah terinstall dan toolbar "
+"dan dok telah ditambahkan di QGIS. Menu SCP juga telah tersedia di Menu Bar "
+"QGIS. Sangat mungkin mengubah :ref:`toolbar_tools` dan dok menurut kehendak "
+"anda, seperti gambar berikut ini."

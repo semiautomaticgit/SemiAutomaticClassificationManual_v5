@@ -16,4 +16,4 @@ msgstr ""
 
 #: ../../index.rst:4
 msgid "Semi-Automatic Classification Plugin Documentation"
-msgstr "Dokumen Semi-Automatic Classification Plugin"
+msgstr "Dokumen Plugin Semi-Automatic Classification"
