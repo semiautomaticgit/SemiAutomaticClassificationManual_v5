@@ -1,0 +1,19 @@
+# Translators:
+# Eva Willerslev <evawillerslev@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-18 22:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Eva Willerslev <evawillerslev@gmail.com>, 2016\n"
+"Language-Team: Danish (Denmark) (https://www.transifex.com/semi-automatic-classification/teams/53374/da_DK/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da_DK\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../index.rst:4
+msgid "Semi-Automatic Classification Plugin Documentation"
+msgstr "Dokumentation for Semi-automatisk klassifikations-plugin"
