@@ -1,0 +1,359 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 5.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-08 12:45+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../thematic_tutorial_fire_monitoring.rst:5
+msgid "Tutorial: Wildfire Monitoring"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:228
+msgid ""
+"This tutorial describes a method for monitoring wildfires using "
+":guilabel:`SCP` and the freely available images acquired by Landsat, "
+"Sentinel-2, MODIS, and ASTER."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:230
+msgid ""
+"Monitoring wildfires and assessing burn severity are crucial activities for "
+"the protection of forests and more in general for the management of "
+"environment and ecosystem services. Remote sensing is very useful for the "
+"monitoring of large fires, and several projects provide this information "
+"such as the `Copernicus Burnt Area "
+"<http://land.copernicus.eu/global/products/ba>`_ at the global level, or the"
+" `Monitoring Trends in Burn Severity <http://mtbs.gov/index.html>`_ for the "
+"USA."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:233
+msgid ""
+"The educational purpose of this tutorial is to monitor burnt area in a semi-"
+"automatic way, exploiting the characteristics of satellite images that can "
+"be downloaded with :guilabel:`SCP`. In particular, we are going to calculate"
+" a spectral index named Normalized Burn Ratio (NBR) described in this paper "
+"`A project for monitoring trends in burn severity (Eidenshink, et al., 2007)"
+" <https://naldc.nal.usda.gov/naldc/download.xhtml?id=16261&content=PDF>`_ ."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:236
+msgid ""
+"We are going to use :ref:`MODIS_definition` that allow for the daily "
+"monitoring of fires, at 250m spatial resolution, in addition to Landsat "
+"images that have higher spatial resolution."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:238
+msgid ""
+"In this tutorial we are going to study the large fires that occurred in the "
+"Madeira Island (Portugal) in August 2016. For more details, please read "
+"`this informative page "
+"<http://earthobservatory.nasa.gov/NaturalHazards/view.php?id=45262>`_ by "
+"NASA Earth Observatory."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:241
+msgid "Following the video of this tutorial."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:247
+msgid "http://www.youtube.com/watch?v=7W4IwlvPLbQ"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:253
+msgid "NDVI Using MODIS Data"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:255
+msgid ""
+"We are going to calculate NDVI (Normalized Difference Vegetation Index) "
+"using :ref:`MODIS_definition` (250m spatial resolution) in the period before"
+" and after the fire. In fact, NDVI values over the burnt area are "
+"considerably lower than healthy vegetation (see "
+":ref:`spectral_indices_definition`)."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:258
+msgid ""
+"Start a new QGIS project. Before the download of satellite images, it is "
+"convenient to define the preprocessing options and calculations that will be"
+" applied automatically to downloaded images (read this tutorial `From Image "
+"Download to NDVI Calculation in One Move "
+"<https://fromgistors.blogspot.com/2016/11/from-image-download-to-ndvi-"
+"calculation.html>`_ )."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:261
+msgid ""
+"Open the tab :ref:`band_set_tab` clicking the button |bandset_tool| in the "
+":ref:`SCP_menu`, or the :ref:`toolbar_tools`, or the :ref:`SCP_dock`. Check "
+"|checkbox| :guilabel:`Band calc expression`, which is the link to the tool "
+":ref:`band_calc_tab`."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:267
+msgid ":guilabel:`Band set settings`"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:269
+msgid ""
+"Now we can define the mathematical expression based on the :guilabel:`Band "
+"set`. Open the tab |bandcalc_tool| :ref:`band_calc_tab`, and enter the "
+"following expression to calculate NDVI::"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:274
+msgid ""
+"The final part ``NDVI`` after ``@`` is the name of the output raster, and "
+"``#BANDSET#`` is a variable to automatically set an output name based on the"
+" name of the first band in the :ref:`band_set_tab`."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:279
+#: ../../thematic_tutorial_fire_monitoring.rst:349
+msgid ":guilabel:`Band calc expression`"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:281
+msgid ""
+"The text color is red because the tab :ref:`band_set_tab` is still empty. "
+"However, the calculation is automatically performed after image download and"
+" preprocessing."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:284
+msgid ""
+"Now we can search the images. Open the tab :ref:`download_tab` clicking the "
+"button |download| in the :ref:`SCP_menu`, or the :ref:`toolbar_tools`, or "
+"the :ref:`SCP_dock`. Select the tab :ref:`MODIS_download_tab` and in "
+":ref:`search_area_MODIS` enter the coordinates of our study area:"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:288
+#: ../../thematic_tutorial_fire_monitoring.rst:353
+msgid ":guilabel:`UL X (Lon)`: -17"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:289
+#: ../../thematic_tutorial_fire_monitoring.rst:354
+msgid ":guilabel:`UL Y (Lat)`: 33"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:290
+#: ../../thematic_tutorial_fire_monitoring.rst:355
+msgid ":guilabel:`LR X (Lon)`: -16"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:291
+#: ../../thematic_tutorial_fire_monitoring.rst:356
+msgid ":guilabel:`LR Y (Lat)`: 32"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:293
+msgid ""
+"**TIP** : In general it is possible to define the area coordinates clicking "
+"the button |pointer| and drawing a rectangle in the map."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:295
+msgid ""
+"In :ref:`search_MODIS` set the dates in order to have at least one image "
+"before the fire and one after:"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:297
+msgid ":guilabel:`Date from`: 2016-08-08"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:298
+msgid ":guilabel:`to`: 2016-08-12"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:300
+msgid ""
+"We are going to use the product MOD09GQ that provides daily reflectance at "
+"250m spatial resolution from Terra MODIS."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:302
+msgid ""
+"Now click the button :guilabel:`Find` |search_images| and after a few "
+"seconds the images will be listed in the ``Image list``."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:307
+msgid ":guilabel:`MODIS search`"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:309
+msgid ""
+"We can download and process all these images. Uncheck the option |checkbox| "
+":guilabel:`Only if preview in Layers` and click the button |run| to download"
+" all the images listed in the ``Image list``."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:312
+msgid ""
+"After the download and the calculation, the bands and the NDVI for every "
+"image are loaded in the map. We can see that NDVI values in the burnt area "
+"are decreased after the fire (of course we should exclude cloud cover and "
+"water from this calculation)."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:318
+msgid ":guilabel:`MODIS NDVI`"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:320
+msgid "This is a very rapid way to assess the daily evolution of burnt area."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:325
+msgid "Normalized Burn Ratio Using Landsat Data"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:327
+msgid ""
+"Landsat, Sentinel-2, and ASTER images have very high spatial resolutions. "
+"However, temporal resolution and cloud cover reduce the availability of "
+"images."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:330
+msgid ""
+"We are going to download Landsat 8 images and calculate the Normalized Burn "
+"Ratio (NBR) which is defined as `(Eidenshink, et al., 2007) "
+"<https://naldc.nal.usda.gov/naldc/download.xhtml?id=16261&content=PDF>`_ :"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:332
+msgid "( NIR - SWIR ) / ( NIR + SWIR )"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:334
+msgid ""
+"Therefore, we can download only these two bands (NIR and SWIR) for the "
+"calculation of NBR. In addition, we are going to calculate the NBR "
+"difference (dNBR) between two images after and before the fire, which is "
+"related to burn severity:"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:337
+msgid "dNBR = NBR_prefire - NBR_postfire"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:339
+msgid ""
+"We can perform automatically the NBR calculation after the download. Open "
+"the tab |bandcalc_tool| :ref:`band_calc_tab`, and enter the following "
+"expression to calculate NBR::"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:344
+msgid ""
+"where `bandset#b1`` and ``bandset#b2`` are the first and the second band in "
+"the tab :ref:`band_set_tab`, which are the NIR and the SWIR (we are going to"
+" download only these two bands)."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:351
+msgid "In :ref:`search_area_Landsat` enter the coordinates of our study area:"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:358
+msgid "In :ref:`search_Landsat` enter the dates:"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:360
+msgid ":guilabel:`Date from`: 2016-07-01"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:361
+msgid ":guilabel:`to`: 2016-08-31"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:363
+msgid ""
+"**TIP** : Images selected for this tutorial are LC82080372016224LGN00 and "
+"LC82080372016208LGN00 therefore in :guilabel:`Filter` we could enter: "
+"``LC82080372016224LGN00,LC82080372016208LGN00`` to filter only these two "
+"images."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:365
+msgid ""
+"After clicking the button :guilabel:`Find` |search_images| the images are "
+"listed in the ``Image list``. Select the bands 5 and 7 to download (please "
+"read this tutorial :ref:`tutorial_2_data_download` for the details about "
+"selecting bands for download) then click the button |run| to start the "
+"download."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:371
+msgid ":guilabel:`Search Landsat 8 images`"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:373
+msgid ""
+"The NBR is calculated from the expression in :ref:`band_calc_tab` and the "
+"rasters are loaded in the map. Burnt area shows low NBR values, while "
+"healthy vegetation shows high NBR values."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:379
+msgid ":guilabel:`NBR Landsat 8`"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:382
+msgid ""
+"Now we can calculate dNBR. Open the tab |bandcalc_tool| "
+":ref:`band_calc_tab`, and enter the following expression to calculate NBR::"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:387
+msgid ""
+"Then click the button |run|. After the calculation the raster is loaded in "
+"the map. We can see that higher dNBR values represent higher fire severity "
+"(of course we should exclude cloud cover from this raster)."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:394
+msgid ":guilabel:`dNBR Landsat 8`"
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:396
+msgid ""
+"For accurate assessment of fire severity we should compare these dNBR values"
+" with in-situ measurement. We could monitor vegetation recovery repeating "
+"the NBR and dNBR calculation of images acquired several months after the "
+"fire."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:399
+msgid ""
+"The same method can be applied to Sentinel-2 images, in which case we would "
+"need to download band 8A (or band 8) and band 12 for NBR calculation."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:401
+msgid ""
+"Finally, we could perform land cover classifications (for instance read "
+":ref:`basic_tutorial_2`) to identify vegetation species and improve the "
+"identification of burnt area."
+msgstr ""
+
+#: ../../thematic_tutorial_fire_monitoring.rst:403
+msgid ""
+"For more tutorials and information about wildfire monitoring, data and "
+"tools, you can see `this webminar by NASA ARSET "
+"<http://arset.gsfc.nasa.gov/wildfires/webinars/intro-wildfire-"
+"applications>`_ ."
+msgstr ""

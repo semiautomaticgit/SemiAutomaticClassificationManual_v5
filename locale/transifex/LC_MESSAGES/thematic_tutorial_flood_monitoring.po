@@ -1,0 +1,313 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 5.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-08 12:45+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../thematic_tutorial_flood_monitoring.rst:5
+msgid "Tutorial: Flood Monitoring"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:228
+msgid ""
+"This tutorial describes a method for monitoring floods using :guilabel:`SCP`"
+" and the freely available images acquired by MODIS, Landsat, Sentinel-2, and"
+" ASTER."
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:230
+msgid ""
+"Several services provide global monitoring of floods. For instance, the near"
+" real-time Global Flood Mapping provided by the NASA Goddard's Office of "
+"Applied Science. This services apply a water detection algorithm to MODIS "
+"images, as described at `this link "
+"<http://oas.gsfc.nasa.gov/floodmap/algorithm.htm>`_ . You can find an "
+"example of produced map `here "
+"<http://oas.gsfc.nasa.gov/Products/080E030N/MFM_2016241_080E030N_3D3OT.png>`_"
+" ."
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:235
+msgid ""
+"Of course, the educational purpose of this tutorial is to monitor flooded "
+"areas in a semi-automatic way, exploiting the characteristics of satellite "
+"images that can be downloaded with :guilabel:`SCP`. In particular, "
+":ref:`MODIS_definition` allow for the daily monitoring of floods, and the "
+"other satellite images (Landsat, Sentinel-2, and ASTER) have higher spatial "
+"resolution allowing for more local studies."
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:238
+msgid ""
+"In this tutorial we are going to study the severe flooding occurred in the "
+"Ganges in August 2016, caused by monsoon rains. For more details, please "
+"read `this informative page "
+"<http://earthobservatory.nasa.gov/IOTD/view.php?id=88729>`_ by NASA Earth "
+"Observatory."
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:241
+msgid "Following the video of this tutorial."
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:247
+msgid "http://www.youtube.com/watch?v=7W4IwlvPLbQ"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:253
+msgid "Preprocessing settings"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:255
+msgid ""
+"Start a new QGIS project. Before the download of satellite images, it is "
+"convenient to define the preprocessing options and calculations that will be"
+" applied automatically to downloaded images (read this tutorial `From Image "
+"Download to NDVI Calculation in One Move "
+"<https://fromgistors.blogspot.com/2016/11/from-image-download-to-ndvi-"
+"calculation.html>`_ ). We are going to calculate a water mask based on NDVI "
+"(Normalized Difference Vegetation Index). In fact, water has generally "
+"negative NDVI values, therefore we are going to set an NDVI threshold to "
+"create a water mask (there are also other spectral indices related to water "
+"identification, but for simplicity NDVI is used in this tutorial)."
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:260
+msgid ""
+"Open the tab :ref:`band_set_tab` clicking the button |bandset_tool| in the "
+":ref:`SCP_menu`, or the :ref:`toolbar_tools`, or the :ref:`SCP_dock`. Check "
+"|checkbox| :guilabel:`Band calc expression`, which is the link to the tool "
+":ref:`band_calc_tab`."
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:266
+msgid ":guilabel:`Band set settings`"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:268
+msgid ""
+"Now we can define the expression used for calculation based on the "
+":guilabel:`Band set`. Open the tab |bandcalc_tool| :ref:`band_calc_tab`, and"
+" enter the following conditional expression::"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:273
+msgid ""
+"This expression calculates the NDVI and set the value 1 if NDVI is lower "
+"than 0, and set value 0 otherwise. The final part ``NDVI`` after ``@`` is "
+"the name of the output raster."
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:276
+msgid ""
+"**TIP** : after ``@`` use the variable ``#BANDSET#`` to automatically set an"
+" output name based on the name of the first band in the :ref:`band_set_tab`"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:281
+msgid ":guilabel:`Band calc expression`"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:283
+msgid ""
+"The text color is red because the tab :ref:`band_set_tab` is still empty. "
+"However, the calculation is automatically performed after image download and"
+" preprocessing."
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:289
+msgid "Daily Monitoring With MODIS Data"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:291
+msgid ""
+"We can now search the images. In this tutorial, we are monitoring a flood "
+"occurred in the Ganges river in August 2016."
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:294
+msgid ""
+"Open the tab :ref:`download_tab` clicking the button |download| in the "
+":ref:`SCP_menu`, or the :ref:`toolbar_tools`, or the :ref:`SCP_dock`. Select"
+" the tab :ref:`MODIS_download_tab` and define the search area."
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:297
+msgid ""
+"**TIP** : In general it is possible to define the area coordinates clicking "
+"the button |pointer| and drawing a rectangle in the map."
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:299
+msgid "In :ref:`search_area_MODIS` enter the coordinates of our study area:"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:301
+#: ../../thematic_tutorial_flood_monitoring.rst:351
+msgid ":guilabel:`UL X (Lon)`: 85"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:302
+#: ../../thematic_tutorial_flood_monitoring.rst:352
+msgid ":guilabel:`UL Y (Lat)`: 26"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:303
+#: ../../thematic_tutorial_flood_monitoring.rst:353
+msgid ":guilabel:`LR X (Lon)`: 86"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:304
+#: ../../thematic_tutorial_flood_monitoring.rst:354
+msgid ":guilabel:`LR Y (Lat)`: 25"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:306
+msgid ""
+"**Tip**: plugins such as `QuickMapServices "
+"<http://plugins.qgis.org/plugins/quick_map_services/>`_ or `OpenStreetMap "
+"<http://www.openstreetmap.org>`_) can be used to display a reference map and"
+" identify the study area."
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:308
+msgid ""
+"In :ref:`search_MODIS` set the dates (of course we could extend the date "
+"range):"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:310
+msgid ":guilabel:`Date from`: 2016-08-27"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:311
+msgid ":guilabel:`to`: 2016-08-31"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:313
+msgid ""
+"We are going to use the product MOD09GQ that provides daily reflectance at "
+"250m spatial resolution from Terra MODIS."
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:315
+msgid ""
+"Now click the button :guilabel:`Find` |search_images| and after a few "
+"seconds the images will be listed in the ``Image list``."
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:320
+msgid ":guilabel:`MODIS search`"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:322
+msgid ""
+"We can download and process all these images. Uncheck the option |checkbox| "
+":guilabel:`Only if preview in Layers` and click the button |run| to download"
+" all the images listed in the ``Image list``."
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:325
+msgid ""
+"After the download and the calculation, the bands and the water mask for "
+"every image are loaded in the map. We can apply a style to these masks to "
+"represent the value 1."
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:331
+msgid ":guilabel:`MODIS water masks`"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:333
+msgid ""
+"Of course, we can see that these masks are affected by clouds and cloud "
+"shadows. Also, the threshold for water can be changed according to the study"
+" area, because NDVI values of water can be slightly positive. However, this "
+"is a very rapid way to assess flooded area and the daily evolution."
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:340
+msgid "Water Mask Using Sentinel-2"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:342
+msgid ""
+"We can repeat the download process with Landsat, Sentinel-2, and ASTER "
+"images. These images have very high spatial resolutions, allowing for the "
+"identification of water at large scale. However, the temporal resolution and"
+" the cloud cover reduce the number of available images."
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:346
+msgid ""
+"In this case Landsat images are very cloudy, therefore in this tutorial we "
+"are going to use a Sentinel-2. In particular, we are going to download the "
+"Sentinel-2 image ``S2A_OPER_MSI_L1C_TL_SGS__20160824T101945_A006122_T44RRP``"
+" acquired on 24/08/2016."
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:349
+msgid ""
+"In :ref:`area_coordinates_Sentinel` enter the coordinates of our study area:"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:356
+msgid "In :ref:`search_Sentinel` enter the dates:"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:358
+msgid ":guilabel:`Date from`: 2016-08-24"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:359
+msgid ":guilabel:`to`: 2016-08-24"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:364
+msgid ":guilabel:`Search Sentinel-2 image`"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:366
+msgid ""
+"After clicking the button :guilabel:`Find` |search_images| the images are "
+"listed in the ``Image list``. Now click the button |run| to download the "
+"image (in particular the zone 44RRP) and the water mask will be calculated "
+"because of the expression in :ref:`band_calc_tab` (please read this tutorial"
+" :ref:`tutorial_2_data_download` for the details about selecting bands for "
+"download)."
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:372
+msgid ":guilabel:`Water mask using Sentinel-2 image`"
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:374
+msgid ""
+"We can appreciate the higher spatial resolution of this mask, but we should "
+"also consider that Sentinel-2 temporal resolution is lower than MODIS."
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:376
+msgid ""
+"To improve the identification of water, we could perform a land cover "
+"classification (for instance read :ref:`basic_tutorial_2`), or we could use "
+"the tool :ref:`edit_raster_tab` to manually refine the classification "
+"removing the errors caused by clouds and cloud shadows. It is worth "
+"mentioning that SAR data such as `Sentinel-1 "
+"<https://sentinel.esa.int/web/sentinel/missions/sentinel-1>`_ is useful for "
+"flood monitoring."
+msgstr ""
+
+#: ../../thematic_tutorial_flood_monitoring.rst:379
+msgid ""
+"For more tutorials and information about flood monitoring, data and tools, "
+"you can see `this webminar by NASA ARSET "
+"<http://arset.gsfc.nasa.gov/disasters/webinars/advfloodwebinar>`_ ."
+msgstr ""

@@ -16,6 +16,9 @@ Before these tutorials, it is recommended to read the :ref:`tutorials`.
 	
 	thematic_tutorial_lcs.rst
 	thematic_tutorial_temperature.rst
+	thematic_tutorial_flood_monitoring.rst
+	thematic_tutorial_fire_monitoring.rst
+	thematic_tutorial_edit_raster.rst
 	
 Also, visit the blog `From GIS to Remote Sensing <http://fromgistors.blogspot.com/search/label/Tutorial>`_ for other tutorials such as:
 

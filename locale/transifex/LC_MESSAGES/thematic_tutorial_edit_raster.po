@@ -1,0 +1,212 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 5.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-08 12:45+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../thematic_tutorial_edit_raster.rst:5
+msgid "Tutorial: Direct Editing of a Raster"
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:228
+msgid ""
+"This tutorial describes the :guilabel:`SCP` tool :ref:`edit_raster_tab` that"
+" allows for the direct editing of pixel values in a raster. Direct editing "
+"is very convenient in case of large rasters, reducing the computational time"
+" and easing the process of updating a raster such as land cover "
+"classification."
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:231
+msgid ""
+"In this tutorial we are going to edit a very large raster, which is the "
+"**Corine Land Cover** referred to year 2006 (but it is available also for "
+"1990, 2000 and 2012). This raster is produced by the European Environment "
+"Agency (EEA), and covers the whole European Countries with a spatial "
+"resolution of 100m and a very detailed classification system. For more "
+"information read `this page <http://land.copernicus.eu/pan-european/corine-"
+"land-cover>`_ ."
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:235
+msgid ""
+"First, **download the raster data** from this link `Corine Land Cover 2006 "
+"(Version 17) <http://www.eea.europa.eu/data-and-"
+"maps/data/clc-2006-raster-3/clc-2006-100m/g100_06.zip/at_download/file>`_ "
+"provided for free by the `EEA <http://www.eea.europa.eu/data-and-"
+"maps/data/clc-2006-raster-3#tab-metadata>`_ ."
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:237
+msgid "Following the video of this tutorial."
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:244
+msgid "http://www.youtube.com/watch?v=7W4IwlvPLbQ"
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:250
+msgid "Edit Raster Using ROI Polygons"
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:252
+msgid ""
+"After the download of the Corine Land Cover, extract the archive and load "
+"the file ``g100_06.tif`` in QGIS. The complete list of raster values "
+"corresponding to each land cover class is included in the file "
+"``clc_legend.xls``, which was downloaded along with the raster. For "
+"instance, value 1 corresponds to class ``Continuous urban fabric``, value 2 "
+"corresponds to class ``Discontinuous urban fabric``, value 23 corresponds to"
+" class ``Broad-leaved forest``. We are going to update the classification by"
+" photo-interpretation and manual editing."
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:257
+msgid ""
+"We can use a Sentinel-2 image acquired in 2016 (provided by the Copernicus "
+"`Scientific Data Hub <https://scihub.copernicus.eu/>`_) for updating the "
+"land cover classification. See :ref:`tutorial_2_data_download` for the "
+"details about Sentinel-2 download. Of course, other plugins such as "
+"`QuickMapServices <http://plugins.qgis.org/plugins/quick_map_services/>`_ or"
+" `OpenStreetMap <http://www.openstreetmap.org>`_) can be used for displaying"
+" high resolution images."
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:261
+msgid ""
+"Now open the tab :ref:`band_set_tab` (for further instructions see "
+":ref:`tutorial_2_band_set`) and set the raster Corine Land Cover as the only"
+" input band. This is required for the creation of ROI polygons."
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:267
+msgid ":guilabel:`Band set creation`"
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:269
+msgid ""
+"Also, we need to set the raster Corine Land Cover as input for the raster "
+"editing. Open the tab |edit_raster| :ref:`edit_raster_tab`, and set the "
+"input raster in :guilabel:`Select the input raster` |input_list| (click the "
+"button |reload| for reloading the layer list)."
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:275
+msgid ":guilabel:`Edit raster input`"
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:277
+msgid ""
+"After loading a recent image in QGIS, zoom to an area where land cover "
+"changes occurred, and draw a temporary ROI (for further instructions see "
+":ref:`tutorial_2_2`)."
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:282
+msgid ":guilabel:`Temporary ROI polygon`"
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:284
+msgid ""
+"Now open the :ref:`toolbar_edit_raster`, which is designed for the manual "
+"editing of rasters. There are three |input_number| values that can be "
+"modified according to the value that we want to apply to the raster. Click "
+"the button |enter| beside each of these values, and the raster is updated "
+"using the selected constant value for all the pixels intersecting the "
+"temporary ROI."
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:288
+#: ../../thematic_tutorial_edit_raster.rst:333
+msgid ""
+"**Attention**: the input raster is directly edited; it is recommended to "
+"create a **backup copy** of the input raster before using this tool in order"
+" to prevent data loss."
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:290
+msgid "Also, the button |undo_edit_raster| can undo the most recent editing."
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:295
+msgid ":guilabel:`Raster updated with the new value`"
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:297
+msgid ""
+"Considering that we are editing a very large raster, the new value is "
+"applied almost instantaneously. We can repeat the ROI creation and update "
+"the raster values of other areas."
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:300
+msgid ""
+"To ease the editing process, we can use conditional expressions with the "
+"structure ``where(condition, true, false)``. In the :ref:`edit_raster_tab`, "
+"check the checkbox |checkbox| :guilabel:`Use expression` and enter a "
+"conditional expression."
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:303
+msgid ""
+"The variable name ``raster`` is used for the input raster. For instance, the"
+" expression ``where(raster == 1, 2, raster)`` will change only the pixels of"
+" class 1 intersecting the temporary ROI, while other pixels will be "
+"unchanged. Of course we can change the expression according to our needs, "
+"always using the variable name ``raster``. For instance the expression "
+"``where(raster == 2, 1, where(raster == 20, 21, raster))`` will change "
+"values to 1 for pixel values equal to 2, or change the value to 21 for pixel"
+" values equal to 20. If the expression text is green, then the structure of "
+"the expression is correct."
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:312
+msgid ":guilabel:`Edit with expression`"
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:317
+msgid "Edit Raster Using a Vector file"
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:319
+msgid ""
+"We can use a vector file in order to change raster values for all the "
+"polygons at once. It is possible to select a vector field containing the new"
+" values that will be applied to the raster."
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:322
+msgid ""
+"Add a vector file to the QGIS project (for instance download `this shapefile"
+" "
+"<https://drive.google.com/uc?export=download&id=0BysUrKXWIDwBbVc4aHY2cVNFOUk>`_"
+" ). Open the tab |edit_raster| :ref:`edit_raster_tab`, check the checkbox "
+"|checkbox| :guilabel:`Edit values using a vector` and select the vector "
+"layer (click the button |reload| for reloading the layer list). Also, check "
+"the checkbox |checkbox| :guilabel:`Use the value field of the vector` and "
+"select the attribute field containing the values to be applied to the raster"
+" (in this example the field ``Class``)."
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:329
+msgid ":guilabel:`Vector input`"
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:331
+msgid ""
+"Now click the button |run| and all the changes will be applied to the raster"
+" according to polygon values."
+msgstr ""
+
+#: ../../thematic_tutorial_edit_raster.rst:335
+msgid ""
+"This method is very rapid, especially if vector polygons have a small area "
+"(the larger are the polygons, the longer is the process)."
+msgstr ""
