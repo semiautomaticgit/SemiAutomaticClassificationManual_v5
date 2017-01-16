@@ -942,5 +942,10 @@ msgstr ""
 #: ../../thematic_tutorial_temperature.rst:732
 msgid ""
 "For other tutorials visit the blog `From GIS to Remote Sensing "
-"<http://fromgistors.blogspot.com/search/label/Tutorial>`_ ."
+"<https://fromgistors.blogspot.com/search/label/Tutorial>`_ ."
 msgstr ""
+
+#~ msgid ""
+#~ "For other tutorials visit the blog `From GIS to Remote Sensing "
+#~ "<http://fromgistors.blogspot.com/search/label/Tutorial>`_ ."
+#~ msgstr ""

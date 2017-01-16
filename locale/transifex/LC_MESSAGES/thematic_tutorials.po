@@ -21,44 +21,65 @@ msgid ""
 "recommended to read the :ref:`tutorials`."
 msgstr ""
 
+#: ../../thematic_tutorials.rst:26
+msgid ""
+"For other unofficial tutorials, also in languages other than English, see "
+":ref:`other_3`."
+msgstr ""
+
 #: ../../thematic_tutorials.rst:20
 msgid ""
 "Also, visit the blog `From GIS to Remote Sensing "
-"<http://fromgistors.blogspot.com/search/label/Tutorial>`_ for other "
+"<https://fromgistors.blogspot.com/search/label/Tutorial>`_ for other "
 "tutorials such as:"
 msgstr ""
 
 #: ../../thematic_tutorials.rst:22
 msgid ""
-"`Supervised Classification of Hyperspectral Data "
-"<http://fromgistors.blogspot.com/2014/10/supervised-classification-of-"
-"hyperspectral.html>`_;"
+"`Flood Monitoring Using The Semi-Automatic Classification Plugin "
+"<https://fromgistors.blogspot.com/2017/01/flood-monitoring.html>`_;"
 msgstr ""
 
 #: ../../thematic_tutorials.rst:23
 msgid ""
-"`Monitoring Deforestation <http://fromgistors.blogspot.com/2014/09"
-"/monitoring-changes-in-amazon-rainforest.html>`_;"
+"`Wildfire Monitoring Using The Semi-Automatic Classification Plugin "
+"<https://fromgistors.blogspot.com/2017/01/wildfire-monitoring.html>`_;"
 msgstr ""
 
 #: ../../thematic_tutorials.rst:24
 msgid ""
-"`Flood Monitoring <http://fromgistors.blogspot.com/2014/09/flood-monitoring-"
-"tutorial-using-semi.html>`_;"
+"`From Image Download to NDVI Calculation in One Move: SCP Batch "
+"<https://fromgistors.blogspot.com/2016/11/from-image-download-to-ndvi-"
+"calculation.html>`_;"
 msgstr ""
 
-#: ../../thematic_tutorials.rst:25
-msgid ""
-"`Land Cover Classification of Cropland "
-"<http://fromgistors.blogspot.com/2014/01/land-cover-classification-of-"
-"cropland.html>`_."
-msgstr ""
+#~ msgid ""
+#~ "Also, visit the blog `From GIS to Remote Sensing "
+#~ "<http://fromgistors.blogspot.com/search/label/Tutorial>`_ for other "
+#~ "tutorials such as:"
+#~ msgstr ""
 
-#: ../../thematic_tutorials.rst:27
-msgid ""
-"For other unofficial tutorials, also in languages other than English, see "
-":ref:`other_3`."
-msgstr ""
+#~ msgid ""
+#~ "`Supervised Classification of Hyperspectral Data "
+#~ "<http://fromgistors.blogspot.com/2014/10/supervised-classification-of-"
+#~ "hyperspectral.html>`_;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Monitoring Deforestation <http://fromgistors.blogspot.com/2014/09"
+#~ "/monitoring-changes-in-amazon-rainforest.html>`_;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Flood Monitoring <http://fromgistors.blogspot.com/2014/09/flood-monitoring-"
+#~ "tutorial-using-semi.html>`_;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Land Cover Classification of Cropland "
+#~ "<http://fromgistors.blogspot.com/2014/01/land-cover-classification-of-"
+#~ "cropland.html>`_."
+#~ msgstr ""
 
 #~ msgid ""
 #~ "`Estimation of Land Surface Temperature with Landsat Thermal Infrared Band "

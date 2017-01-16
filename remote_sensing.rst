@@ -194,7 +194,7 @@ The resolutions of Landsat 8 sensor are reported in the following table (from ht
 | Band 11 - Thermal Infrared (TIRS) 2 | 11.50 - 12.51            |  100 (resampled to 30) |
 +-------------------------------------+--------------------------+------------------------+
 
-A vast archive of images is freely available from the `U.S. Geological Survey <http://www.usgs.gov/>`_ . For more information about how to freely download Landsat images read `this  <http://fromgistors.blogspot.com/2014/11/landsat-images-overview-of-worldwide.html>`_ .
+A vast archive of images is freely available from the `U.S. Geological Survey <http://www.usgs.gov/>`_ . For more information about how to freely download Landsat images read `this  <https://fromgistors.blogspot.com/2014/11/landsat-images-overview-of-worldwide.html>`_ .
 
 Images are identified with the paths and rows of the WRS (`Worldwide Reference System for Landsat <http://landsat.gsfc.nasa.gov/?p=3231>`_ ).
 

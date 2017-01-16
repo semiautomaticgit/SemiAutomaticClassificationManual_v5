@@ -484,14 +484,6 @@ msgstr ""
 msgid "11.50 - 12.51"
 msgstr ""
 
-#: ../../remote_sensing.rst:197
-msgid ""
-"A vast archive of images is freely available from the `U.S. Geological "
-"Survey <http://www.usgs.gov/>`_ . For more information about how to freely "
-"download Landsat images read `this  <http://fromgistors.blogspot.com/2014/11"
-"/landsat-images-overview-of-worldwide.html>`_ ."
-msgstr ""
-
 #: ../../remote_sensing.rst:199
 msgid ""
 "Images are identified with the paths and rows of the WRS (`Worldwide "
@@ -2939,3 +2931,19 @@ msgid ""
 "Vermote, E. F.; Roger, J. C. & Ray, J. P. 2015. MODIS Surface Reflectance "
 "User’s Guide. Collection 6, NASA"
 msgstr ""
+
+#: ../../remote_sensing.rst:197
+msgid ""
+"A vast archive of images is freely available from the `U.S. Geological "
+"Survey <http://www.usgs.gov/>`_ . For more information about how to freely "
+"download Landsat images read `this  "
+"<https://fromgistors.blogspot.com/2014/11/landsat-images-overview-of-"
+"worldwide.html>`_ ."
+msgstr ""
+
+#~ msgid ""
+#~ "A vast archive of images is freely available from the `U.S. Geological "
+#~ "Survey <http://www.usgs.gov/>`_ . For more information about how to freely "
+#~ "download Landsat images read `this  <http://fromgistors.blogspot.com/2014/11"
+#~ "/landsat-images-overview-of-worldwide.html>`_ ."
+#~ msgstr ""
