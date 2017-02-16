@@ -24,7 +24,7 @@ msgid ""
 "<http://docs.qgis.org/2.14/en/docs/user_manual/introduction/qgis_gui.html>`_)."
 msgstr ""
 
-#: ../../tutorials.rst:21
+#: ../../tutorials.rst:22
 msgid "After these tutorials, please check the :ref:`thematic_tutorials` ."
 msgstr ""
 

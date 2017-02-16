@@ -114,14 +114,6 @@ msgstr ""
 msgid "For more information and tutorials visit the official site"
 msgstr "Untuk informasi lebih jauh dan tutorialnya, kunjungi website"
 
-#: ../../introduction.rst:41
-msgid ""
-"|fromGIStoRS| `From GIS to Remote Sensing "
-"<http://fromgistors.blogspot.com>`_"
-msgstr ""
-"|fromGIStoRS| `From GIS to Remote Sensing "
-"<http://fromgistors.blogspot.com>`_"
-
 #: ../../introduction.rst:43 ../../introduction.rst:49
 #: ../../introduction.rst:60 ../../introduction.rst:66
 msgid "|br|"
@@ -182,3 +174,16 @@ msgstr "**Penerjemah.**"
 #: ../../introduction.rst:64
 msgid "Language: Author"
 msgstr "Bahasa: Penulis"
+
+#: ../../introduction.rst:41
+msgid ""
+"|fromGIStoRS| `From GIS to Remote Sensing "
+"<https://fromgistors.blogspot.com>`_"
+msgstr ""
+
+#~ msgid ""
+#~ "|fromGIStoRS| `From GIS to Remote Sensing "
+#~ "<http://fromgistors.blogspot.com>`_"
+#~ msgstr ""
+#~ "|fromGIStoRS| `From GIS to Remote Sensing "
+#~ "<http://fromgistors.blogspot.com>`_"

@@ -118,14 +118,6 @@ msgstr ""
 "Щоб отримати більше інформації та навчальних матеріалів, завітайте до "
 "офіційного сайту."
 
-#: ../../introduction.rst:41
-msgid ""
-"|fromGIStoRS| `From GIS to Remote Sensing "
-"<http://fromgistors.blogspot.com>`_"
-msgstr ""
-"|fromGIStoRS| `From GIS to Remote Sensing "
-"<http://fromgistors.blogspot.com>`_"
-
 #: ../../introduction.rst:43 ../../introduction.rst:49
 #: ../../introduction.rst:60 ../../introduction.rst:66
 msgid "|br|"
@@ -186,3 +178,18 @@ msgstr "**Перекладачі:**"
 #: ../../introduction.rst:64
 msgid "Language: Author"
 msgstr "Українська: Дар'я Свідзінська"
+
+#: ../../introduction.rst:41
+msgid ""
+"|fromGIStoRS| `From GIS to Remote Sensing "
+"<https://fromgistors.blogspot.com>`_"
+msgstr ""
+"|fromGIStoRS| `From GIS to Remote Sensing "
+"<https://fromgistors.blogspot.com>`_"
+
+#~ msgid ""
+#~ "|fromGIStoRS| `From GIS to Remote Sensing "
+#~ "<http://fromgistors.blogspot.com>`_"
+#~ msgstr ""
+#~ "|fromGIStoRS| `From GIS to Remote Sensing "
+#~ "<http://fromgistors.blogspot.com>`_"

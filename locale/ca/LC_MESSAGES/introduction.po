@@ -117,14 +117,6 @@ msgstr ""
 msgid "For more information and tutorials visit the official site"
 msgstr "Per a més informació i tutorials visiteu el lloc web oficial."
 
-#: ../../introduction.rst:41
-msgid ""
-"|fromGIStoRS| `From GIS to Remote Sensing "
-"<http://fromgistors.blogspot.com>`_"
-msgstr ""
-"|fromGIStoRS| `From GIS to Remote Sensing "
-"<http://fromgistors.blogspot.com>`_"
-
 #: ../../introduction.rst:43 ../../introduction.rst:49
 #: ../../introduction.rst:60 ../../introduction.rst:66
 msgid "|br|"
@@ -187,3 +179,16 @@ msgstr "**Traductors:**"
 #: ../../introduction.rst:64
 msgid "Language: Author"
 msgstr "Idioma: Autor"
+
+#: ../../introduction.rst:41
+msgid ""
+"|fromGIStoRS| `From GIS to Remote Sensing "
+"<https://fromgistors.blogspot.com>`_"
+msgstr ""
+
+#~ msgid ""
+#~ "|fromGIStoRS| `From GIS to Remote Sensing "
+#~ "<http://fromgistors.blogspot.com>`_"
+#~ msgstr ""
+#~ "|fromGIStoRS| `From GIS to Remote Sensing "
+#~ "<http://fromgistors.blogspot.com>`_"
