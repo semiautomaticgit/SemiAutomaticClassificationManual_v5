@@ -1,0 +1,1135 @@
+# Translators:
+# Daria Svidzinska <d.svidzinska@gmail.com>, 2016
+# Валерій Латуха <latuha@gmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-18 22:17+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Валерій Латуха <latuha@gmail.com>, 2017\n"
+"Language-Team: Ukrainian (Ukraine) (https://www.transifex.com/semi-automatic-classification/teams/53374/uk_UA/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../../tutorial_2.rst:5
+msgid "Tutorial 2"
+msgstr "Навчальний практикум 2"
+
+#: ../../tutorial_2.rst:219
+msgid "Tutorial 2: Land Cover Classification of Sentinel-2 Images"
+msgstr ""
+"Навчальний практикум 2: Класифікація земельного покриву за знімками "
+"Sentinel-2"
+
+#: ../../tutorial_2.rst:221
+msgid ""
+"This tutorial describes the main phases for the classification of images "
+"acquired by :ref:`Sentinel2_definition`. In addition, some of the "
+":guilabel:`SCP` tools are illustrated."
+msgstr ""
+"Цей практикум описує основні етапи класифікації знімків, отриманих "
+":ref:`Sentinel2_definition`. Крім того, проілюстровано застосування деяких "
+"інструментів :guilabel:`SCP`."
+
+#: ../../tutorial_2.rst:224
+msgid "We are going to classify the following land cover classes:"
+msgstr "Ми збираємось класифікувати наступні класи земельного покриву:"
+
+#: ../../tutorial_2.rst:226
+msgid "Water;"
+msgstr "Вода;"
+
+#: ../../tutorial_2.rst:227
+msgid "Built-up;"
+msgstr "Забудова;"
+
+#: ../../tutorial_2.rst:228
+msgid "Vegetation;"
+msgstr "Рослинність;"
+
+#: ../../tutorial_2.rst:229
+msgid "Bare soil."
+msgstr "Відкритий ґрунт."
+
+#: ../../tutorial_2.rst:231
+msgid "Following the video of this tutorial."
+msgstr "До цього практикуму додається відео."
+
+#: ../../tutorial_2.rst:237
+msgid "http://www.youtube.com/watch?v=FcETq8OWM0k"
+msgstr "http://www.youtube.com/watch?v=FcETq8OWM0k"
+
+#: ../../tutorial_2.rst:242
+msgid "Data Download"
+msgstr "Завантаження даних"
+
+#: ../../tutorial_2.rst:244
+msgid ""
+"We are going to **download a Sentinel-2 image** provided by the Copernicus "
+"`Scientific Data Hub <https://scihub.copernicus.eu/>`_. In particular we are"
+" going to use the following Sentinel-2 bands (for more information read "
+":ref:`Sentinel2_definition`):"
+msgstr ""
+"Ми збираємось **завантажити знімок Sentinel-2**, доступ до якого забезпечує "
+"Copernicus `Scientific Data Hub <https://scihub.copernicus.eu/>`_. Зокрема, "
+"ми будемо використовувати наступні канали Sentinel-2 (для більш докладної "
+"інформації читайте :ref:`Sentinel2_definition`):"
+
+#: ../../tutorial_2.rst:247
+msgid "Band 2 - Blue;"
+msgstr "Канал 2 - Синій;"
+
+#: ../../tutorial_2.rst:248
+msgid "Band 3 - Green;"
+msgstr "Канал 3 - Зелений;"
+
+#: ../../tutorial_2.rst:249
+msgid "Band 4 - Red;"
+msgstr "Канал 4 - Червоний;"
+
+#: ../../tutorial_2.rst:250
+msgid "Band 5 - Vegetation Red Edge;"
+msgstr "Канал 5 - Червоний край рослинності;"
+
+#: ../../tutorial_2.rst:251
+msgid "Band 6 - Vegetation Red Edge;"
+msgstr "Канал 6 - Червоний край рослинності;"
+
+#: ../../tutorial_2.rst:252
+msgid "Band 7 - Vegetation Red Edge;"
+msgstr "Канал 7 - Червоний край рослинності;"
+
+#: ../../tutorial_2.rst:253
+msgid "Band 8 - NIR;"
+msgstr "Канал 8 - NIR;"
+
+#: ../../tutorial_2.rst:254
+msgid "Band 8A - Vegetation Red Edge;"
+msgstr "Канал 8А - Червоний край рослинності;"
+
+#: ../../tutorial_2.rst:255
+msgid "Band 11 - SWIR;"
+msgstr "Канал 11 - SWIR;"
+
+#: ../../tutorial_2.rst:256
+msgid "Band 12 - SWIR;"
+msgstr "Канал 12 - SWIR;"
+
+#: ../../tutorial_2.rst:258
+msgid ""
+"**TIP** : In case you have slow internet connection you can download a "
+"subset of the image (about 50MB) from `this link "
+"<https://docs.google.com/uc?id=0BysUrKXWIDwBMXdFLW5rYVRGLTg>`_ (© Copernicus"
+" Sentinel data 2016) which is the result of steps "
+":ref:`tutorial_2_data_download` and :ref:`tutorial_2_clip_data`."
+msgstr ""
+"**ПОРАДА** : У випадку повільного Інтернет-з'єднання ви можете завантажити "
+"фрагмент знімка (близько 50 Мб) за `цим посиланням "
+"<https://docs.google.com/uc?id=0BysUrKXWIDwBMXdFLW5rYVRGLTg>`_ (© Дані "
+"Copernicus Sentinel 2016), який є результатом етапів "
+":ref:`tutorial_2_data_download` та :ref:`tutorial_2_clip_data`."
+
+#: ../../tutorial_2.rst:260
+msgid ""
+"Start a new QGIS project. Open the tab :ref:`download_tab` clicking the "
+"button |download| in the :ref:`SCP_menu`, or the :ref:`toolbar_tools`, or "
+"the :ref:`SCP_dock`. Select the tab :ref:`Sentinel_download_tab`. We are "
+"searching a specific image acquired on May 06, 2016."
+msgstr ""
+"Відкрийте новий проект QGIS. Відкрийте вкладку :ref:`download_tab`, "
+"клацнувши кнопку |download| в меню :ref:`SCP_menu` або :ref:`toolbar_tools` "
+"або :ref:`SCP_dock`. Виберіть вкладку :ref:`Sentinel_download_tab`. Ми "
+"шукаємо конкретний знімок, отриманий 06 травня 2016."
+
+#: ../../tutorial_2.rst:265
+msgid ""
+"In :ref:`login_Sentinel` enter the user name and password for accessing data"
+" (`free registration is required "
+"<https://scihub.copernicus.eu/userguide/1SelfRegistration>`_)."
+msgstr ""
+"У :ref:`login_Sentinel` для отримання доступу до даних введіть ім'я "
+"користувача та пароль (`необхідна безкоштовна реєстрація "
+"<https://scihub.copernicus.eu/userguide/1SelfRegistration>`_)."
+
+#: ../../tutorial_2.rst:267
+msgid ""
+"**WARNING** : The guest/guest account is not available anymore. Free "
+"registration is required. See https://scihub.copernicus.eu/news/News00097 ."
+msgstr ""
+"**ЗАСТЕРЕЖЕННЯ** : Гостьовий обліковий запис guest/guest більше не "
+"доступний. Необхідна безкоштовна реєстрація. Дивіться "
+"https://scihub.copernicus.eu/news/News00097 ."
+
+#: ../../tutorial_2.rst:269
+msgid "In :ref:`area_coordinates_Sentinel` enter:"
+msgstr "У :ref:`area_coordinates_Sentinel` введіть:"
+
+#: ../../tutorial_2.rst:271
+msgid ":guilabel:`UL X (Lon)`: 12"
+msgstr ":guilabel:`UL X (Довг)`: 12"
+
+#: ../../tutorial_2.rst:272
+msgid ":guilabel:`UL Y (Lat)`: 42"
+msgstr ":guilabel:`UL Y (Шир)`: 42"
+
+#: ../../tutorial_2.rst:273
+msgid ":guilabel:`LR X (Lon)`: 13"
+msgstr ":guilabel:`LR X (Довг)`: 13"
+
+#: ../../tutorial_2.rst:274
+msgid ":guilabel:`LR Y (Lat)`: 41"
+msgstr ":guilabel:`LR Y (Шир)`: 41"
+
+#: ../../tutorial_2.rst:276
+msgid ""
+"**TIP** : In general it is possible to define the area coordinates clicking "
+"the button |pointer| and drawing a rectangle in the map."
+msgstr ""
+"**ПОРАДА** : Загалом є можливість визначити координати території клацнувши "
+"кнопку |pointer| та окресливши прямокутник на карті."
+
+#: ../../tutorial_2.rst:278
+msgid "In :ref:`search_Sentinel` set:"
+msgstr "У :ref:`search_Sentinel` встановіть:"
+
+#: ../../tutorial_2.rst:280
+msgid ":guilabel:`Date from`: 2016-05-06"
+msgstr ":guilabel:`Дата з`: 2016-05-06"
+
+#: ../../tutorial_2.rst:281
+msgid ":guilabel:`to`: 2016-05-06"
+msgstr ":guilabel:`по`: 2016-05-06"
+
+#: ../../tutorial_2.rst:286
+msgid ":guilabel:`Search Sentinel-2 images`"
+msgstr ":guilabel:`Пошук знімків Sentinel-2`"
+
+#: ../../tutorial_2.rst:288
+msgid ""
+"Now click the button :guilabel:`Find` |search_images| and after a few "
+"seconds the image will be listed in the ``Image list``."
+msgstr ""
+"Тепер клацніть кнопку :guilabel:`Знайти` |search_images| та через декілька "
+"секунд знімок буде додано до ``Перелік знімків``."
+
+#: ../../tutorial_2.rst:295
+msgid ":guilabel:`Sentinel-2 search result`"
+msgstr ":guilabel:`Результат пошуку Sentinel-2`"
+
+#: ../../tutorial_2.rst:297
+msgid ""
+"In the result table, click the item ``T32TQM`` in the field "
+":guilabel:`Zone`, which is the :guilabel:`Granule` "
+"``S2A_OPER_MSI_L1C_TL_SGS__20160506T153005_A004552_T32TQM``, and click the "
+"button |image_preview|. A preview will be downloaded and displayed in the "
+"map, which is useful for assessing the quality of the image and the cloud "
+"cover."
+msgstr ""
+"В таблиці результатів виберіть елемент ``T32TQM`` в полі :guilabel:`Зона`, "
+":guilabel:`Гранула` якого "
+"``S2A_OPER_MSI_L1C_TL_SGS__20160506T153005_A004552_T32TQM`` та клацніть "
+"кнопку |image_preview|. Попередній перегляд буде завантажено та відображено "
+"на карті, щоб було зручно оцінити якість знімка та хмарний покрив."
+
+#: ../../tutorial_2.rst:300
+msgid ""
+"**TIP** : It is also possible to display the image overview (which is "
+"composed of several granules) with the button |image_overview|."
+msgstr ""
+"**ПОРАДА** : Також можливо відобразити загальний огляд знімка (який "
+"складається з декількох гранул) за допомогою кнопки |image_overview|."
+
+#: ../../tutorial_2.rst:305
+msgid ":guilabel:`Image preview`"
+msgstr ":guilabel:`Попередній перегляд знімка`"
+
+#: ../../tutorial_2.rst:307
+msgid ""
+"Click the tab :ref:`sentinel2_download_options` and uncheck bands 1, 9, and "
+"10. Also, uncheck the options |checkbox| :guilabel:`Preprocess images` "
+"(usually this should be checked, but for the purpose of this tutorial we are"
+" going to preprocess images in the step :ref:`tutorial_2_1`) and |checkbox| "
+":guilabel:`Load bands in QGIS` (because we are going to clip the images)."
+msgstr ""
+"Клацніть вкладку :ref:`sentinel2_download_options` та зніміть позначку для "
+"каналів 1, 9 та 10. Також зніміть позначку параметрів |checkbox| "
+":guilabel:`Передобробити знімки` (зазвичай, він має бути увімкнений, але для"
+" цілей цього практикуму ми проведемо передоброблення зніміків на етапі  "
+":ref:`tutorial_2_1`) та |checkbox| :guilabel:`Завантажити канали до QGIS` "
+"(тому що ми проведемо відтинання знімків)."
+
+#: ../../tutorial_2.rst:310
+msgid ""
+"**TIP** : The option |checkbox| :guilabel:`Only if preview in Layers` allows"
+" for downloading only images in the result table which are loaded as "
+"previews in the map. It is convenient to check this option and remove the "
+"images previews in the QGIS layer list, leaving only the previews of images "
+"that one wish to download."
+msgstr ""
+"**ПОРАДА** : Параметр |checkbox| :guilabel:`Тільки якщо попередній перегляд "
+"у панелі шарів` дозволяє завантажувати з таблиці результатів лише ті знімки,"
+"  попередні перегляди яких відображені на карті. Доцільно увімкнути цей "
+"параметр та видалити попередні перегляди знімків з переліку шарів QGIS, "
+"залишивши лише ті, які ми бажаємо завантажити."
+
+#: ../../tutorial_2.rst:315
+msgid ":guilabel:`Selection of bands for download`"
+msgstr ":guilabel:`Вибір каналів для завантаження`"
+
+#: ../../tutorial_2.rst:317
+msgid ""
+"In order to start the image download, click the button |run| and select a "
+"directory where bands are saved (e.g. ``Desktop``). The download could last "
+"a few minutes according to your internet connection speed (band size ranges "
+"from 30 to 90MB). The download progress is displayed in a bar."
+msgstr ""
+"Щоб розпочати завантаження знімка, клацніть кнопку |run| та виберіть каталог"
+" до якого зберігатимуться канали (наприклад ``Desktop``). Завантаження може "
+"тривати декілька хвилин залежно від швидкості вашого Інтернет-з'єднання "
+"(розмір каналу коливається від 30 до 90 Мб). Прогрес завантаження "
+"відображається індикатором виконання."
+
+#: ../../tutorial_2.rst:321
+msgid ""
+"After the download, all the bands and the metadata files are saved in the "
+"output directory."
+msgstr ""
+"Після завантаження всі канали та метадані зберігаються до виходового "
+"каталогу."
+
+#: ../../tutorial_2.rst:326
+msgid ":guilabel:`Download of Sentinel bands`"
+msgstr ":guilabel:`Завантаження каналів Sentinel`"
+
+#: ../../tutorial_2.rst:331
+msgid "Automatic Conversion to Surface Reflectance"
+msgstr "Автоматичний перерахунок у значення відбивальності поверхні"
+
+#: ../../tutorial_2.rst:333
+msgid ""
+"Conversion to reflectance (see :ref:`radiance_reflectance_definition`) can "
+"be performed automatically. The metadata file (a .xml file whose name "
+"contains ``MTD_SAFL1C``) downloaded with the images contains the required "
+"information for the conversion. Read :ref:`conversion_to_reflectance` for "
+"information about the :ref:`TOA_conversion` and :ref:`Surface_conversion`."
+msgstr ""
+"Перерахунок у відбивальність (див. :ref:`radiance_reflectance_definition`) "
+"може бути проведений автоматично. Файл метаданих (файл .xml назва якого "
+"містить ``MTD_SAFL1C``), завантажений зі знімками, містить інформацію "
+"необхідну для проведення перерахунку. Читайте  "
+":ref:`conversion_to_reflectance` для інформації щодо :ref:`TOA_conversion` "
+"та :ref:`Surface_conversion`."
+
+#: ../../tutorial_2.rst:337
+msgid ""
+"In order to convert bands to reflectance, open the tab "
+":ref:`pre_processing_tab` clicking the button |preprocessing| in the "
+":ref:`SCP_menu`, or the :ref:`toolbar_tools`, or the :ref:`SCP_dock`, and "
+"select the tab :ref:`sentinel2_tab`."
+msgstr ""
+"Для проведення перерахунку каналів у значення відбивальності, відкрийте "
+"вкладку :ref:`pre_processing_tab`, клацнувши кнопку |preprocessing| у "
+":ref:`SCP_menu` або :ref:`toolbar_tools` або :ref:`SCP_dock` та виберіть "
+"вкладку :ref:`sentinel2_tab`."
+
+#: ../../tutorial_2.rst:339
+msgid ""
+"Click the button :guilabel:`Directory containing Sentinel-2 bands` "
+"|open_file| and select the directory that should be named "
+"``S2A_OPER_MSI_L1C_TL_SGS__20160506T153005_A004552_T32TQM``. The list of "
+"bands is automatically loaded in the table :ref:`sentinel2_metadata`. Also, "
+"the metadata information for each band is loaded (because the metadata file "
+"is inside the same directory)."
+msgstr ""
+"Клацніть кнопку :guilabel:`Каталог, що містить канали Sentinel-2` "
+"|open_file| та виберіть каталог, який повинен називатись "
+"``S2A_OPER_MSI_L1C_TL_SGS__20160506T153005_A004552_T32TQM``. Переілк каналів"
+" автоматично завантажується до таблиці :ref:`sentinel2_metadata`. Крім того,"
+" завантажуються метадані для кожного каналу (завдяки тому, що файл метаданих"
+" знаходиться в тому самомому каталозі)."
+
+#: ../../tutorial_2.rst:343
+msgid ""
+"**TIP** : If a Sentinel-2 image was downloaded directly from the site "
+"https://scihub.copernicus.eu and you want to convert images to reflectance "
+"using :guilabel:`SCP`, you should copy the .xml file whose name contains "
+"``MTD_SAFL1C`` (included in the granule directory) and paste it inside the "
+"same directory of bands (files .jp2)."
+msgstr ""
+"**ПОРАДА** : Якщо знімок Sentinel-2 був завантажений безпосередньо з сайту "
+"https://scihub.copernicus.eu та ви бажаєте перерахувати його дані у "
+"відбивальність з використанням :guilabel:`SCP`, то потрібно скопіювати файл "
+".xml, назва якого містить ``MTD_SAFL1C`` (знаходиться в каталозі гранули), "
+"та вставити його до того самого каталогу, що містить канали (файли .jp2)."
+
+#: ../../tutorial_2.rst:345
+msgid ""
+"In order to calculate :ref:`Surface_conversion` we are going to apply the "
+":ref:`DOS1_correction`; therefore, enable the option :guilabel:`Apply DOS1 "
+"atmospheric correction`."
+msgstr ""
+"Для того, щоб розрахувати :ref:`Surface_conversion`, ми застосуємо "
+":ref:`DOS1_correction`; тому активуйте параметр  :guilabel:`Застосувати "
+"атмосферну корекцію DOS1`."
+
+#: ../../tutorial_2.rst:347
+msgid ""
+"**TIP** : It is recommended to perform the DOS1 atmospheric correction to "
+"the entire image (before clipping the image) in order to improve the "
+"calculation of parameters based on the image."
+msgstr ""
+"**ПОРАДА** : Рекомендовано застосовувати атмосферну корекцію DOS1 до всього "
+"знімка (до його відтинання) для того, щоб покращити розрахунок відносних "
+"параметрів, що ґрунтуються на знімку."
+
+#: ../../tutorial_2.rst:349
+msgid ""
+"Uncheck the option |checkbox| :guilabel:`Create Band set and use Band set "
+"tools` because we are going to define this in the following step "
+":ref:`tutorial_2_band_set`. In order to start the conversion process, click "
+"the button |run| and select the directory where converted bands are saved "
+"(e.g. ``Desktop``)."
+msgstr ""
+"Вимкніть параметр |checkbox| :guilabel:`Створити набір каналів та "
+"застосувати інструменти набору каналів`, оскільки ми збираємось визначити ці"
+" параметри на наступному етапі :ref:`tutorial_2_band_set`. Для того, щоб "
+"розпочати процес перерахунку, клацніть кнопку |run| та виберіть каталог до "
+"якого будуть збережені перераховані канали (наприклад, ``Desktop``)."
+
+#: ../../tutorial_2.rst:355
+msgid ":guilabel:`Sentinel-2 conversion to reflectance`"
+msgstr ":guilabel:`Перерахунок даних Sentinel-2 у відбивальність`"
+
+#: ../../tutorial_2.rst:357
+msgid ""
+"After a few minutes, converted bands are loaded and displayed (file name "
+"starts with ``RT_``). If :guilabel:`Play sound when finished` is checked in "
+":ref:`classification_process` settings, a sound is played when the process "
+"is finished."
+msgstr ""
+"Через декілька хвилин перераховані канали завантажуються та відображаються "
+"(назва файлу починається з ``RT_``). Якщо у налаштуваннях "
+":ref:`classification_process` увімкнено  :guilabel:`Грати сигнал після "
+"завершення`, то після завершення процесу подається звуковий сигнал."
+
+#: ../../tutorial_2.rst:363
+msgid ":guilabel:`Converted Sentinel-2 bands`"
+msgstr ":guilabel:`Перераховані канали Sentinel-2`"
+
+#: ../../tutorial_2.rst:368
+msgid "Clip the Data"
+msgstr "Провести відтинання даних"
+
+#: ../../tutorial_2.rst:370
+msgid ""
+"Sentinel-2 images have a large extent. In order to reduce the computational "
+"time, we are going to clip bands to the same study area as "
+":ref:`tutorial_1`. Open the tab :ref:`pre_processing_tab` and select the tab"
+" :ref:`clip_multiple_rasters_tab`."
+msgstr ""
+"Знімки Sentinel-2 мають велике охоплення. Для того, щоб скоротити "
+"обчислювальний час, ми проведемо відтинання каналів до охоплення тієї самої "
+"території дослідження, що і в :ref:`tutorial_1`. Відкрийте вкладку "
+":ref:`pre_processing_tab` та виберіть вкладку "
+":ref:`clip_multiple_rasters_tab`."
+
+#: ../../tutorial_2.rst:374
+msgid ""
+"Click the button |reload| to refresh the layer list, and check all the "
+"layers whose name starts with ``RT_`` (the band number is at the end of the "
+"layer name)."
+msgstr ""
+"Клацніть кнопку |reload|, щоб оновити перелік шарів та позначте галочкою всі"
+" шари, назва яких починається з ``RT_`` (номер каналу розташований "
+"наприкінці назви шару)."
+
+#: ../../tutorial_2.rst:376
+msgid ""
+"Click the button |pointer| and select an area such as the following image, "
+"or enter the following values:"
+msgstr ""
+"Клацніть кнопку |pointer| та виберіть ділянку, як показано на наступному "
+"рисунку, або введіть наступні значення:"
+
+#: ../../tutorial_2.rst:378
+msgid ":guilabel:`UL X`: 791810"
+msgstr ":guilabel:`UL X`: 791810"
+
+#: ../../tutorial_2.rst:379
+msgid ":guilabel:`UL Y`: 4643020"
+msgstr ":guilabel:`UL Y`: 4643020"
+
+#: ../../tutorial_2.rst:380
+msgid ":guilabel:`LR X`: 809750"
+msgstr ":guilabel:`LR X`: 809750"
+
+#: ../../tutorial_2.rst:381
+msgid ":guilabel:`LR Y`: 4626230"
+msgstr ":guilabel:`LR Y`: 4626230"
+
+#: ../../tutorial_2.rst:386
+msgid ":guilabel:`Clip area`"
+msgstr ":guilabel:`Відтинання області`"
+
+#: ../../tutorial_2.rst:388
+msgid ""
+"Click the button |run| and select a directory (e.g. ``clip``) where clipped "
+"bands are saved (with the file name prefix defined in :guilabel:`Output name"
+" prefix`). When the process is completed, clipped rasters are loaded and "
+"displayed. We can remove the bands whose names start with ``RT_`` from QGIS "
+"layers."
+msgstr ""
+"Клацніть кнопку |run| та вибіерть каталог (наприклд, ``clip``) до якого "
+"потрібно зберегти канали після відтинання (з приставкою у назві файлу, що "
+"визначена у :guilabel:`Приставка виходової назви`). Після завершення "
+"процесу, обрізані растри завантажуються та відображаються. Тепер ми можемо "
+"видалити канали, назва яких починається з ``RT_`` з панелі шарів QGIS."
+
+#: ../../tutorial_2.rst:395
+msgid ":guilabel:`Clipped bands`"
+msgstr ":guilabel:`Обрізані канали`"
+
+#: ../../tutorial_2.rst:400
+msgid "Create the Band Set"
+msgstr "Створіть набір каналів"
+
+#: ../../tutorial_2.rst:402
+msgid ""
+"Now we need to define the :guilabel:`Band set` which is the input image for "
+":guilabel:`SCP`. Open the tab :ref:`band_set_tab` clicking the button "
+"|bandset_tool| in the :ref:`SCP_menu`, or the :ref:`toolbar_tools`, or the "
+":ref:`SCP_dock`."
+msgstr ""
+"Тепер нам потрібно визначити :guilabel:`Набір каналів`, який є  входовим "
+"знімком для :guilabel:`SCP`. Відкрийте вкладку :ref:`band_set_tab`, "
+"клацнувши кнопку |bandset_tool| у :ref:`SCP_menu` або :ref:`toolbar_tools` "
+"або :ref:`SCP_dock`."
+
+#: ../../tutorial_2.rst:405
+msgid ""
+"Click the button |reload| to refresh the layer list, and check all the "
+"clipped bands; then click |plus| to add selected rasters to the "
+":guilabel:`Band set`. In the table :guilabel:`Band set definition` order the"
+" band names in ascending order (click |order_by_name| to sort bands by name "
+"automatically), then highlight band ``8A`` (i.e. single click on band name "
+"in the table) and use the buttons |move_up| or |move_down| to place this "
+"band at number 8. Finally, select :guilabel:`Sentinel-2` from the list "
+":guilabel:`Quick wavelength settings`, in order to set automatically the "
+":guilabel:`Center wavelength` of each band and the :guilabel:`Wavelength "
+"unit` (required for spectral signature calculation)."
+msgstr ""
+"Клацніть кнопку |reload| для того, щоб оновити перелік шарів, та перевірте "
+"всі обрізані канали; після цього клацніть |plus| для того, щоб додати "
+"вибрані растри до :guilabel:`Набору каналів`. У таблиці "
+":guilabel:`Визначення набору каналів` впорядкуйте назви каналів у порядку "
+"зростання (клацніть |order_by_name|, щоб автоматично впорядкувати канали за "
+"назвою), після цього підсвітіть канал ``8A`` (одинарним клацанням на імені "
+"каналу в таблиці) та скористайтесь кнопками |move_up| або |move_down|, щоб "
+"розмістити цей канал під номером 8. Зрештою, виберіть :guilabel:`Sentinel-2`"
+" з переліку :guilabel:`Швидкі налаштування довжини хвилі` для того, щоб "
+"автоматично призначити :guilabel:`Центральну довжину хвилі` кожного каналу "
+"та :guilabel:`Одиницю вимірювання довжини хвилі` (потрібні для розрахунку "
+"спектральних сигнатур)."
+
+#: ../../tutorial_2.rst:412
+msgid ":guilabel:`Definition of a band set`"
+msgstr ":guilabel:`Визначення набору каналів`"
+
+#: ../../tutorial_2.rst:414
+msgid ""
+"You can notice that the item ``<< band set >>`` is selected as "
+":ref:`input_image` in the :ref:`SCP_dock`."
+msgstr ""
+"Ви можете помітити, що елемент ``<< band set >>`` вибраний як "
+":ref:`input_image` у :ref:`SCP_dock`."
+
+#: ../../tutorial_2.rst:419
+msgid ":guilabel:`Band set`"
+msgstr ":guilabel:`Набір каналів`"
+
+#: ../../tutorial_2.rst:424
+msgid "Create the ROIs"
+msgstr "Створіть ROI"
+
+#: ../../tutorial_2.rst:426
+msgid ""
+"In order to collect ROIs we need to :ref:`tutorial_1_2` as described in "
+":ref:`tutorial_1` (in the :ref:`SCP_dock` click the button |new_file| and "
+"define a file name). The :guilabel:`Training input` stores the ROIs and the "
+":ref:`spectral_signature_definition` thereof."
+msgstr ""
+"Для того, щоб зібрати ROI, нам потрібно :ref:`tutorial_1_2` як описано у "
+":ref:`tutorial_1` (у :ref:`SCP_dock` клацніть кнопку  |new_file| та визначте"
+" назву файлу). :guilabel:`Навчальні входові дані` зберігають ROI та їх "
+":ref:`spectral_signature_definition`."
+
+#: ../../tutorial_2.rst:432
+msgid ":guilabel:`Definition of Training input in SCP`"
+msgstr ":guilabel:`Визначення навчальних входових даних у SCP`"
+
+#: ../../tutorial_2.rst:434
+msgid ""
+"We are going to create several ROIs using the Macroclass IDs defined in the "
+"following table (see :ref:`classes_definition`)."
+msgstr ""
+"Ми створимо декілька ROI, використовуючи ID макрокласів, визначені в "
+"наступній таблиці (див. :ref:`classes_definition`)."
+
+#: ../../tutorial_2.rst:436
+msgid ":guilabel:`Macroclasses`"
+msgstr ":guilabel:`Макрокласи`"
+
+#: ../../tutorial_2.rst:439
+msgid "Macroclass name"
+msgstr "Назва макрокласу"
+
+#: ../../tutorial_2.rst:439
+msgid "Macroclass ID"
+msgstr "ID макрокласу"
+
+#: ../../tutorial_2.rst:441
+msgid "Water"
+msgstr "Вода"
+
+#: ../../tutorial_2.rst:441
+msgid "1"
+msgstr "1"
+
+#: ../../tutorial_2.rst:443
+msgid "Built-up"
+msgstr "Забудова"
+
+#: ../../tutorial_2.rst:443
+msgid "2"
+msgstr "2"
+
+#: ../../tutorial_2.rst:445
+msgid "Vegetation"
+msgstr "Рослинність"
+
+#: ../../tutorial_2.rst:445
+msgid "3"
+msgstr "3"
+
+#: ../../tutorial_2.rst:447
+msgid "Bare soil"
+msgstr "Відкритий ґрунт"
+
+#: ../../tutorial_2.rst:447
+msgid "4"
+msgstr "4"
+
+#: ../../tutorial_2.rst:450
+msgid ""
+"In this phase we are creating the database of spectral signatures used to "
+"identify land cover classes (the ones defined as macroclasses). However, "
+"these macroclasses are composed of several materials having different "
+"spectral signatures; in order to achieve good classification results we "
+"should separate spectral signatures of different materials, even if "
+"belonging to the same macroclass. Thus, we are going to create several ROIs "
+"for each macroclass (setting the same :guilabel:`MC ID`, but assigning a "
+"different :guilabel:`C ID` to every ROI)."
+msgstr ""
+"На цьому етапі ми створюємо базу даних спектральних сигнатур, що "
+"використовується для ідентифікації класів земельного покриву (визначених як "
+"макрокласи). Однак, ці макрокласи складаються з декількох матеріалів, що "
+"мають різні спектральні сигнатури; для того, щоб отримати якісні результати "
+"класифікації, ми повинні розділити спектральні сигнатури різних матеріалів, "
+"навіть якщо вони належать до одного макрокласу. Тому ми створимо декілька "
+"ROI для кожного макрокласу (призначаючи ті самі :guilabel:`MC ID`, але "
+"віднесемо кожну ROI до різного :guilabel:`C ID`)."
+
+#: ../../tutorial_2.rst:454
+msgid ""
+"In the list :guilabel:`RGB=` of :ref:`working_toolbar` select ``3-2-1`` to "
+"display a natural color image (see ref:`color_composite_definition` and "
+":ref:`Sentinel2_definition`). After a few seconds, the "
+":ref:`color_composite_definition` will be displayed. We can see that urban "
+"areas are white and vegetation is green."
+msgstr ""
+"У переліку :guilabel:`RGB=` :ref:`working_toolbar` виберіть ``3-2-1`` для "
+"того, щоб відобразити знімок у справжніх кольорах (див. "
+"ref:`color_composite_definition` та :ref:`Sentinel2_definition`). Через "
+"декілька секунд буде відображений ref:`color_composite_definition`. Ми "
+"можемо бачити, що міські території виглядають білими, а рослинність - "
+"зеленою."
+
+#: ../../tutorial_2.rst:458
+msgid ""
+"**TIP** : If a :ref:`band_set_tab` is defined, a temporary virtual raster "
+"(named ``band_set.vrt``) is created automatically, which allows for the "
+"display of :ref:`color_composite_definition`. In order to speed up the "
+"visualization, you can show only the virtual raster and hide all the layers "
+"in the QGIS Layers."
+msgstr ""
+"**ПОРАДА** : Якщо a :ref:`band_set_tab` визначено, то автоматично "
+"створюється тимчасовий віртуальний растр (під назвою ``band_set.vrt``), що "
+"забезпечує відображення :ref:`color_composite_definition`. Для того, щоб "
+"пришвидшити процес візуалізації, ви можете відображати лише віртуальний "
+"растр та приховати всі інші шари в панелі шарів QGIS."
+
+#: ../../tutorial_2.rst:463
+msgid ":guilabel:`Color composite RGB = 3-2-1`"
+msgstr ":guilabel:`Кольоровий композит RGB = 3-2-1`"
+
+#: ../../tutorial_2.rst:465
+msgid ""
+"Now in the list :guilabel:`RGB=` of the :ref:`working_toolbar` type "
+"``3-7-10`` (you can also use the tool :ref:`RGB_list_tab`). Using this color"
+" composite, urban areas are purple and vegetation is green. You can notice "
+"that this color composite ``RGB = 3-7-10`` highlights roads more than "
+"natural color (``RGB = 3-2-1``). Also, you can see that there are clouds in "
+"the right part of the image."
+msgstr ""
+"Тепер у переліку :guilabel:`RGB=` :ref:`working_toolbar` надрукуйте "
+"``3-7-10`` (ви також можете скористатись інструментомl :ref:`RGB_list_tab`)."
+" При застосуванні цього кольорового композиту урбанізовані території "
+"виглядають фіолетовими, а рослинність - зеленою. Ви можете помітити, що "
+"кольоровий композит  ``RGB = 3-7-10`` виокремлює дороги краще, ніж композит "
+"у справжніх кольорах  (``RGB = 3-2-1``). Також ви можете побачити хмари у "
+"правій частині знімка."
+
+#: ../../tutorial_2.rst:473
+msgid ":guilabel:`Color composite RGB = 3-7-10`"
+msgstr ":guilabel:`Кольровий композит RGB = 3-7-10`"
+
+#: ../../tutorial_2.rst:475
+msgid ""
+"Now create the ROIs following the same steps described in "
+":ref:`tutorial_1_3` of :ref:`tutorial_1`. After clicking the button "
+"|roi_single| in the :ref:`working_toolbar` you should notice that the cursor"
+" in the map displays a value changing over the image. This is the NDVI value"
+" of the pixel beneath the cursor (NDVI is displayed because the function "
+"|checkbox| :guilabel:`Display` is checked in :ref:`ROI_creation`). The NDVI "
+"value can be useful for identifying spectrally pure pixels, in fact "
+"vegetation has higher NDVI values than soil."
+msgstr ""
+"Тепер створіть ROI таким самим чином, як це описано у :ref:`tutorial_1_3` "
+":ref:`tutorial_1`. Після клацання кнопки |roi_single| у "
+":ref:`working_toolbar` ви маєте помітити, що курсор відображає значення на "
+"карті, які змінюються під час руху курсора над зображенням. Це значення NDVI"
+" пікселя, що знаходиться під курсором (NDVI відображається тому, що у "
+":ref:`ROI_creation` увімкнено функцію |checkbox| :guilabel:`Відображати`). "
+"Значення NDVI можуть бути корисними для визначення спектрально чистих "
+"пікселів, зокрема рослинність характеризується вищими значеннями NDVI, ніж "
+"ґрунт."
+
+#: ../../tutorial_2.rst:480
+msgid ""
+"For instance, move the mouse over a vegetation area and left click to create"
+" a ROI when you see a local maximum value. This way, the created ROI and the"
+" spectral signature thereof will be particularly representative of healthy "
+"vegetation."
+msgstr ""
+"Наприклад, посуньте мишку на ділянку з рослинністю та клацніть лівою "
+"кнопкою, щоб створити ROI, коли побачите локальне максимальне значення. "
+"Завдяки цьому створена ROI та її спектральна сигнатура будуть особливо  "
+"репрезентативними для здорової рослинності."
+
+#: ../../tutorial_2.rst:486
+msgid ":guilabel:`NDVI value of vegetation pixel displayed in the map`"
+msgstr ""
+":guilabel:`Значення NDVI, що відображається на карті для пікселя з "
+"рослинністю`"
+
+#: ../../tutorial_2.rst:488
+msgid ""
+"The color composite ``RGB = 7-3-2`` is also useful for highlighting "
+"vegetation."
+msgstr ""
+"Кольоровий композит ``RGB = 7-3-2`` також корисний для виділення "
+"рослинності."
+
+#: ../../tutorial_2.rst:490
+msgid ""
+"Create several ROIs (the more is the better). The region growing algorithm "
+"can create more homogeneous ROIs (i.e. standard deviation of spectral "
+"signature values is low) than manually drawn ones; the manual creation of "
+"ROIs can be useful in order to account for the spectral variability of "
+"classes (especially when using the algorithm "
+":ref:`max_likelihood_algorithm`)."
+msgstr ""
+"Створіть декілька ROI (чим більше, тим краще). Алгоритм нарощування області "
+"може створювати більш однорідні ROI (низьке стандартне відхилення значень "
+"спектральних сигнатур), ніж ті, що створені ручним окреслюванням; створення "
+"ROI вручну може бути корисним для урахування спектральної мінливості класів "
+"(особливо у випадку застосування алгоритму :ref:`max_likelihood_algorithm`)."
+
+#: ../../tutorial_2.rst:493
+msgid ""
+"In general, you should create one ROI for each color that you can "
+"distinguish in the image. Therefore, change the color composite in order to "
+"identify the different types of land cover."
+msgstr ""
+"Загалом, слід створити одну ROI для кожного кольору, що  ви можете вирізнити"
+" на знімку. Для цього змінюйте кольорові композити, щоб ідентифікувати різні"
+" типи земельного покриву."
+
+#: ../../tutorial_2.rst:496
+msgid ""
+"**TIP** : Change frequently the :ref:`color_composite_definition` in order "
+"to clearly identify the materials at the ground; use the mouse wheel on the "
+"list :guilabel:`RGB=` of the :ref:`working_toolbar` for changing the color "
+"composite rapidly; also use the buttons |cumulative_stretch| and "
+"|std_dev_stretch| for better displaying the :guilabel:`Input image` (i.e. "
+"image stretching)."
+msgstr ""
+"**ПОРАДА** : Частіше змінюйте :ref:`color_composite_definition` для того, "
+"щоб чітко зідентифікувати матеріали земної поверхні; застосовуйте колещатко "
+"мишки до переліку :guilabel:`RGB=` :ref:`working_toolbar` для швидкої зміни "
+"кольорового композиту; також використовуйте кнопки |cumulative_stretch| та "
+"|std_dev_stretch| для кращого відображення :guilabel:`Входового знімка` (т. "
+"зв. розтягування зображення)."
+
+#: ../../tutorial_2.rst:498
+msgid "A few examples of ROIs are illustrated in the following figures."
+msgstr "Наступні рисунки ілюструють декілька прикладів ROI."
+
+#: ../../tutorial_2.rst:503
+msgid ":guilabel:`Water ROI: lake`"
+msgstr ":guilabel:`ROI Вода: озеро`"
+
+#: ../../tutorial_2.rst:508
+msgid ":guilabel:`Built-up ROI: large buildings`"
+msgstr ":guilabel:`ROI Забудова: великі будівлі`"
+
+#: ../../tutorial_2.rst:513
+msgid ":guilabel:`Built-up ROI: road`"
+msgstr ":guilabel:`ROI Забудова: дорога`"
+
+#: ../../tutorial_2.rst:518
+msgid ":guilabel:`Built-up ROI: buildings and narrow roads`"
+msgstr ":guilabel:`ROI Забудова: будівлі та вузькі дороги`"
+
+#: ../../tutorial_2.rst:523
+msgid ":guilabel:`Vegetation ROI: deciduous trees`"
+msgstr ":guilabel:`ROI Рослинність: листяні дерева`"
+
+#: ../../tutorial_2.rst:528
+msgid ":guilabel:`Vegetation ROI: crop`"
+msgstr ":guilabel:`ROI Рослинність: сільськогосподарські культури`"
+
+#: ../../tutorial_2.rst:533
+msgid ":guilabel:`Bare soil ROI: uncultivated land`"
+msgstr ":guilabel:`ROI Відкритий ґрунт: землі, що не обробляються`"
+
+#: ../../tutorial_2.rst:535
+msgid ""
+"It is worth mentioning that you can show or hide the temporary ROI clicking "
+"the button |radiobutton| :guilabel:`ROI` in :ref:`working_toolbar`."
+msgstr ""
+"Варто зазначити, що ви можете показати або приховати тимчасові ROI клацанням"
+" кнопки |radiobutton| :guilabel:`ROI` на :ref:`working_toolbar`."
+
+#: ../../tutorial_2.rst:537
+msgid ""
+"**TIP** : Install the plugin `QuickMapServices "
+"<http://plugins.qgis.org/plugins/quick_map_services/>`_ in QGIS, and add a "
+"map (e.g. `OpenStreetMap <http://www.openstreetmap.org>`_) in order to "
+"facilitate the identification of ROIs using high resolution data."
+msgstr ""
+"**ПОРАДА** : Встановіть модуль `QuickMapServices "
+"<http://plugins.qgis.org/plugins/quick_map_services/>`_ у QGIS та додайте "
+"карту (наприклад, `OpenStreetMap <http://www.openstreetmap.org>`_) для того,"
+" щоб полегшити ідентифікацію ROI за допомогою даних з високою вирізняльною "
+"здатністю."
+
+#: ../../tutorial_2.rst:539
+msgid ""
+"We can also try to mask clouds in the image, creating ROIs of clouds and "
+"assigning the special :guilabel:`MC ID` = 0 (which is an ID used for "
+"labelling intentionally unclassified pixels) and a different :guilabel:`C "
+"ID`. In fact spectral signatures with the :guilabel:`MC ID` = 0 are normally"
+" used in the classification, but every pixel assigned to these spectral "
+"signatures is labelled ``unclassified`` in the classification result. "
+"Therefore, this is a simple way for masking particular spectral signatures "
+"such as clouds (of course there are more advanced methods for masking clouds"
+" that will be discussed in other tutorials)."
+msgstr ""
+"Ми також можемо спробувати замаскувати хмари на знімку, створивши ROI хмар "
+"та призначивши їм спеціальний :guilabel:`MC ID` = 0 (який є ІD, що "
+"використовується для позначення  пікселів, що навимсно не класифікуються) та"
+" відмінного :guilabel:`C ID`. Насправді спектральні сигнатури з  "
+":guilabel:`MC ID` = 0 зазвичай використовуються в класифікації, але кожний "
+"піксель, віднесений до цих спектральних сигнатур, в результатах класифікації"
+" позначається як ``unclassified``. Тому це простий спосіб маскування деяких "
+"спектральних сигнатур, таких як хмари (звичайно є і більш досконалі методи "
+"маскування хмар, які буде обговорено в інших практикумах)."
+
+#: ../../tutorial_2.rst:546
+msgid ":guilabel:`Example of ROI for clouds`"
+msgstr ":guilabel:`Приклад ROI для хмар`"
+
+#: ../../tutorial_2.rst:551
+msgid "Create a Classification Preview"
+msgstr "Створіть попередній перегляд результатів класифікації"
+
+#: ../../tutorial_2.rst:553
+msgid ""
+"As pointed out in :ref:`tutorial_1`, previews are temporary classifications "
+"that are useful for assessing the effects of spectral signatures during the "
+"ROI collection."
+msgstr ""
+"Як вказано у :ref:`tutorial_1`, попередні перегляди це тимчасові "
+"класифікації, які є зручними для оцінювання ефектів спектральних сигнатур "
+"під час збору ROI."
+
+#: ../../tutorial_2.rst:555
+msgid ""
+"Set the colors of the spectral signatures in the :ref:`ROI_list`; then, in "
+"the :ref:`classification_alg` select the classification algorithm "
+":ref:`max_likelihood_algorithm`. In :ref:`classification_preview` set "
+":guilabel:`Size` = 500; click the button |preview| and then left click a "
+"point of the image in the map."
+msgstr ""
+"Встановіть кольори спектральних сигнатур у :ref:`ROI_list`; після цього у "
+":ref:`classification_alg` виберіть алгоритм класифікації "
+":ref:`max_likelihood_algorithm`. У :ref:`classification_preview` встановіть "
+":guilabel:`Розмір` = 500; клацніть кнопку |preview| та клацніть лівою "
+"кнопкою мишки точку на карті."
+
+#: ../../tutorial_2.rst:558
+msgid "The classification preview is displayed in the map."
+msgstr "Попередній перегляд відобразиться на карті."
+
+#: ../../tutorial_2.rst:563
+msgid ":guilabel:`Example of preview using C IDs`"
+msgstr ":guilabel:`Приклад попереднього перегляду на основі C ID`"
+
+#: ../../tutorial_2.rst:565
+msgid ""
+"In order to create a classification preview using Macroclass IDs check the "
+"option |checkbox| :guilabel:`MC ID` in the tab :ref:`classification_alg` of "
+"the :ref:`SCP_dock`. In the tab :ref:`classification_style` of the "
+":ref:`SCP_dock` change the colors of :guilabel:`MC ID` (in the table "
+":ref:`classification_style` double click the color of each macroclass to "
+"choose a representative color)."
+msgstr ""
+"Для того, щоб створити попередній перегляд результатів класифікації на "
+"основі ID макрокласів, активуйте параметр |checkbox| :guilabel:`MC ID` у "
+"вкладці :ref:`classification_alg` з :ref:`SCP_dock`. У вкладці "
+":ref:`classification_style` з :ref:`SCP_dock` змініть кольори :guilabel:`MC "
+"ID` (в таблиці :ref:`classification_style` двічі клацніть колір кожного "
+"макрокласу для того, щоб вибрати репрезентативний колір)."
+
+#: ../../tutorial_2.rst:571
+msgid ":guilabel:`COlors of MC IDs`"
+msgstr ":guilabel:`Кольори MC ID`"
+
+#: ../../tutorial_2.rst:573
+msgid ""
+"Now click the button |preview_redo| in the :ref:`working_toolbar` to "
+"calculate a new preview at the same area of the previous one. In the "
+"following figure you can notice that there are fewer classes (only the "
+":guilabel:`MC ID`) than the previous preview; also, clouds are unclassified "
+"(black pixels)."
+msgstr ""
+"Тепер клацніть кнопку |preview_redo| з :ref:`working_toolbar` для того, щоб "
+"розрахувати новий попередній перегляд для тієї ж самої ділянки. На "
+"наступному рисунку ви можете помітити, що кількість класів менша (тільки "
+":guilabel:`MC ID`) порівняно з попереднім варіантом; також, хмари "
+"відображаються як некласифіковані (чорні пікселі)."
+
+#: ../../tutorial_2.rst:576
+msgid ""
+"**TIP** : In the :ref:`working_toolbar` click the button |radiobutton| "
+":guilabel:`Preview` to easily show or hide the classification previews, and "
+"the button |radiobutton| :guilabel:`RGB=` to show or hide the "
+":guilabel:`Input image`."
+msgstr ""
+"**ПОРАДА** : У :ref:`working_toolbar` клацніть кнопку |radiobutton| "
+":guilabel:`Попередній перегляд` для того, щоб швидко показувати або "
+"приховувати попередні перегляди класифікації, та кнопку |radiobutton| "
+":guilabel:`RGB=` для того, щоб показати або приховати :guilabel:`Входовий "
+"знімок`."
+
+#: ../../tutorial_2.rst:581
+msgid ":guilabel:`Example of preview using MC IDs`"
+msgstr ":guilabel:`Приклад попереднього перегляду на основі MC ID`"
+
+#: ../../tutorial_2.rst:586
+msgid "Assess Spectral Signatures"
+msgstr "Оцініть спектральні сигнатури"
+
+#: ../../tutorial_2.rst:588
+msgid ""
+"Spectral signatures are used by :ref:`classification_algorithm_definition` "
+"for labelling image pixels. Different materials may have similar spectral "
+"signatures (especially considering multispectral images) such as built-up "
+"and soil. If spectral signatures used for classification are too similar, "
+"pixels could be misclassified because the algorithm is unable to "
+"discriminate correctly those signatures. Thus, it is useful to assess the "
+":ref:`spectral_distance_definition` of signatures to find similar spectral "
+"signatures that must be removed. Of course the concept of distance vary "
+"according to the algorithm used for classification."
+msgstr ""
+"Спектральні сигнатури використовуються "
+":ref:`classification_algorithm_definition` для позначення пікселів знімка. "
+"Різні матеріали, такі як забудова або відкритий ґрунт, можуть мати подібні "
+"спектральні сигнатури (особливо у випадку багатоспектральних знімків). Якщо "
+"спектральні сигнатури, які використовуються для класифікації, занадто "
+"подібні, то пікселі можуть бути класифіковані некоректно, оскільки алгоритм "
+"не в змозі правильно відокремити ці сигнатури. Тому доцільно проводити "
+"оцінку :ref:`spectral_distance_definition` сигнатур для того, щоб знайти "
+"подібні спектральні сигнатури, які повинні бути видалені. Звичайно ж, "
+"концепція відстані залежить від алгоритму, який застосовується для "
+"класифікації."
+
+#: ../../tutorial_2.rst:594
+msgid ""
+"One can simply assess spectral signature similarity by displaying a "
+"signature plot. In order to display the signature plot, in the "
+":ref:`ROI_list` highlight two or more spectral signatures (with click in the"
+" table), then click the button |sign_plot|. The "
+":ref:`spectral_signature_plot` is displayed in a new window. Move ans zoom "
+"inside the :ref:`signature_plot` to see if signatures are similar (i.e. very"
+" close). We can see in the following figure a signature plot of different "
+"materials."
+msgstr ""
+"Простий спосіб оцінки подібності сигнатур це відображення графіка сигнатур. "
+"Для того, щоб відобразити графік сигнатур, у :ref:`ROI_list` виділіть дві "
+"або більше сигнатури (клацанням в таблиці), потім клацніть кнопку "
+"|sign_plot|.  :ref:`spectral_signature_plot` відобразиться у новому вікні. "
+"Посуньте та збільшіть :ref:`signature_plot` для того, щоб побачити, чи є "
+"сигнатури подібними (тобто дуже близькми). На наступному рисунку ми можемо "
+"бачити графік сигнатур різних матеріалів."
+
+#: ../../tutorial_2.rst:603
+msgid ":guilabel:`Spectral plot`"
+msgstr ":guilabel:`Графік спектральних сигнатур`"
+
+#: ../../tutorial_2.rst:605
+msgid ""
+"In the plot we can see the line of each signature (with the color defined in"
+" the :ref:`ROI_list`), and the spectral range (minimum and maximum) of each "
+"band (i.e. the semi-transparent area colored like the signature line). The "
+"larger is the semi-transparent area of a signature, the higher is the "
+"standard deviation, and therefore the heterogeneity of pixels that composed "
+"that signature. Spectral signature values are displayed in the "
+":ref:`signature_details`."
+msgstr ""
+"На графіку ми можемо бачити лінію кожної сигнатури (зображену кольором, що "
+"визначений у :ref:`ROI_list`) та спектральний діапазон (мінімум та максимум)"
+" кожного каналу (напівпрозора область подібна за кольором до лінії "
+"сигнатури). Чим більша напівпрозора область сигнатури, тим більше стандартне"
+" відхилення, а відтак і неоднорідність пікселів, що формують цю сигнатуру. "
+"Значення спектральної сигнатури відображаються у :ref:`signature_details`."
+
+#: ../../tutorial_2.rst:612
+msgid ":guilabel:`Spectral signature values`"
+msgstr ":guilabel:`Значення спектральної сигнатури`"
+
+#: ../../tutorial_2.rst:614
+msgid ""
+"Additionally, we can calculate the spectral distances of signatures (for "
+"more information see :ref:`spectral_distance_definition`). Highlight two or "
+"more spectral signatures with click in the table :ref:`signature_list_plot`,"
+" then click the button |calculate_spectral_distances|; distances will be "
+"calculated for each pair of signatures. Now open the tab "
+":ref:`spectral_distances`; we can notice that similarity between signatures "
+"vary according to considered algorithm."
+msgstr ""
+"Додатково ми можемо розрахувати спектральні відстані сигнатур (для більш "
+"докладної інформації див. :ref:`spectral_distance_definition`). Виділіть дві"
+" або більше спектральні сигнатури клацанням в таблиці "
+":ref:`signature_list_plot`, після цього клацніть кнопку "
+"|calculate_spectral_distances|; відстані будуть розраховані для кожної пари "
+"сигнатур. Тепер відкрийте вкладку :ref:`spectral_distances`; ми можемо "
+"бачити, що подібність між сигнатурами змінюється відповідно до алгоритму."
+
+#: ../../tutorial_2.rst:621
+msgid ":guilabel:`Spectral distances`"
+msgstr ":guilabel:`Спектральні відстані`"
+
+#: ../../tutorial_2.rst:623
+msgid ""
+"For instance, two signatures can be very similar "
+":ref:`spectra_angle_mapping_algorithm` (very low :ref:`spectral_angle`), but"
+" quite distant for the :ref:`max_likelihood_algorithm` "
+"(:ref:`Jeffries_Matusita_distance` value near 2). The similarity of "
+"signatures is affected by the similarity of materials (in relation to the "
+"number of spectral bands available in the :guilabel:`Input image`); also, "
+"the way we create ROIs influences the signatures."
+msgstr ""
+"Наприклад, дві сигнатури можуть бути дуже подібними для  "
+":ref:`spectra_angle_mapping_algorithm` (дуже маленький "
+":ref:`spectral_angle`), але вельми віддаленими для "
+":ref:`max_likelihood_algorithm` (значення :ref:`Jeffries_Matusita_distance` "
+"близько 2). На подібність сигнатур впливає подібність матеріалів (залежно "
+"від кількості спектральних каналів, доступних у :guilabel:`Входовому "
+"знімку`); також на сигнатури впливає спосіб створення ROI."
+
+#: ../../tutorial_2.rst:629
+msgid "Create the Classification Output"
+msgstr "Створіть результат класифікації"
+
+#: ../../tutorial_2.rst:631
+msgid ""
+"Repeat iteratively the phases :ref:`tutorial_2_2`, :ref:`tutorial_2_3`, and "
+":ref:`tutorial_2_4` until the classification previews show good results."
+msgstr ""
+"Повторіть декілька разів етапи :ref:`tutorial_2_2`, :ref:`tutorial_2_3` та "
+":ref:`tutorial_2_4`, поки попередні перегляди класифікації не покажуть добрі"
+" результати."
+
+#: ../../tutorial_2.rst:633
+msgid ""
+"To start the classification of the entire image, open the tab "
+":ref:`classification_output`, click the button |run| and define the name of "
+"the classification output."
+msgstr ""
+"Для того, щоб розпочати класифікацію всього зображення, відкрийте вкладку "
+":ref:`classification_output`, клацніть кнопку |run| та визначте назву "
+"виходового результату класифікації."
+
+#: ../../tutorial_2.rst:635
+msgid ""
+"**TIP** : Set the :guilabel:`Available RAM (MB)` in :ref:`ram` settings, in "
+"order to reduce the computational time; the recommended value is half of the"
+" system RAM."
+msgstr ""
+"**ПОРАДА** : Для того, щоб зменшити обчислювальний час, встановіть "
+":guilabel:`Доступну RAM (Мб)` у налаштуваннях :ref:`ram`; рекомендоване "
+"значення - половина системної RAM."
+
+#: ../../tutorial_2.rst:637
+msgid ""
+"If |checkbox| :guilabel:`Play sound when finished` is checked in "
+":ref:`classification_process` settings, a sound is played when the process "
+"is finished."
+msgstr ""
+"Якщо у налаштуваннях :ref:`classification_process` увімкнено |checkbox| "
+":guilabel:`Давати звуковий сигнал по закінченні`, то після завершення "
+"процесу подається звуковий сигнал."
+
+#: ../../tutorial_2.rst:642
+msgid ":guilabel:`Classification`"
+msgstr ":guilabel:`Класифікація`"
+
+#: ../../tutorial_2.rst:644
+msgid ""
+"It is worth mentioning that :guilabel:`SCP` provides other tools and "
+"techniques that can improve the classification results, which are described "
+"in :ref:`thematic_tutorials`."
+msgstr ""
+"Варто зазначити, що :guilabel:`SCP` забезпечує й іншими інструментами та "
+"техніками, які можуть покращити результати класифікації. Вони описані у "
+":ref:`thematic_tutorials`."
+
+#: ../../tutorial_2.rst:290
+msgid ""
+"**Tip**: download this `zip file "
+"<https://docs.google.com/uc?id=0BysUrKXWIDwBZHF6dENlZ0g1Y0k>`_ containing "
+"the shapefile of Sentinel-2 granules for identifying the zone; load this "
+"shapefile in QGIS, select the granules in your search area and open the "
+"attribute table to see the zone name."
+msgstr ""
+"**Порада**: для визначення зони завантажте цей `zip-файл "
+"<https://docs.google.com/uc?id=0BysUrKXWIDwBZHF6dENlZ0g1Y0k>`_ , який "
+"містить шейп-файл гранул Sentinel-2; завантажте цей шейп-файл до QGIS, "
+"виберіть гранули у вашій території пошуку та відкрийте атрибутивну таблицю, "
+"щоб побачити ім'я зони."

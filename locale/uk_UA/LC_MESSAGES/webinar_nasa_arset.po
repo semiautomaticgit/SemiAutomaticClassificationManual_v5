@@ -1,0 +1,84 @@
+# Translators:
+# Daria Svidzinska <d.svidzinska@gmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Semi-Automatic Classification Plugin 5.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-16 19:39+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Daria Svidzinska <d.svidzinska@gmail.com>, 2017\n"
+"Language-Team: Ukrainian (Ukraine) (https://www.transifex.com/semi-automatic-classification/teams/53374/uk_UA/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../../webinar_nasa_arset.rst:5
+msgid "NASA ARSET Webinar"
+msgstr "Вебінар NASA ARSET"
+
+#: ../../webinar_nasa_arset.rst:11
+msgid ""
+"`NASA ARSET <https://arset.gsfc.nasa.gov>`_ is a program for fostering the "
+"acquisition and use of NASA satellite data for supporting decisions, through"
+" online webinars and in-person workshops."
+msgstr ""
+"`NASA ARSET <https://arset.gsfc.nasa.gov>`_ це програма сприяння отриманню "
+"та використанню супутникових даних NASA для підтримки рішень, яка "
+"реалізується за допомогою онлайн-вебінарів та очних семінарів."
+
+#: ../../webinar_nasa_arset.rst:13
+msgid ""
+"NASA ARSET offered the webinar **Land Cover Classification with Satellite "
+"Imagery** which covered very interesting objectives such as access and "
+"download Landsat imagery and learn the basic steps for performing a "
+"supervised classifications using the :guilabel:`SCP`."
+msgstr ""
+"NASA ARSET провела вебінар **Класифікація земельних покривів з застосуванням"
+" супутникових знімків**, який охоплювава такі цікаві теми як доступ до та "
+"завантаження даних Landsat та опанування основних етапів реалізації "
+"керованої класифікації з застосуванням :guilabel:`SCP`."
+
+#: ../../webinar_nasa_arset.rst:18
+msgid ":guilabel:`NASA ARSET website`"
+msgstr ":guilabel:`Вебсайт NASA ARSET`"
+
+#: ../../webinar_nasa_arset.rst:20
+msgid "This webinar is organized in two sessions:"
+msgstr "Вебінар складається з двох частин:"
+
+#: ../../webinar_nasa_arset.rst:22
+msgid "Introduction to Land Cover Classification and QGIS"
+msgstr "Вступ до класифікації земельного покриву та QGIS"
+
+#: ../../webinar_nasa_arset.rst:23
+msgid "Improving a Supervised Land Cover Classification"
+msgstr "Вдосконалення керованої класифікації земельного покриву"
+
+#: ../../webinar_nasa_arset.rst:25
+msgid ""
+"The entire webinar is very informative, and I recommend watching the "
+"recordings. In particular, the :ref:`LCS_algorithm` is illustrated during "
+"the exercise of the second session."
+msgstr ""
+"Вебінар надзвичайно змістовний і я рекомендую переглянути записи. Зокрема, "
+"проілюстровано :ref:`LCS_algorithm` під час вправи у другій частині."
+
+#: ../../webinar_nasa_arset.rst:28
+msgid ""
+"Slides of presentations, in English and Spanish, and the recordings of both "
+"sessions are freely available at this link "
+"https://arset.gsfc.nasa.gov/land/webinars/advanced-land-classification."
+msgstr ""
+"Слайди презентацій англійською та іспанською мовами, а також записи обох "
+"частин вільно доступні за цим посиланням  "
+"https://arset.gsfc.nasa.gov/land/webinars/advanced-land-classification."
+
+#: ../../webinar_nasa_arset.rst:30
+msgid ""
+"Many thanks to NASA ARSET for their effort in teaching remote sensing using "
+"open source software."
+msgstr ""
+"Велика подяка NASA ARSET за внесок у навчання дистанційному зондуванню з "
+"застосуванням вільного програмного забезпечення."

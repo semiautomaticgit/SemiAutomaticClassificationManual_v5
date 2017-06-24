@@ -1,6 +1,6 @@
 # Translators:
 # Alexandros Malounis <malounis@gmail.com>, 2016
-# Ves Nikolaos <vesnikos@gmail.com>, 2016
+# Ves Nikos <vesnikos@gmail.com>, 2016
 # Luca Congedo <semiautomatic.blogger@gmail.com>, 2016
 msgid ""
 msgstr ""
